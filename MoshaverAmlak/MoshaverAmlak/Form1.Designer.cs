@@ -1,6 +1,6 @@
 ﻿namespace MoshaverAmlak
 {
-    partial class Main_Form
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -48,13 +48,10 @@
             this.unpaidTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.ytdTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.helpTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.devCoTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.appViewTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.metroTabPanel2 = new DevComponents.DotNetBar.Metro.MetroTabPanel();
-            this.metroAppButton1 = new DevComponents.DotNetBar.Metro.MetroAppButton();
-            this.metroTabItem3 = new DevComponents.DotNetBar.Metro.MetroTabItem();
+            this.HomeTab = new DevComponents.DotNetBar.Metro.MetroTabItem();
             this.metroTabItem4 = new DevComponents.DotNetBar.Metro.MetroTabItem();
             this.styleManager5 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.microChartItem1 = new DevComponents.DotNetBar.MicroChartItem();
@@ -115,17 +112,18 @@
             this.metroShell1.Controls.Add(this.metroTabPanel1);
             this.metroShell1.Controls.Add(this.metroTabPanel2);
             this.metroShell1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.metroShell1.Font = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.metroShell1.ForeColor = System.Drawing.Color.Black;
             this.metroShell1.HelpButtonText = null;
             this.metroShell1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.metroAppButton1,
-            this.metroTabItem3,
+            this.HomeTab,
             this.metroTabItem4});
             this.metroShell1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.metroShell1.Location = new System.Drawing.Point(0, 0);
+            this.metroShell1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroShell1.Name = "metroShell1";
             this.metroShell1.ShowIcon = false;
-            this.metroShell1.Size = new System.Drawing.Size(1190, 680);
+            this.metroShell1.Size = new System.Drawing.Size(1190, 1037);
             this.metroShell1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.metroShell1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
             this.metroShell1.SystemText.QatAddItemText = "&Add to Quick Access Toolbar";
@@ -152,10 +150,11 @@
             this.metroTabPanel1.Controls.Add(this.pictureBox1);
             this.metroTabPanel1.Controls.Add(this.labelX2);
             this.metroTabPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel1.Location = new System.Drawing.Point(0, 55);
+            this.metroTabPanel1.Location = new System.Drawing.Point(0, 62);
+            this.metroTabPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroTabPanel1.Name = "metroTabPanel1";
-            this.metroTabPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel1.Size = new System.Drawing.Size(1190, 625);
+            this.metroTabPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 4);
+            this.metroTabPanel1.Size = new System.Drawing.Size(1190, 975);
             // 
             // 
             // 
@@ -182,10 +181,10 @@
             this.itemPanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.itemContainer1});
             this.itemPanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.itemPanel1.Location = new System.Drawing.Point(341, 201);
-            this.itemPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.itemPanel1.Location = new System.Drawing.Point(341, 251);
+            this.itemPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.itemPanel1.Name = "itemPanel1";
-            this.itemPanel1.Size = new System.Drawing.Size(560, 297);
+            this.itemPanel1.Size = new System.Drawing.Size(560, 371);
             this.itemPanel1.TabIndex = 8;
             this.itemPanel1.Text = "itemPanel1";
             // 
@@ -207,9 +206,7 @@
             this.reportTile,
             this.unpaidTile,
             this.ytdTile,
-            this.helpTile,
-            this.devCoTile,
-            this.appViewTile});
+            this.helpTile});
             // 
             // 
             // 
@@ -219,7 +216,7 @@
             // 
             this.newInvoiceTile.Name = "newInvoiceTile";
             this.newInvoiceTile.SymbolColor = System.Drawing.Color.Empty;
-            this.newInvoiceTile.Text = "<font size=\"+4\">افزودن<br/>سریع</font>";
+            this.newInvoiceTile.Text = "<b>افزودن سریع</b>";
             this.newInvoiceTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
             // 
             // 
@@ -240,7 +237,7 @@
             // 
             this.newClientTile.Name = "newClientTile";
             this.newClientTile.SymbolColor = System.Drawing.Color.Empty;
-            this.newClientTile.Text = "<font size=\"+4\">املاک<br/>موجود</font>";
+            this.newClientTile.Text = "<b>املاک موجود</b>";
             this.newClientTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Green;
             // 
             // 
@@ -254,12 +251,13 @@
             this.newClientTile.TileStyle.PaddingRight = 4;
             this.newClientTile.TileStyle.PaddingTop = 4;
             this.newClientTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.newClientTile.TitleText = "Clients";
+            this.newClientTile.TitleText = "مشاهده املاک ثبت شده\r\n";
             // 
             // salesTile
             // 
             this.salesTile.Name = "salesTile";
             this.salesTile.SymbolColor = System.Drawing.Color.Empty;
+            this.salesTile.Text = "<b>خدمات \r\n</b>";
             this.salesTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Coffee;
             // 
             // 
@@ -273,13 +271,13 @@
             this.salesTile.TileStyle.PaddingRight = 4;
             this.salesTile.TileStyle.PaddingTop = 4;
             this.salesTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.salesTile.TitleText = "Sales";
+            this.salesTile.TitleText = "کلیه خدمات مورد نیار مشتریان";
             // 
             // reportTile
             // 
             this.reportTile.Name = "reportTile";
             this.reportTile.SymbolColor = System.Drawing.Color.Empty;
-            this.reportTile.Text = "<font size=\"+4\">Financial<br/>reports</font>";
+            this.reportTile.Text = "<b>قولنامه ها</b>";
             this.reportTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Orange;
             // 
             // 
@@ -293,13 +291,13 @@
             this.reportTile.TileStyle.PaddingRight = 4;
             this.reportTile.TileStyle.PaddingTop = 4;
             this.reportTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.reportTile.TitleText = "Reports";
+            this.reportTile.TitleText = "تمامی معاملات انجام شده توسط شما\r\n";
             // 
             // unpaidTile
             // 
             this.unpaidTile.Name = "unpaidTile";
             this.unpaidTile.SymbolColor = System.Drawing.Color.Empty;
-            this.unpaidTile.Text = "<font size=\"+4\">Unpaid<br/>invoices</font>";
+            this.unpaidTile.Text = "دفترچه تلفن<b></b>";
             this.unpaidTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.RedOrange;
             // 
             // 
@@ -313,13 +311,13 @@
             this.unpaidTile.TileStyle.PaddingRight = 4;
             this.unpaidTile.TileStyle.PaddingTop = 4;
             this.unpaidTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.unpaidTile.TitleText = "Invoices";
+            this.unpaidTile.TitleText = "لیست تمامی مشتری ها ";
             // 
             // ytdTile
             // 
             this.ytdTile.Name = "ytdTile";
             this.ytdTile.SymbolColor = System.Drawing.Color.Empty;
-            this.ytdTile.Text = "<font size=\"+4\">Year to date<br/>earnings</font>";
+            this.ytdTile.Text = "<b>درباره ما</b>";
             this.ytdTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Magenta;
             // 
             // 
@@ -333,14 +331,13 @@
             this.ytdTile.TileStyle.PaddingRight = 4;
             this.ytdTile.TileStyle.PaddingTop = 4;
             this.ytdTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.ytdTile.TitleText = "Reports";
+            this.ytdTile.TitleText = "مارا بهتر بشناسید";
             // 
             // helpTile
             // 
             this.helpTile.Name = "helpTile";
             this.helpTile.SymbolColor = System.Drawing.Color.Empty;
-            this.helpTile.Text = "<font size=\"+4\">Get started</font><br/>Knowledge base<br/>article on how to use<b" +
-    "r/>DotNetBar Metro<br/> controls";
+            this.helpTile.Text = "تنظیمات<b></b>";
             this.helpTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Blue;
             // 
             // 
@@ -354,57 +351,17 @@
             this.helpTile.TileStyle.PaddingRight = 4;
             this.helpTile.TileStyle.PaddingTop = 4;
             this.helpTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.helpTile.TitleText = "Help";
-            // 
-            // devCoTile
-            // 
-            this.devCoTile.Name = "devCoTile";
-            this.devCoTile.SymbolColor = System.Drawing.Color.Empty;
-            this.devCoTile.Text = "<font size=\"+4\">DotNetBar<br/>web-site</font>";
-            this.devCoTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.RedViolet;
-            // 
-            // 
-            // 
-            this.devCoTile.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
-            this.devCoTile.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(0)))), ((int)(((byte)(61)))));
-            this.devCoTile.TileStyle.BackColorGradientAngle = 45;
-            this.devCoTile.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.devCoTile.TileStyle.PaddingBottom = 4;
-            this.devCoTile.TileStyle.PaddingLeft = 4;
-            this.devCoTile.TileStyle.PaddingRight = 4;
-            this.devCoTile.TileStyle.PaddingTop = 4;
-            this.devCoTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.devCoTile.TitleText = "DevComponents";
-            // 
-            // appViewTile
-            // 
-            this.appViewTile.Name = "appViewTile";
-            this.appViewTile.SymbolColor = System.Drawing.Color.Empty;
-            this.appViewTile.Text = "<font size=\"+4\">Switch to<br/>app view</font>";
-            this.appViewTile.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.PlumWashed;
-            // 
-            // 
-            // 
-            this.appViewTile.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
-            this.appViewTile.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(46)))), ((int)(((byte)(64)))));
-            this.appViewTile.TileStyle.BackColorGradientAngle = 45;
-            this.appViewTile.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.appViewTile.TileStyle.PaddingBottom = 4;
-            this.appViewTile.TileStyle.PaddingLeft = 4;
-            this.appViewTile.TileStyle.PaddingRight = 4;
-            this.appViewTile.TileStyle.PaddingTop = 4;
-            this.appViewTile.TileStyle.TextColor = System.Drawing.Color.White;
-            this.appViewTile.TitleText = "Application";
+            this.helpTile.TitleText = "تنظیمات برنامه";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = global::MoshaverAmlak.Properties.Resources.key;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1102, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(1102, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 67);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 84);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
@@ -415,10 +372,10 @@
             // 
             // 
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(815, 4);
-            this.labelX2.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX2.Location = new System.Drawing.Point(815, 5);
+            this.labelX2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(279, 67);
+            this.labelX2.Size = new System.Drawing.Size(279, 84);
             this.labelX2.TabIndex = 9;
             this.labelX2.Text = "<div align=\"right\"><font size=\"+4\">Wile</font><br/>E. Coyote</div>";
             // 
@@ -426,10 +383,11 @@
             // 
             this.metroTabPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.metroTabPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabPanel2.Location = new System.Drawing.Point(0, 55);
+            this.metroTabPanel2.Location = new System.Drawing.Point(0, 62);
+            this.metroTabPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroTabPanel2.Name = "metroTabPanel2";
-            this.metroTabPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.metroTabPanel2.Size = new System.Drawing.Size(1190, 625);
+            this.metroTabPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 4);
+            this.metroTabPanel2.Size = new System.Drawing.Size(1190, 975);
             // 
             // 
             // 
@@ -445,23 +403,12 @@
             this.metroTabPanel2.TabIndex = 2;
             this.metroTabPanel2.Visible = false;
             // 
-            // metroAppButton1
+            // HomeTab
             // 
-            this.metroAppButton1.AutoExpandOnClick = true;
-            this.metroAppButton1.CanCustomize = false;
-            this.metroAppButton1.ImageFixedSize = new System.Drawing.Size(16, 16);
-            this.metroAppButton1.ImagePaddingHorizontal = 0;
-            this.metroAppButton1.ImagePaddingVertical = 0;
-            this.metroAppButton1.Name = "metroAppButton1";
-            this.metroAppButton1.ShowSubItems = false;
-            this.metroAppButton1.Text = "&File";
-            // 
-            // metroTabItem3
-            // 
-            this.metroTabItem3.Checked = true;
-            this.metroTabItem3.Name = "metroTabItem3";
-            this.metroTabItem3.Panel = this.metroTabPanel1;
-            this.metroTabItem3.Text = "&HOME";
+            this.HomeTab.Checked = true;
+            this.HomeTab.Name = "HomeTab";
+            this.HomeTab.Panel = this.metroTabPanel1;
+            this.HomeTab.Text = "خانه";
             // 
             // metroTabItem4
             // 
@@ -478,17 +425,19 @@
             // 
             this.microChartItem1.Name = "microChartItem1";
             // 
-            // Main_Form
+            // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1190, 579);
+            this.ClientSize = new System.Drawing.Size(1190, 1050);
             this.ControlBox = false;
             this.Controls.Add(this.metroShell1);
+            this.Font = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Main_Form";
+            this.Name = "MainForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "رایان ملک";
@@ -520,13 +469,10 @@
         private DevComponents.DotNetBar.Metro.MetroTileItem unpaidTile;
         private DevComponents.DotNetBar.Metro.MetroTileItem ytdTile;
         private DevComponents.DotNetBar.Metro.MetroTileItem helpTile;
-        private DevComponents.DotNetBar.Metro.MetroTileItem devCoTile;
-        private DevComponents.DotNetBar.Metro.MetroTileItem appViewTile;
         private System.Windows.Forms.PictureBox pictureBox1;
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.Metro.MetroTabPanel metroTabPanel2;
-        private DevComponents.DotNetBar.Metro.MetroAppButton metroAppButton1;
-        private DevComponents.DotNetBar.Metro.MetroTabItem metroTabItem3;
+        private DevComponents.DotNetBar.Metro.MetroTabItem HomeTab;
         private DevComponents.DotNetBar.Metro.MetroTabItem metroTabItem4;
         private DevComponents.DotNetBar.StyleManager styleManager5;
         private DevComponents.DotNetBar.MicroChartItem microChartItem1;
