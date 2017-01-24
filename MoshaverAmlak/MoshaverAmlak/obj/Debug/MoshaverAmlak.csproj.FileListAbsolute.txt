@@ -1,0 +1,11 @@
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\bin\Debug\MoshaverAmlak.exe.config
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\bin\Debug\MoshaverAmlak.exe
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\bin\Debug\MoshaverAmlak.pdb
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\bin\Debug\DevComponents.DotNetBar2.dll
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\bin\Debug\DevComponents.DotNetBar2.xml
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csprojResolveAssemblyReference.cache
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.Form1.resources
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.Properties.Resources.resources
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csproj.GenerateResource.Cache
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.exe
+c:\users\alireza\documents\visual studio 2015\Projects\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.pdb
