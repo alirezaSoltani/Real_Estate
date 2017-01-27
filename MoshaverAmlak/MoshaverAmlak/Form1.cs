@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace MoshaverAmlak
 {
     public partial class MainForm : Form
@@ -15,12 +14,30 @@ namespace MoshaverAmlak
         protected override void OnResize(EventArgs e)
         {
             // Center the panel
-            itemPanel1.Location = new Point((this.Width - itemPanel1.Width) / 2 + 16);
-            base.OnResize(e);
+            HomePanel.Location = new Point((this.Width - HomePanel.Width) / 2 + 16 , ((this.Height  - 16) - HomePanel.Height) / 2 + 16);
+
+
+
+  
+            
         }
         public MainForm()
         {
             InitializeComponent();
+            
+
+
+        }
+       
+
+        private void metroTileItem17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stepItem2_Click(object sender, EventArgs e)
+        {
+            pageSlider1.SelectedPage = pageSliderPage2;
         }
     }
 }

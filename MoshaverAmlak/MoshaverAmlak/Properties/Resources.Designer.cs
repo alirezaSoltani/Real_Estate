@@ -93,6 +93,16 @@ namespace MoshaverAmlak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apartment1 {
+            get {
+                object obj = ResourceManager.GetObject("apartment1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blueprint {
             get {
                 object obj = ResourceManager.GetObject("blueprint", resourceCulture);
@@ -266,6 +276,26 @@ namespace MoshaverAmlak.Properties {
         internal static System.Drawing.Bitmap mailbox {
             get {
                 object obj = ResourceManager.GetObject("mailbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mortgage {
+            get {
+                object obj = ResourceManager.GetObject("mortgage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mortgage1 {
+            get {
+                object obj = ResourceManager.GetObject("mortgage1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
