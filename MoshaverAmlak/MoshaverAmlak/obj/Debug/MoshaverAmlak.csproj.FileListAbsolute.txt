@@ -14,10 +14,9 @@ C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\bin\Debug\
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\bin\Debug\MoshaverAmlak.pdb
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\bin\Debug\DevComponents.DotNetBar2.dll
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\bin\Debug\DevComponents.DotNetBar2.xml
-C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.MainForm.resources
+C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.FormMain.resources
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.Properties.Resources.resources
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csproj.GenerateResource.Cache
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.exe
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.pdb
-C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.FormMain.resources
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csprojResolveAssemblyReference.cache

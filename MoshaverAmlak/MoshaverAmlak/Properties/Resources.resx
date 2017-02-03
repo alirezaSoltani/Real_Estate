@@ -127,11 +127,14 @@
   <data name="placeholder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\placeholder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="building(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="umbrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\umbrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mortgage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mortgage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="smartphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\smartphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +148,11 @@
   <data name="mailbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mailbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mortgage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mortgage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="for-rent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\for-rent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -156,6 +162,9 @@
   </data>
   <data name="cctv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cctv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house-plan-scale(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house-plan-scale(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="contract" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +187,14 @@
   <data name="room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="house-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\house-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="internet-store" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet-store.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apartment" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apartment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renting-house(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renting-house(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="paint-roller" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paint-roller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +214,20 @@
   <data name="house-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="internet-store(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet-store(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="radiator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\radiator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mortgage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mortgage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renting-house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renting-house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +238,16 @@
   <data name="browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mortgage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mortgage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="building(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house-plan-scale(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house-plan-scale(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet-store(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet-store(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renting-house(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renting-house(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -52,18 +52,6 @@
             this.devCoTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.appViewTile = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.DaftarCheTelTabItem = new DevComponents.DotNetBar.SuperTabControl();
-            this.HomePanel = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.itemPanel1 = new DevComponents.DotNetBar.ItemPanel();
-            this.itemContainer3 = new DevComponents.DotNetBar.ItemContainer();
-            this.metroTileItem15 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem16 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem17 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem18 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem19 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem20 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.HomeTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.progressSteps1 = new DevComponents.DotNetBar.ProgressSteps();
             this.stepItem1 = new DevComponents.DotNetBar.StepItem();
@@ -82,24 +70,36 @@
             this.placeHolderTextBox2 = new MoshaverAmlak.PlaceHolderTextBox();
             this.placeHolderTextBox3 = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAdditionTab = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.DaftarCheTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.AmlakTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.KhadamatTabItem = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.DaftarCheTabItem = new DevComponents.DotNetBar.SuperTabItem();
+            this.HomePanel = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.itemPanel1 = new DevComponents.DotNetBar.ItemPanel();
+            this.itemContainer3 = new DevComponents.DotNetBar.ItemContainer();
+            this.metroTileItem15 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem16 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem17 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem18 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem19 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem20 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.HomeTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DaftarCheTelTabItem)).BeginInit();
             this.DaftarCheTelTabItem.SuspendLayout();
-            this.HomePanel.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.superTabControlPanel4.SuspendLayout();
             this.pageSlider1.SuspendLayout();
             this.pageSliderPage2.SuspendLayout();
             this.pageSliderPage3.SuspendLayout();
             this.groupPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.HomePanel.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // styleManager
@@ -489,10 +489,10 @@
             this.DaftarCheTelTabItem.ControlBox.CloseBox,
             this.DaftarCheTelTabItem.ControlBox.MenuBox});
             this.DaftarCheTelTabItem.Controls.Add(this.superTabControlPanel4);
+            this.DaftarCheTelTabItem.Controls.Add(this.HomePanel);
             this.DaftarCheTelTabItem.Controls.Add(this.superTabControlPanel1);
             this.DaftarCheTelTabItem.Controls.Add(this.superTabControlPanel2);
             this.DaftarCheTelTabItem.Controls.Add(this.superTabControlPanel3);
-            this.DaftarCheTelTabItem.Controls.Add(this.HomePanel);
             this.DaftarCheTelTabItem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DaftarCheTelTabItem.ForeColor = System.Drawing.Color.Black;
             this.DaftarCheTelTabItem.Location = new System.Drawing.Point(0, 0);
@@ -511,233 +511,6 @@
             this.KhadamatTabItem,
             this.DaftarCheTabItem});
             this.DaftarCheTelTabItem.Text = "دفترچه تلفن";
-            // 
-            // HomePanel
-            // 
-            this.HomePanel.Controls.Add(this.flowLayoutPanel1);
-            this.HomePanel.Controls.Add(this.itemPanel1);
-            this.HomePanel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HomePanel.Location = new System.Drawing.Point(0, 38);
-            this.HomePanel.Name = "HomePanel";
-            this.HomePanel.Size = new System.Drawing.Size(1167, 673);
-            this.HomePanel.TabIndex = 1;
-            this.HomePanel.TabItem = this.HomeTabItem;
-            this.HomePanel.ThemeAware = true;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel1.Controls.Add(this.label1);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 624);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1167, 49);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(819, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(343, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "RayanPardazeshNovinAriaJavan All Rights Reserved";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // itemPanel1
-            // 
-            this.itemPanel1.AutoScroll = true;
-            this.itemPanel1.BackColor = System.Drawing.Color.White;
-            this.itemPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            // 
-            // 
-            // 
-            this.itemPanel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemPanel1.ContainerControlProcessDialogKey = true;
-            this.itemPanel1.DragDropSupport = true;
-            this.itemPanel1.HorizontalItemAlignment = DevComponents.DotNetBar.eHorizontalItemsAlignment.Center;
-            this.itemPanel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.itemPanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.itemContainer3});
-            this.itemPanel1.ItemSpacing = 11;
-            this.itemPanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.itemPanel1.Location = new System.Drawing.Point(228, 172);
-            this.itemPanel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.itemPanel1.Name = "itemPanel1";
-            this.itemPanel1.Size = new System.Drawing.Size(720, 348);
-            this.itemPanel1.TabIndex = 12;
-            // 
-            // itemContainer3
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer3.HorizontalItemAlignment = DevComponents.DotNetBar.eHorizontalItemsAlignment.Center;
-            this.itemContainer3.ItemSpacing = 45;
-            this.itemContainer3.MinimumSize = new System.Drawing.Size(700, 290);
-            this.itemContainer3.MultiLine = true;
-            this.itemContainer3.Name = "itemContainer3";
-            this.itemContainer3.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.metroTileItem15,
-            this.metroTileItem16,
-            this.metroTileItem17,
-            this.metroTileItem18,
-            this.metroTileItem19,
-            this.metroTileItem20});
-            // 
-            // 
-            // 
-            this.itemContainer3.TitleStyle.BorderBottomWidth = 2;
-            this.itemContainer3.TitleStyle.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.itemContainer3.TitleStyle.BorderLeftColor = System.Drawing.Color.Black;
-            this.itemContainer3.TitleStyle.BorderLeftWidth = 3;
-            this.itemContainer3.TitleStyle.CornerDiameter = 10;
-            this.itemContainer3.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // metroTileItem15
-            // 
-            this.metroTileItem15.AnimationDuration = 1100;
-            this.metroTileItem15.ImageTextAlignment = System.Drawing.ContentAlignment.TopRight;
-            this.metroTileItem15.Name = "metroTileItem15";
-            this.metroTileItem15.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem15.Text = "<font size=\"12\">افزودن<br/> سریع</font>";
-            this.metroTileItem15.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            this.metroTileItem15.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem15.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(83)))), ((int)(((byte)(117)))));
-            this.metroTileItem15.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(103)))), ((int)(((byte)(155)))));
-            this.metroTileItem15.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem15.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem15.TileStyle.PaddingBottom = 20;
-            this.metroTileItem15.TileStyle.PaddingLeft = 20;
-            this.metroTileItem15.TileStyle.PaddingRight = 20;
-            this.metroTileItem15.TileStyle.PaddingTop = 20;
-            this.metroTileItem15.TileStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Far;
-            this.metroTileItem15.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem15.TileStyle.TextShadowColor = System.Drawing.SystemColors.ControlLight;
-            this.metroTileItem15.TitleText = "ارائه خدمت در کمترین زمان";
-            this.metroTileItem15.TitleTextFont = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            // 
-            // metroTileItem16
-            // 
-            this.metroTileItem16.Name = "metroTileItem16";
-            this.metroTileItem16.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem16.Text = "<font size=\"12\">املاک<br/> موجود</font>";
-            this.metroTileItem16.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Green;
-            this.metroTileItem16.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem16.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(151)))), ((int)(((byte)(42)))));
-            this.metroTileItem16.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(177)))), ((int)(((byte)(51)))));
-            this.metroTileItem16.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem16.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem16.TileStyle.PaddingBottom = 20;
-            this.metroTileItem16.TileStyle.PaddingLeft = 20;
-            this.metroTileItem16.TileStyle.PaddingRight = 20;
-            this.metroTileItem16.TileStyle.PaddingTop = 20;
-            this.metroTileItem16.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem16.TitleText = "مشاهده املاک ثبت شده";
-            // 
-            // metroTileItem17
-            // 
-            this.metroTileItem17.Name = "metroTileItem17";
-            this.metroTileItem17.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem17.Text = "<font size=\"12\">خدمات </font>";
-            this.metroTileItem17.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Coffee;
-            this.metroTileItem17.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem17.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(76)))), ((int)(((byte)(41)))));
-            this.metroTileItem17.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(67)))), ((int)(((byte)(37)))));
-            this.metroTileItem17.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem17.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem17.TileStyle.PaddingBottom = 20;
-            this.metroTileItem17.TileStyle.PaddingLeft = 20;
-            this.metroTileItem17.TileStyle.PaddingRight = 20;
-            this.metroTileItem17.TileStyle.PaddingTop = 20;
-            this.metroTileItem17.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem17.TitleText = "کلیه خدمات مورد نیار مشتریان";
-            // 
-            // metroTileItem18
-            // 
-            this.metroTileItem18.Name = "metroTileItem18";
-            this.metroTileItem18.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem18.Text = "<font size=\"12\">دفترچه<br/> تلفن</font>";
-            this.metroTileItem18.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.RedOrange;
-            this.metroTileItem18.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem18.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(60)))), ((int)(((byte)(0)))));
-            this.metroTileItem18.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(57)))), ((int)(((byte)(0)))));
-            this.metroTileItem18.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem18.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem18.TileStyle.PaddingBottom = 20;
-            this.metroTileItem18.TileStyle.PaddingLeft = 20;
-            this.metroTileItem18.TileStyle.PaddingRight = 20;
-            this.metroTileItem18.TileStyle.PaddingTop = 20;
-            this.metroTileItem18.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem18.TitleText = "لیست تمامی مشتری ها ";
-            // 
-            // metroTileItem19
-            // 
-            this.metroTileItem19.Name = "metroTileItem19";
-            this.metroTileItem19.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem19.Text = "<font size=\"12\">درباره<br/> ما</font>";
-            this.metroTileItem19.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Magenta;
-            this.metroTileItem19.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem19.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(85)))), ((int)(((byte)(148)))));
-            this.metroTileItem19.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(98)))), ((int)(((byte)(185)))));
-            this.metroTileItem19.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem19.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem19.TileStyle.PaddingBottom = 20;
-            this.metroTileItem19.TileStyle.PaddingLeft = 20;
-            this.metroTileItem19.TileStyle.PaddingRight = 20;
-            this.metroTileItem19.TileStyle.PaddingTop = 20;
-            this.metroTileItem19.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem19.TitleText = "مارا بهتر بشناسید";
-            // 
-            // metroTileItem20
-            // 
-            this.metroTileItem20.Name = "metroTileItem20";
-            this.metroTileItem20.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem20.Text = "<font size=\"12\">تنظیمات</font>";
-            this.metroTileItem20.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Blue;
-            this.metroTileItem20.TileSize = new System.Drawing.Size(200, 150);
-            // 
-            // 
-            // 
-            this.metroTileItem20.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(102)))), ((int)(((byte)(168)))));
-            this.metroTileItem20.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(120)))), ((int)(((byte)(190)))));
-            this.metroTileItem20.TileStyle.BackColorGradientAngle = 45;
-            this.metroTileItem20.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem20.TileStyle.PaddingBottom = 20;
-            this.metroTileItem20.TileStyle.PaddingLeft = 20;
-            this.metroTileItem20.TileStyle.PaddingRight = 20;
-            this.metroTileItem20.TileStyle.PaddingTop = 20;
-            this.metroTileItem20.TileStyle.TextColor = System.Drawing.Color.White;
-            this.metroTileItem20.TitleText = "تنظیمات برنامه";
-            // 
-            // HomeTabItem
-            // 
-            this.HomeTabItem.AttachedControl = this.HomePanel;
-            this.HomeTabItem.GlobalItem = false;
-            this.HomeTabItem.Name = "HomeTabItem";
-            this.HomeTabItem.Text = "خانه";
             // 
             // superTabControlPanel4
             // 
@@ -1005,22 +778,6 @@
             this.FastAdditionTab.Name = "FastAdditionTab";
             this.FastAdditionTab.Text = "افزودن سریع";
             // 
-            // superTabControlPanel3
-            // 
-            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(1167, 673);
-            this.superTabControlPanel3.TabIndex = 0;
-            this.superTabControlPanel3.TabItem = this.DaftarCheTabItem;
-            // 
-            // DaftarCheTabItem
-            // 
-            this.DaftarCheTabItem.AttachedControl = this.superTabControlPanel3;
-            this.DaftarCheTabItem.GlobalItem = false;
-            this.DaftarCheTabItem.Name = "DaftarCheTabItem";
-            this.DaftarCheTabItem.Text = "دفترچه تلفن";
-            // 
             // superTabControlPanel1
             // 
             this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1052,6 +809,249 @@
             this.KhadamatTabItem.GlobalItem = false;
             this.KhadamatTabItem.Name = "KhadamatTabItem";
             this.KhadamatTabItem.Text = "خدمات";
+            // 
+            // superTabControlPanel3
+            // 
+            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel3.Name = "superTabControlPanel3";
+            this.superTabControlPanel3.Size = new System.Drawing.Size(1167, 673);
+            this.superTabControlPanel3.TabIndex = 0;
+            this.superTabControlPanel3.TabItem = this.DaftarCheTabItem;
+            // 
+            // DaftarCheTabItem
+            // 
+            this.DaftarCheTabItem.AttachedControl = this.superTabControlPanel3;
+            this.DaftarCheTabItem.GlobalItem = false;
+            this.DaftarCheTabItem.Name = "DaftarCheTabItem";
+            this.DaftarCheTabItem.Text = "دفترچه تلفن";
+            // 
+            // HomePanel
+            // 
+            this.HomePanel.Controls.Add(this.flowLayoutPanel1);
+            this.HomePanel.Controls.Add(this.itemPanel1);
+            this.HomePanel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HomePanel.Location = new System.Drawing.Point(0, 38);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Size = new System.Drawing.Size(1167, 673);
+            this.HomePanel.TabIndex = 1;
+            this.HomePanel.TabItem = this.HomeTabItem;
+            this.HomePanel.ThemeAware = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel1.Controls.Add(this.label1);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 624);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1167, 49);
+            this.flowLayoutPanel1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(819, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(343, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "RayanPardazeshNovinAriaJavan All Rights Reserved";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // itemPanel1
+            // 
+            this.itemPanel1.AutoScroll = true;
+            this.itemPanel1.BackColor = System.Drawing.Color.White;
+            this.itemPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            // 
+            // 
+            // 
+            this.itemPanel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemPanel1.ContainerControlProcessDialogKey = true;
+            this.itemPanel1.DragDropSupport = true;
+            this.itemPanel1.HorizontalItemAlignment = DevComponents.DotNetBar.eHorizontalItemsAlignment.Center;
+            this.itemPanel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.itemPanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.itemContainer3});
+            this.itemPanel1.ItemSpacing = 11;
+            this.itemPanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.itemPanel1.Location = new System.Drawing.Point(228, 172);
+            this.itemPanel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.itemPanel1.Name = "itemPanel1";
+            this.itemPanel1.Size = new System.Drawing.Size(720, 348);
+            this.itemPanel1.TabIndex = 12;
+            // 
+            // itemContainer3
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer3.HorizontalItemAlignment = DevComponents.DotNetBar.eHorizontalItemsAlignment.Center;
+            this.itemContainer3.ItemSpacing = 45;
+            this.itemContainer3.MinimumSize = new System.Drawing.Size(700, 290);
+            this.itemContainer3.MultiLine = true;
+            this.itemContainer3.Name = "itemContainer3";
+            this.itemContainer3.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.metroTileItem15,
+            this.metroTileItem16,
+            this.metroTileItem17,
+            this.metroTileItem18,
+            this.metroTileItem19,
+            this.metroTileItem20});
+            // 
+            // 
+            // 
+            this.itemContainer3.TitleStyle.BorderBottomWidth = 2;
+            this.itemContainer3.TitleStyle.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.itemContainer3.TitleStyle.BorderLeftColor = System.Drawing.Color.Black;
+            this.itemContainer3.TitleStyle.BorderLeftWidth = 3;
+            this.itemContainer3.TitleStyle.CornerDiameter = 10;
+            this.itemContainer3.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // metroTileItem15
+            // 
+            this.metroTileItem15.AnimationDuration = 1100;
+            this.metroTileItem15.ImageTextAlignment = System.Drawing.ContentAlignment.TopRight;
+            this.metroTileItem15.Name = "metroTileItem15";
+            this.metroTileItem15.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem15.Text = "<font size=\"12\">افزودن<br/> سریع</font>";
+            this.metroTileItem15.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            this.metroTileItem15.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem15.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(83)))), ((int)(((byte)(117)))));
+            this.metroTileItem15.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(103)))), ((int)(((byte)(155)))));
+            this.metroTileItem15.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem15.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem15.TileStyle.PaddingBottom = 20;
+            this.metroTileItem15.TileStyle.PaddingLeft = 20;
+            this.metroTileItem15.TileStyle.PaddingRight = 20;
+            this.metroTileItem15.TileStyle.PaddingTop = 20;
+            this.metroTileItem15.TileStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Far;
+            this.metroTileItem15.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem15.TileStyle.TextShadowColor = System.Drawing.SystemColors.ControlLight;
+            this.metroTileItem15.TitleText = "ارائه خدمت در کمترین زمان";
+            this.metroTileItem15.TitleTextFont = new System.Drawing.Font("B Yekan", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            // 
+            // metroTileItem16
+            // 
+            this.metroTileItem16.Name = "metroTileItem16";
+            this.metroTileItem16.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem16.Text = "<font size=\"12\">املاک<br/> موجود</font>";
+            this.metroTileItem16.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Green;
+            this.metroTileItem16.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem16.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(151)))), ((int)(((byte)(42)))));
+            this.metroTileItem16.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(177)))), ((int)(((byte)(51)))));
+            this.metroTileItem16.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem16.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem16.TileStyle.PaddingBottom = 20;
+            this.metroTileItem16.TileStyle.PaddingLeft = 20;
+            this.metroTileItem16.TileStyle.PaddingRight = 20;
+            this.metroTileItem16.TileStyle.PaddingTop = 20;
+            this.metroTileItem16.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem16.TitleText = "مشاهده املاک ثبت شده";
+            // 
+            // metroTileItem17
+            // 
+            this.metroTileItem17.Name = "metroTileItem17";
+            this.metroTileItem17.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem17.Text = "<font size=\"12\">خدمات </font>";
+            this.metroTileItem17.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Coffee;
+            this.metroTileItem17.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem17.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(76)))), ((int)(((byte)(41)))));
+            this.metroTileItem17.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(67)))), ((int)(((byte)(37)))));
+            this.metroTileItem17.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem17.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem17.TileStyle.PaddingBottom = 20;
+            this.metroTileItem17.TileStyle.PaddingLeft = 20;
+            this.metroTileItem17.TileStyle.PaddingRight = 20;
+            this.metroTileItem17.TileStyle.PaddingTop = 20;
+            this.metroTileItem17.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem17.TitleText = "کلیه خدمات مورد نیار مشتریان";
+            // 
+            // metroTileItem18
+            // 
+            this.metroTileItem18.Name = "metroTileItem18";
+            this.metroTileItem18.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem18.Text = "<font size=\"12\">دفترچه<br/> تلفن</font>";
+            this.metroTileItem18.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.RedOrange;
+            this.metroTileItem18.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem18.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(60)))), ((int)(((byte)(0)))));
+            this.metroTileItem18.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(57)))), ((int)(((byte)(0)))));
+            this.metroTileItem18.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem18.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem18.TileStyle.PaddingBottom = 20;
+            this.metroTileItem18.TileStyle.PaddingLeft = 20;
+            this.metroTileItem18.TileStyle.PaddingRight = 20;
+            this.metroTileItem18.TileStyle.PaddingTop = 20;
+            this.metroTileItem18.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem18.TitleText = "لیست تمامی مشتری ها ";
+            // 
+            // metroTileItem19
+            // 
+            this.metroTileItem19.Name = "metroTileItem19";
+            this.metroTileItem19.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem19.Text = "<font size=\"12\">درباره<br/> ما</font>";
+            this.metroTileItem19.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Magenta;
+            this.metroTileItem19.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem19.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(85)))), ((int)(((byte)(148)))));
+            this.metroTileItem19.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(98)))), ((int)(((byte)(185)))));
+            this.metroTileItem19.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem19.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem19.TileStyle.PaddingBottom = 20;
+            this.metroTileItem19.TileStyle.PaddingLeft = 20;
+            this.metroTileItem19.TileStyle.PaddingRight = 20;
+            this.metroTileItem19.TileStyle.PaddingTop = 20;
+            this.metroTileItem19.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem19.TitleText = "مارا بهتر بشناسید";
+            // 
+            // metroTileItem20
+            // 
+            this.metroTileItem20.Name = "metroTileItem20";
+            this.metroTileItem20.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem20.Text = "<font size=\"12\">تنظیمات</font>";
+            this.metroTileItem20.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Blue;
+            this.metroTileItem20.TileSize = new System.Drawing.Size(200, 150);
+            // 
+            // 
+            // 
+            this.metroTileItem20.TileStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(102)))), ((int)(((byte)(168)))));
+            this.metroTileItem20.TileStyle.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(120)))), ((int)(((byte)(190)))));
+            this.metroTileItem20.TileStyle.BackColorGradientAngle = 45;
+            this.metroTileItem20.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem20.TileStyle.PaddingBottom = 20;
+            this.metroTileItem20.TileStyle.PaddingLeft = 20;
+            this.metroTileItem20.TileStyle.PaddingRight = 20;
+            this.metroTileItem20.TileStyle.PaddingTop = 20;
+            this.metroTileItem20.TileStyle.TextColor = System.Drawing.Color.White;
+            this.metroTileItem20.TitleText = "تنظیمات برنامه";
+            // 
+            // HomeTabItem
+            // 
+            this.HomeTabItem.AttachedControl = this.HomePanel;
+            this.HomeTabItem.GlobalItem = false;
+            this.HomeTabItem.Name = "HomeTabItem";
+            this.HomeTabItem.Text = "خانه";
             // 
             // metroTileItem11
             // 
@@ -1101,9 +1101,6 @@
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.DaftarCheTelTabItem)).EndInit();
             this.DaftarCheTelTabItem.ResumeLayout(false);
-            this.HomePanel.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             this.superTabControlPanel4.ResumeLayout(false);
             this.superTabControlPanel4.PerformLayout();
             this.pageSlider1.ResumeLayout(false);
@@ -1112,6 +1109,9 @@
             this.groupPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.HomePanel.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -22,6 +22,7 @@ namespace MoshaverAmlak
             else {
                 Home.Visible = true;
             }
+            MainPageSlider.SelectedPage = RegisterSliderPage;
         }
 
         private void metroTileItem15_Click(object sender, EventArgs e)
@@ -54,5 +55,24 @@ namespace MoshaverAmlak
             MainPageSlider.SelectedPage = HomeSliderPage;
         }
         
+        private void stepItem1_Click_2(object sender, EventArgs e)
+        {
+            pageSlider2.SelectedPage = FastAddETKoliSliderPage;
+        }
+
+        private void stepItem2_Click_2(object sender, EventArgs e)
+        {
+            pageSlider2.SelectedPage = FastAddETMelkSliderPage;
+        }
+
+        private void stepItem3_Click_2(object sender, EventArgs e)
+        {
+            pageSlider2.SelectedPage = FastAddETKhadamatSliderPage;
+        }
+
+        private void buttonX2_Click(object sender, EventArgs e)
+        {
+            MainPageSlider.SelectedPage = HomeSliderPage;
+        }
     }
 }
