@@ -784,10 +784,10 @@
             this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl2.ControlBox.MenuBox,
             this.superTabControl2.ControlBox.CloseBox});
-            this.superTabControl2.Controls.Add(this.superTabControlPanel6);
-            this.superTabControl2.Controls.Add(this.superTabControlPanel7);
             this.superTabControl2.Controls.Add(this.superTabControlPanel8);
             this.superTabControl2.Controls.Add(this.superTabControlPanel5);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel6);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel7);
             this.superTabControl2.Controls.Add(this.superTabControlPanel9);
             this.superTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControl2.ForeColor = System.Drawing.Color.Black;
@@ -827,7 +827,7 @@
             this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel5.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel5.Name = "superTabControlPanel5";
-            this.superTabControlPanel5.Size = new System.Drawing.Size(1101, 587);
+            this.superTabControlPanel5.Size = new System.Drawing.Size(1138, 587);
             this.superTabControlPanel5.TabIndex = 0;
             this.superTabControlPanel5.TabItem = this.FastAddForushTAB;
             // 
@@ -843,14 +843,14 @@
             this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
             this.flowLayoutPanel8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(1101, 587);
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(1138, 587);
             this.flowLayoutPanel8.TabIndex = 0;
             // 
             // FastAddForushMablaghKolTB
             // 
             this.FastAddForushMablaghKolTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddForushMablaghKolTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushMablaghKolTB.Location = new System.Drawing.Point(891, 20);
+            this.FastAddForushMablaghKolTB.Location = new System.Drawing.Point(928, 20);
             this.FastAddForushMablaghKolTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddForushMablaghKolTB.Name = "FastAddForushMablaghKolTB";
             this.FastAddForushMablaghKolTB.PlaceHolderText = "منطقه";
@@ -862,7 +862,7 @@
             // 
             this.FastAddForushMablaghVamTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddForushMablaghVamTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushMablaghVamTB.Location = new System.Drawing.Point(661, 20);
+            this.FastAddForushMablaghVamTB.Location = new System.Drawing.Point(698, 20);
             this.FastAddForushMablaghVamTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddForushMablaghVamTB.Name = "FastAddForushMablaghVamTB";
             this.FastAddForushMablaghVamTB.PlaceHolderText = "منطقه";
@@ -874,7 +874,7 @@
             // 
             this.FastAddForushSanadKindCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.FastAddForushSanadKindCOMBO.FormattingEnabled = true;
-            this.FastAddForushSanadKindCOMBO.Location = new System.Drawing.Point(431, 20);
+            this.FastAddForushSanadKindCOMBO.Location = new System.Drawing.Point(468, 20);
             this.FastAddForushSanadKindCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddForushSanadKindCOMBO.Name = "FastAddForushSanadKindCOMBO";
             this.FastAddForushSanadKindCOMBO.Size = new System.Drawing.Size(190, 35);
@@ -884,7 +884,7 @@
             // 
             this.FastAddForushDangNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddForushDangNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushDangNumTB.Location = new System.Drawing.Point(201, 20);
+            this.FastAddForushDangNumTB.Location = new System.Drawing.Point(238, 20);
             this.FastAddForushDangNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddForushDangNumTB.Name = "FastAddForushDangNumTB";
             this.FastAddForushDangNumTB.PlaceHolderText = "منطقه";
@@ -897,7 +897,7 @@
             this.FastAddForushSaveBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.FastAddForushSaveBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.FastAddForushSaveBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddForushSaveBTN.Location = new System.Drawing.Point(690, 75);
+            this.FastAddForushSaveBTN.Location = new System.Drawing.Point(727, 75);
             this.FastAddForushSaveBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
             this.FastAddForushSaveBTN.Name = "FastAddForushSaveBTN";
             this.FastAddForushSaveBTN.Size = new System.Drawing.Size(77, 32);
@@ -1067,7 +1067,7 @@
             this.superTabControlPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel8.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel8.Name = "superTabControlPanel8";
-            this.superTabControlPanel8.Size = new System.Drawing.Size(1101, 587);
+            this.superTabControlPanel8.Size = new System.Drawing.Size(1138, 587);
             this.superTabControlPanel8.TabIndex = 0;
             this.superTabControlPanel8.TabItem = this.FastAddPishForushTab;
             // 
@@ -1085,14 +1085,14 @@
             this.flowLayoutPanel11.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel11.Name = "flowLayoutPanel11";
             this.flowLayoutPanel11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(1101, 587);
+            this.flowLayoutPanel11.Size = new System.Drawing.Size(1138, 587);
             this.flowLayoutPanel11.TabIndex = 1;
             // 
             // FastAddPishForushPishPardakhtTB
             // 
             this.FastAddPishForushPishPardakhtTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushPishPardakhtTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushPishPardakhtTB.Location = new System.Drawing.Point(891, 20);
+            this.FastAddPishForushPishPardakhtTB.Location = new System.Drawing.Point(928, 20);
             this.FastAddPishForushPishPardakhtTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushPishPardakhtTB.Name = "FastAddPishForushPishPardakhtTB";
             this.FastAddPishForushPishPardakhtTB.PlaceHolderText = "منطقه";
@@ -1104,7 +1104,7 @@
             // 
             this.FastAddPishForushMablaghKolTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushMablaghKolTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushMablaghKolTB.Location = new System.Drawing.Point(661, 20);
+            this.FastAddPishForushMablaghKolTB.Location = new System.Drawing.Point(698, 20);
             this.FastAddPishForushMablaghKolTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushMablaghKolTB.Name = "FastAddPishForushMablaghKolTB";
             this.FastAddPishForushMablaghKolTB.PlaceHolderText = "منطقه";
@@ -1116,7 +1116,7 @@
             // 
             this.FastAddPishForushSandadKindCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.FastAddPishForushSandadKindCOMBO.FormattingEnabled = true;
-            this.FastAddPishForushSandadKindCOMBO.Location = new System.Drawing.Point(431, 20);
+            this.FastAddPishForushSandadKindCOMBO.Location = new System.Drawing.Point(468, 20);
             this.FastAddPishForushSandadKindCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushSandadKindCOMBO.Name = "FastAddPishForushSandadKindCOMBO";
             this.FastAddPishForushSandadKindCOMBO.Size = new System.Drawing.Size(190, 35);
@@ -1126,7 +1126,7 @@
             // 
             this.FastAddPishForushDangNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushDangNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushDangNumTB.Location = new System.Drawing.Point(201, 20);
+            this.FastAddPishForushDangNumTB.Location = new System.Drawing.Point(238, 20);
             this.FastAddPishForushDangNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushDangNumTB.Name = "FastAddPishForushDangNumTB";
             this.FastAddPishForushDangNumTB.PlaceHolderText = "منطقه";
@@ -1138,7 +1138,7 @@
             // 
             this.FastAddPishForushTahvilDateDATE.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushTahvilDateDATE.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(891, 75);
+            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(928, 75);
             this.FastAddPishForushTahvilDateDATE.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushTahvilDateDATE.Name = "FastAddPishForushTahvilDateDATE";
             this.FastAddPishForushTahvilDateDATE.PlaceHolderText = "منطقه";
@@ -1150,7 +1150,7 @@
             // 
             this.placeHolderTextBox63.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.placeHolderTextBox63.ForeColor = System.Drawing.Color.Gray;
-            this.placeHolderTextBox63.Location = new System.Drawing.Point(661, 75);
+            this.placeHolderTextBox63.Location = new System.Drawing.Point(698, 75);
             this.placeHolderTextBox63.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.placeHolderTextBox63.Name = "placeHolderTextBox63";
             this.placeHolderTextBox63.PlaceHolderText = "منطقه";
@@ -1162,7 +1162,7 @@
             // 
             this.FastAddPishForushDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushDesTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushDesTB.Location = new System.Drawing.Point(330, 75);
+            this.FastAddPishForushDesTB.Location = new System.Drawing.Point(367, 75);
             this.FastAddPishForushDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushDesTB.Multiline = true;
             this.FastAddPishForushDesTB.Name = "FastAddPishForushDesTB";
@@ -1176,7 +1176,7 @@
             this.FastAddPishForushSaveBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.FastAddPishForushSaveBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.FastAddPishForushSaveBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddPishForushSaveBTN.Location = new System.Drawing.Point(230, 75);
+            this.FastAddPishForushSaveBTN.Location = new System.Drawing.Point(267, 75);
             this.FastAddPishForushSaveBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
             this.FastAddPishForushSaveBTN.Name = "FastAddPishForushSaveBTN";
             this.FastAddPishForushSaveBTN.Size = new System.Drawing.Size(77, 32);
@@ -2717,7 +2717,7 @@
             // 
             this.FastAddForushDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddForushDesTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushDesTB.Location = new System.Drawing.Point(790, 75);
+            this.FastAddForushDesTB.Location = new System.Drawing.Point(827, 75);
             this.FastAddForushDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddForushDesTB.Multiline = true;
             this.FastAddForushDesTB.Name = "FastAddForushDesTB";
