@@ -8,6 +8,7 @@ namespace MoshaverAmlak
 {
     class Maghaze
     {
+        private int maghaze_id;
         private string maghaze_ab;
         private string maghaze_gaz;
         private string maghaze_bargh;
@@ -285,6 +286,19 @@ namespace MoshaverAmlak
             set
             {
                 maghaze_tedadVahedTabaghe = value;
+            }
+        }
+
+        public int Maghaze_id
+        {
+            get
+            {
+                return maghaze_id;
+            }
+
+            set
+            {
+                maghaze_id = value;
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoshaverAmlak
 {
-    class foroshV
+    class ForoshV
     {
         private int foroshV_id;
         private long foroshV_mablaghKol;

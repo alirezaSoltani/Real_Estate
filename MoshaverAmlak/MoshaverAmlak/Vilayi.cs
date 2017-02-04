@@ -8,6 +8,7 @@ namespace MoshaverAmlak
 {
     class Vilayi
     {
+        private int vilayi_id;
         private string vilayi_ab;
         private string vilayi_gaz;
         private string vilayi_bargh;
@@ -312,6 +313,19 @@ namespace MoshaverAmlak
             set
             {
                 vilayi_tedadVahedTabaghe = value;
+            }
+        }
+
+        public int Vilayi_id
+        {
+            get
+            {
+                return vilayi_id;
+            }
+
+            set
+            {
+                vilayi_id = value;
             }
         }
     }

@@ -8,6 +8,7 @@ namespace MoshaverAmlak
 {
     class Zamin
     {
+        private int zamin_id;
         private string zamin_ab;
         private string zamin_gaz;
         private string zamin_bargh;
@@ -142,6 +143,19 @@ namespace MoshaverAmlak
             set
             {
                 zamin_metrazh = value;
+            }
+        }
+
+        public int Zamin_id
+        {
+            get
+            {
+                return zamin_id;
+            }
+
+            set
+            {
+                zamin_id = value;
             }
         }
     }

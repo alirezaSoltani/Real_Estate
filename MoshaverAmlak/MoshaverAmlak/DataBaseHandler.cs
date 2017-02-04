@@ -1115,9 +1115,9 @@ namespace MoshaverAmlak
 
         /////////End query for mosharekatV////////////////
 
-        ///////// query for mosharekatZ////////////////
+        ///////// query for mosharekatA////////////////
 
-        public void AddMosharekatZ(MosharekatZ mosharekatZ)
+        public void AddMosharekatA(MosharekatA mosharekatA)
         {
 
             try
@@ -1127,12 +1127,12 @@ namespace MoshaverAmlak
                 conn.ConnectionString = conString;
                 SqlCommand sc = new SqlCommand();
                 SqlDataReader reader;
-                sc.CommandText = "INSERT INTO mosharekatZ (mosharekatZ_#dang,mosharekatZ_noeSanad,mosharekatZ_zaminid,mosharekatZ_malekncode,mosharekatZ_tozih)"
-                                + "VALUES ('" + mosharekatZ.MosharekatZ_tedadDang + "'"
-                                         + "'" + mosharekatZ.MosharekatZ_noeSanad + "'"
-                                         + "'" + mosharekatZ.MosharekatZ_zaminid + "'"
-                                         + "'" + mosharekatZ.MosharekatZ_malekncode + "'"
-                                         + "'" + mosharekatZ.MosharekatZ_tozih + "')";
+                sc.CommandText = "INSERT INTO mosharekatA (mosharekatA_#dang,mosharekatA_noeSanad,mosharekatA_apartmanid,mosharekatA_malekncode,mosharekatA_tozih)"
+                                + "VALUES ('" + mosharekatA.MosharekatA_tedadDang + "'"
+                                         + "'" + mosharekatA.MosharekatA_noeSanad + "'"
+                                         + "'" + mosharekatA.MosharekatA_apartmanid + "'"
+                                         + "'" + mosharekatA.MosharekatA_malekncode + "'"
+                                         + "'" + mosharekatA.MosharekatA_tozih + "')";
 
 
 
@@ -1148,18 +1148,18 @@ namespace MoshaverAmlak
             }
         }
 
-        public void EditmosharekatZ(MosharekatZ mosharekatZ)
+        public void EditmosharekatA(MosharekatA mosharekatA)
         {
             SqlConnection conn = new SqlConnection();
             conn.ConnectionString = conString;
             SqlCommand sc = new SqlCommand();
             SqlDataReader reader;
-            sc.CommandText = "UPDATE mosharekatZ SET mosharekatZ_#dang = " + "'" + mosharekatZ.MosharekatZ_tedadDang + "'"
-                                                    + "mosharekatZ_noeSanad=" + "'" + mosharekatZ.MosharekatZ_noeSanad + "'"
-                                                    + "mosharekatZ_zaminid=" + "'" + mosharekatZ.MosharekatZ_zaminid + "'"
-                                                    + "mosharekatZ_malekncode=" + "'" + mosharekatZ.MosharekatZ_malekncode + "'"
-                                                    + "mosharekatZ_tozih=" + "'" + mosharekatZ.MosharekatZ_tozih + "'"
-                                                    + "WHERE mosharekatZ_id = " + mosharekatZ.MosharekatZ_id + "";
+            sc.CommandText = "UPDATE mosharekatA SET mosharekatA_#dang = " + "'" + mosharekatA.MosharekatA_tedadDang + "'"
+                                                    + "mosharekatA_noeSanad=" + "'" + mosharekatA.MosharekatA_noeSanad + "'"
+                                                    + "mosharekatA_apartmanid=" + "'" + mosharekatA.MosharekatA_apartmanid + "'"
+                                                    + "mosharekatA_malekncode=" + "'" + mosharekatA.MosharekatA_malekncode + "'"
+                                                    + "mosharekatA_tozih=" + "'" + mosharekatA.MosharekatA_tozih + "'"
+                                                    + "WHERE mosharekatA_id = " + mosharekatA.MosharekatA_id + "";
 
 
             sc.CommandType = CommandType.Text;
@@ -1169,20 +1169,20 @@ namespace MoshaverAmlak
             conn.Close();
         }
 
-        public void DeletemosharekatZ(int mosharekatZ_id)
+        public void DeletemosharekatA(int mosharekatA_id)
         {
             SqlConnection conn = new SqlConnection();
             conn.ConnectionString = conString;
             SqlCommand sc = new SqlCommand();
             SqlDataReader reader;
-            sc.CommandText = "DELETE FROM mosharekatZ WHERE mosharekatZ_id = " + mosharekatZ_id + "";
+            sc.CommandText = "DELETE FROM mosharekatA WHERE mosharekatA_id = " + mosharekatA_id + "";
             sc.CommandType = CommandType.Text;
             sc.Connection = conn;
             conn.Open();
             reader = sc.ExecuteReader();
             conn.Close();
         }
-        /////////End query for mosharekatZ////////////////
+        /////////End query for mosharekatA////////////////
 
         ///////// query for pishForoshA////////////////
 

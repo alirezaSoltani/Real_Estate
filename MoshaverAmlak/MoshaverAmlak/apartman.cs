@@ -8,6 +8,7 @@ namespace MoshaverAmlak
 {
     class Apartman
     {
+        private int apartman_id;
         private string apartman_ab;
         private string apartman_gaz;
         private string apartman_bargh;
@@ -315,6 +316,17 @@ namespace MoshaverAmlak
             }
         }
 
-        
+        public int Apartman_id
+        {
+            get
+            {
+                return apartman_id;
+            }
+
+            set
+            {
+                apartman_id = value;
+            }
+        }
     }
 }
