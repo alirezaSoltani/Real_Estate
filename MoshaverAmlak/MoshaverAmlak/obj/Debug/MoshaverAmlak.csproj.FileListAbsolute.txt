@@ -19,10 +19,3 @@ C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csproj.GenerateResource.Cache
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.exe
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.pdb
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\bin\Debug\MoshaverAmlak.exe.config
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.exe
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.pdb
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csprojResolveAssemblyReference.cache
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.FormMain.resources
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.Properties.Resources.resources
-C:\Users\peyman\Source\Repos\amlak\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.csproj.GenerateResource.Cache
