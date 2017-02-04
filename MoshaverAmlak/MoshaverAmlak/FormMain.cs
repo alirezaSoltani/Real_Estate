@@ -57,17 +57,17 @@ namespace MoshaverAmlak
         
         private void stepItem1_Click_2(object sender, EventArgs e)
         {
-            pageSlider2.SelectedPage = FastAddETKoliSliderPage;
+            FastAddSilderPage.SelectedPage = FastAddETKoliSliderPage;
         }
 
         private void stepItem2_Click_2(object sender, EventArgs e)
         {
-            pageSlider2.SelectedPage = FastAddETMelkSliderPage;
+            FastAddSilderPage.SelectedPage = FastAddETMelkSliderPage;
         }
 
         private void stepItem3_Click_2(object sender, EventArgs e)
         {
-            pageSlider2.SelectedPage = FastAddETKhadamatSliderPage;
+            FastAddSilderPage.SelectedPage = FastAddETKhadamatSliderPage;
         }
 
         private void buttonX2_Click(object sender, EventArgs e)
