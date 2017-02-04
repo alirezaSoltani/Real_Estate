@@ -27,7 +27,7 @@ namespace MoshaverAmlak
 
         private void metroTileItem15_Click(object sender, EventArgs e)
         {
-            MainPageSlider.SelectedPage = FastAdditionSliderPage;
+            MainPageSlider.SelectedPage = FastAddETMalekSliderPage;
         }
 
         private void metroTileItem16_Click(object sender, EventArgs e)

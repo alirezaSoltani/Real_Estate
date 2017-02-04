@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             this.metroShell1 = new DevComponents.DotNetBar.Metro.MetroShell();
             this.Home = new DevComponents.DotNetBar.ButtonItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
@@ -60,7 +60,7 @@
             this.metroTileItem18 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem19 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem20 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.FastAdditionSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
+            this.FastAddETMalekSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.FastAddProgreesStep = new DevComponents.DotNetBar.ProgressSteps();
             this.FastAddEetelatMelkSI = new DevComponents.DotNetBar.StepItem();
             this.FastAddEetelatMalekSI = new DevComponents.DotNetBar.StepItem();
@@ -227,7 +227,7 @@
             this.panel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.HomeSliderPage.SuspendLayout();
-            this.FastAdditionSliderPage.SuspendLayout();
+            this.FastAddETMalekSliderPage.SuspendLayout();
             this.FastAddSilderPage.SuspendLayout();
             this.FastAddETKhadamatSliderPage.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -329,7 +329,7 @@
             this.MainPageSlider.CausesValidation = false;
             this.MainPageSlider.Controls.Add(this.RegisterSliderPage);
             this.MainPageSlider.Controls.Add(this.HomeSliderPage);
-            this.MainPageSlider.Controls.Add(this.FastAdditionSliderPage);
+            this.MainPageSlider.Controls.Add(this.FastAddETMalekSliderPage);
             this.MainPageSlider.Controls.Add(this.KhadamatSliderPage);
             this.MainPageSlider.Controls.Add(this.DaftarCheSliederPage);
             this.MainPageSlider.Controls.Add(this.AmlakSliderPage);
@@ -345,7 +345,7 @@
             this.MainPageSlider.PageMouseDragEnabled = false;
             this.MainPageSlider.PageSpacing = 0;
             this.MainPageSlider.ScrollBarVisibility = DevComponents.DotNetBar.Controls.eScrollBarVisibility.Hidden;
-            this.MainPageSlider.SelectedPage = this.FastAdditionSliderPage;
+            this.MainPageSlider.SelectedPage = this.FastAddETMalekSliderPage;
             this.MainPageSlider.Size = new System.Drawing.Size(1339, 694);
             this.MainPageSlider.TabIndex = 1;
             this.MainPageSlider.TabStop = false;
@@ -648,16 +648,16 @@
             this.metroTileItem20.TileStyle.TextColor = System.Drawing.Color.White;
             this.metroTileItem20.TitleText = "تنظیمات برنامه";
             // 
-            // FastAdditionSliderPage
+            // FastAddETMalekSliderPage
             // 
-            this.FastAdditionSliderPage.BackColor = System.Drawing.Color.Transparent;
-            this.FastAdditionSliderPage.Controls.Add(this.FastAddProgreesStep);
-            this.FastAdditionSliderPage.Controls.Add(this.panel3);
-            this.FastAdditionSliderPage.Controls.Add(this.FastAddSilderPage);
-            this.FastAdditionSliderPage.Location = new System.Drawing.Point(4, 4);
-            this.FastAdditionSliderPage.Name = "FastAdditionSliderPage";
-            this.FastAdditionSliderPage.Size = new System.Drawing.Size(1331, 686);
-            this.FastAdditionSliderPage.TabIndex = 5;
+            this.FastAddETMalekSliderPage.BackColor = System.Drawing.Color.Transparent;
+            this.FastAddETMalekSliderPage.Controls.Add(this.FastAddProgreesStep);
+            this.FastAddETMalekSliderPage.Controls.Add(this.panel3);
+            this.FastAddETMalekSliderPage.Controls.Add(this.FastAddSilderPage);
+            this.FastAddETMalekSliderPage.Location = new System.Drawing.Point(4, 4);
+            this.FastAddETMalekSliderPage.Name = "FastAddETMalekSliderPage";
+            this.FastAddETMalekSliderPage.Size = new System.Drawing.Size(1331, 686);
+            this.FastAddETMalekSliderPage.TabIndex = 5;
             // 
             // FastAddProgreesStep
             // 
@@ -739,7 +739,7 @@
             this.FastAddSilderPage.PageMouseDragEnabled = false;
             this.FastAddSilderPage.PageSpacing = 0;
             this.FastAddSilderPage.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.FastAddSilderPage.SelectedPage = this.FastAddETKoliSliderPage;
+            this.FastAddSilderPage.SelectedPage = this.FastAddETMelkSliderPage;
             this.FastAddSilderPage.Size = new System.Drawing.Size(1331, 686);
             this.FastAddSilderPage.TabIndex = 1;
             this.FastAddSilderPage.Text = "pageSlider2";
@@ -749,7 +749,7 @@
             // 
             this.FastAddETKhadamatSliderPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.FastAddETKhadamatSliderPage.Controls.Add(this.panel6);
-            this.FastAddETKhadamatSliderPage.Location = new System.Drawing.Point(-1319, 4);
+            this.FastAddETKhadamatSliderPage.Location = new System.Drawing.Point(-2642, 4);
             this.FastAddETKhadamatSliderPage.Name = "FastAddETKhadamatSliderPage";
             this.FastAddETKhadamatSliderPage.Size = new System.Drawing.Size(1323, 678);
             this.FastAddETKhadamatSliderPage.TabIndex = 3;
@@ -808,16 +808,16 @@
             this.FastAddRahnTab,
             this.superTabItem5,
             this.FastAddEjareTAB});
-            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
-            superTabColorTable3.Background = superTabLinearGradientColorTable3;
-            superTabControlBoxStateColorTable7.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable3.ControlBoxDefault = superTabControlBoxStateColorTable7;
-            superTabControlBoxStateColorTable8.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable3.ControlBoxMouseOver = superTabControlBoxStateColorTable8;
-            superTabControlBoxStateColorTable9.Background = System.Drawing.Color.Transparent;
-            superTabColorTable3.ControlBoxPressed = superTabControlBoxStateColorTable9;
-            this.superTabControl2.TabStripColor = superTabColorTable3;
+            superTabColorTable1.Background = superTabLinearGradientColorTable1;
+            superTabControlBoxStateColorTable1.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable1.ControlBoxDefault = superTabControlBoxStateColorTable1;
+            superTabControlBoxStateColorTable2.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable1.ControlBoxMouseOver = superTabControlBoxStateColorTable2;
+            superTabControlBoxStateColorTable3.Background = System.Drawing.Color.Transparent;
+            superTabColorTable1.ControlBoxPressed = superTabControlBoxStateColorTable3;
+            this.superTabControl2.TabStripColor = superTabColorTable1;
             this.superTabControl2.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl2.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
             // 
@@ -1292,10 +1292,10 @@
             this.FastAddETKoliSliderPage.BackColor = System.Drawing.Color.Transparent;
             this.FastAddETKoliSliderPage.CausesValidation = false;
             this.FastAddETKoliSliderPage.Controls.Add(this.flowLayoutPanel1);
-            this.FastAddETKoliSliderPage.Location = new System.Drawing.Point(4, 4);
+            this.FastAddETKoliSliderPage.Location = new System.Drawing.Point(-1319, 4);
             this.FastAddETKoliSliderPage.Name = "FastAddETKoliSliderPage";
             this.FastAddETKoliSliderPage.Size = new System.Drawing.Size(1323, 678);
-            this.FastAddETKoliSliderPage.TabIndex = 5;
+            this.FastAddETKoliSliderPage.TabIndex = 1;
             // 
             // flowLayoutPanel1
             // 
@@ -1395,10 +1395,10 @@
             // 
             this.FastAddETMelkSliderPage.Controls.Add(this.panel2);
             this.FastAddETMelkSliderPage.Controls.Add(this.panel5);
-            this.FastAddETMelkSliderPage.Location = new System.Drawing.Point(1327, 4);
+            this.FastAddETMelkSliderPage.Location = new System.Drawing.Point(4, 4);
             this.FastAddETMelkSliderPage.Name = "FastAddETMelkSliderPage";
             this.FastAddETMelkSliderPage.Size = new System.Drawing.Size(1323, 678);
-            this.FastAddETMelkSliderPage.TabIndex = 6;
+            this.FastAddETMelkSliderPage.TabIndex = 2;
             // 
             // panel2
             // 
@@ -1452,16 +1452,16 @@
             this.FastAddApaTAB,
             this.FastAddMaghTAB,
             this.FastAddZamTab});
-            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
-            superTabColorTable1.Background = superTabLinearGradientColorTable1;
-            superTabControlBoxStateColorTable1.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable1.ControlBoxDefault = superTabControlBoxStateColorTable1;
-            superTabControlBoxStateColorTable2.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable1.ControlBoxMouseOver = superTabControlBoxStateColorTable2;
-            superTabControlBoxStateColorTable3.Background = System.Drawing.Color.Transparent;
-            superTabColorTable1.ControlBoxPressed = superTabControlBoxStateColorTable3;
-            this.superTabControl1.TabStripColor = superTabColorTable1;
+            superTabColorTable2.Background = superTabLinearGradientColorTable2;
+            superTabControlBoxStateColorTable4.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable2.ControlBoxDefault = superTabControlBoxStateColorTable4;
+            superTabControlBoxStateColorTable5.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable2.ControlBoxMouseOver = superTabControlBoxStateColorTable5;
+            superTabControlBoxStateColorTable6.Background = System.Drawing.Color.Transparent;
+            superTabColorTable2.ControlBoxPressed = superTabControlBoxStateColorTable6;
+            this.superTabControl1.TabStripColor = superTabColorTable2;
             this.superTabControl1.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl1.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
             // 
@@ -2831,8 +2831,8 @@
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
             this.HomeSliderPage.ResumeLayout(false);
-            this.FastAdditionSliderPage.ResumeLayout(false);
-            this.FastAdditionSliderPage.PerformLayout();
+            this.FastAddETMalekSliderPage.ResumeLayout(false);
+            this.FastAddETMalekSliderPage.PerformLayout();
             this.FastAddSilderPage.ResumeLayout(false);
             this.FastAddSilderPage.PerformLayout();
             this.FastAddETKhadamatSliderPage.ResumeLayout(false);
@@ -2909,7 +2909,7 @@
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem18;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem19;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem20;
-        private DevComponents.DotNetBar.Controls.PageSliderPage FastAdditionSliderPage;
+        private DevComponents.DotNetBar.Controls.PageSliderPage FastAddETMalekSliderPage;
         private DevComponents.DotNetBar.Controls.PageSliderPage KhadamatSliderPage;
         private DevComponents.DotNetBar.Controls.PageSliderPage DaftarCheSliederPage;
         private System.Windows.Forms.Label label3;
