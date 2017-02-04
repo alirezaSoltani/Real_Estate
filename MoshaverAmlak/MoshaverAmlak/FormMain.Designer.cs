@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             this.metroShell1 = new DevComponents.DotNetBar.Metro.MetroShell();
             this.Home = new DevComponents.DotNetBar.ButtonItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
@@ -808,16 +808,16 @@
             this.FastAddRahnTab,
             this.superTabItem5,
             this.FastAddEjareTAB});
-            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
-            superTabColorTable1.Background = superTabLinearGradientColorTable1;
-            superTabControlBoxStateColorTable1.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable1.ControlBoxDefault = superTabControlBoxStateColorTable1;
-            superTabControlBoxStateColorTable2.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable1.ControlBoxMouseOver = superTabControlBoxStateColorTable2;
-            superTabControlBoxStateColorTable3.Background = System.Drawing.Color.Transparent;
-            superTabColorTable1.ControlBoxPressed = superTabControlBoxStateColorTable3;
-            this.superTabControl2.TabStripColor = superTabColorTable1;
+            superTabColorTable3.Background = superTabLinearGradientColorTable3;
+            superTabControlBoxStateColorTable7.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable3.ControlBoxDefault = superTabControlBoxStateColorTable7;
+            superTabControlBoxStateColorTable8.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable3.ControlBoxMouseOver = superTabControlBoxStateColorTable8;
+            superTabControlBoxStateColorTable9.Background = System.Drawing.Color.Transparent;
+            superTabColorTable3.ControlBoxPressed = superTabControlBoxStateColorTable9;
+            this.superTabControl2.TabStripColor = superTabColorTable3;
             this.superTabControl2.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl2.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
             // 
@@ -1310,7 +1310,7 @@
             this.flowLayoutPanel1.Controls.Add(this.FastAddNextBTN);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(501, 167);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(509, 156);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.flowLayoutPanel1.Size = new System.Drawing.Size(311, 330);
@@ -1452,16 +1452,16 @@
             this.FastAddApaTAB,
             this.FastAddMaghTAB,
             this.FastAddZamTab});
-            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
-            superTabColorTable2.Background = superTabLinearGradientColorTable2;
-            superTabControlBoxStateColorTable4.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable2.ControlBoxDefault = superTabControlBoxStateColorTable4;
-            superTabControlBoxStateColorTable5.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            superTabColorTable2.ControlBoxMouseOver = superTabControlBoxStateColorTable5;
-            superTabControlBoxStateColorTable6.Background = System.Drawing.Color.Transparent;
-            superTabColorTable2.ControlBoxPressed = superTabControlBoxStateColorTable6;
-            this.superTabControl1.TabStripColor = superTabColorTable2;
+            superTabColorTable1.Background = superTabLinearGradientColorTable1;
+            superTabControlBoxStateColorTable1.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable1.ControlBoxDefault = superTabControlBoxStateColorTable1;
+            superTabControlBoxStateColorTable2.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable1.ControlBoxMouseOver = superTabControlBoxStateColorTable2;
+            superTabControlBoxStateColorTable3.Background = System.Drawing.Color.Transparent;
+            superTabColorTable1.ControlBoxPressed = superTabControlBoxStateColorTable3;
+            this.superTabControl1.TabStripColor = superTabColorTable1;
             this.superTabControl1.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl1.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
             // 
