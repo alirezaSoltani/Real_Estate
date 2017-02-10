@@ -52,6 +52,7 @@ namespace MoshaverAmlak
             else {
                 Home.Visible = true;
             }
+            dateTimeSelector1.UsePersianFormat = true;
             MainPageSlider.SelectedPage = RegisterSliderPage;
         }
 

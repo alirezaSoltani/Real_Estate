@@ -70,13 +70,21 @@
             this.FastAddETKhadamatSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
+            this.FastAddForushMablaghKolTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddForushMablaghVamTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddForushSanadKindCOMBO = new System.Windows.Forms.ComboBox();
+            this.FastAddForushDangNumTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddForushDesTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddForushSaveBTN = new DevComponents.DotNetBar.ButtonX();
+            this.FastAddForushTAB = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel8 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
             this.FastAddPishForushPishPardakhtTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushMablaghKolTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushSandadKindCOMBO = new System.Windows.Forms.ComboBox();
             this.FastAddPishForushDangNumTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddPishForushTahvilDateDATE = new MoshaverAmlak.PlaceHolderTextBox();
             this.placeHolderTextBox63 = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushDesTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushSaveBTN = new DevComponents.DotNetBar.ButtonX();
@@ -101,15 +109,6 @@
             this.FastAddRahnDesTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddRahnSaveBTN = new DevComponents.DotNetBar.ButtonX();
             this.FastAddRahnTab = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
-            this.FastAddForushMablaghKolTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddForushMablaghVamTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddForushSanadKindCOMBO = new System.Windows.Forms.ComboBox();
-            this.FastAddForushDangNumTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddForushDesTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddForushSaveBTN = new DevComponents.DotNetBar.ButtonX();
-            this.FastAddForushTAB = new DevComponents.DotNetBar.SuperTabItem();
             this.FastAddETKoliSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.FastAddPerCodeTB = new MoshaverAmlak.PlaceHolderTextBox();
@@ -227,6 +226,7 @@
             this.stepItem1 = new DevComponents.DotNetBar.StepItem();
             this.stepItem2 = new DevComponents.DotNetBar.StepItem();
             this.stepItem3 = new DevComponents.DotNetBar.StepItem();
+            this.FastAddPishForushTahvilDateDATE = new Atf.UI.DateTimeSelector();
             this.MainPageSlider.SuspendLayout();
             this.RegisterSliderPage.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -238,6 +238,8 @@
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
             this.superTabControl2.SuspendLayout();
+            this.superTabControlPanel5.SuspendLayout();
+            this.flowLayoutPanel8.SuspendLayout();
             this.superTabControlPanel8.SuspendLayout();
             this.flowLayoutPanel11.SuspendLayout();
             this.superTabControlPanel9.SuspendLayout();
@@ -246,8 +248,6 @@
             this.flowLayoutPanel9.SuspendLayout();
             this.superTabControlPanel7.SuspendLayout();
             this.flowLayoutPanel10.SuspendLayout();
-            this.superTabControlPanel5.SuspendLayout();
-            this.flowLayoutPanel8.SuspendLayout();
             this.FastAddETKoliSliderPage.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.FastAddETMelkSliderPage.SuspendLayout();
@@ -792,8 +792,8 @@
             this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl2.ControlBox.MenuBox,
             this.superTabControl2.ControlBox.CloseBox});
-            this.superTabControl2.Controls.Add(this.superTabControlPanel5);
             this.superTabControl2.Controls.Add(this.superTabControlPanel8);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel5);
             this.superTabControl2.Controls.Add(this.superTabControlPanel9);
             this.superTabControl2.Controls.Add(this.superTabControlPanel6);
             this.superTabControl2.Controls.Add(this.superTabControlPanel7);
@@ -829,6 +829,118 @@
             this.superTabControl2.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl2.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
             // 
+            // superTabControlPanel5
+            // 
+            this.superTabControlPanel5.Controls.Add(this.flowLayoutPanel8);
+            this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel5.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel5.Name = "superTabControlPanel5";
+            this.superTabControlPanel5.Size = new System.Drawing.Size(1138, 587);
+            this.superTabControlPanel5.TabIndex = 0;
+            this.superTabControlPanel5.TabItem = this.FastAddForushTAB;
+            // 
+            // flowLayoutPanel8
+            // 
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushMablaghKolTB);
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushMablaghVamTB);
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushSanadKindCOMBO);
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushDangNumTB);
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushDesTB);
+            this.flowLayoutPanel8.Controls.Add(this.FastAddForushSaveBTN);
+            this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel8.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
+            this.flowLayoutPanel8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(1138, 587);
+            this.flowLayoutPanel8.TabIndex = 0;
+            // 
+            // FastAddForushMablaghKolTB
+            // 
+            this.FastAddForushMablaghKolTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddForushMablaghKolTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddForushMablaghKolTB.Location = new System.Drawing.Point(827, 20);
+            this.FastAddForushMablaghKolTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddForushMablaghKolTB.Name = "FastAddForushMablaghKolTB";
+            this.FastAddForushMablaghKolTB.PlaceHolderText = "منطقه";
+            this.FastAddForushMablaghKolTB.Size = new System.Drawing.Size(291, 35);
+            this.FastAddForushMablaghKolTB.TabIndex = 0;
+            this.FastAddForushMablaghKolTB.Text = "مبلغ کل";
+            this.FastAddForushMablaghKolTB.TextChanged += new System.EventHandler(this.FastAddForushMablaghKolTB_TextChanged);
+            this.FastAddForushMablaghKolTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushMablaghKolTB_KeyPress);
+            // 
+            // FastAddForushMablaghVamTB
+            // 
+            this.FastAddForushMablaghVamTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddForushMablaghVamTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddForushMablaghVamTB.Location = new System.Drawing.Point(827, 75);
+            this.FastAddForushMablaghVamTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddForushMablaghVamTB.Name = "FastAddForushMablaghVamTB";
+            this.FastAddForushMablaghVamTB.PlaceHolderText = "منطقه";
+            this.FastAddForushMablaghVamTB.Size = new System.Drawing.Size(291, 35);
+            this.FastAddForushMablaghVamTB.TabIndex = 1;
+            this.FastAddForushMablaghVamTB.Text = "مبلغ وام";
+            this.FastAddForushMablaghVamTB.TextChanged += new System.EventHandler(this.FastAddForushMablaghVamTB_TextChanged);
+            this.FastAddForushMablaghVamTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushMablaghVamTB_KeyPress);
+            // 
+            // FastAddForushSanadKindCOMBO
+            // 
+            this.FastAddForushSanadKindCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddForushSanadKindCOMBO.FormattingEnabled = true;
+            this.FastAddForushSanadKindCOMBO.Location = new System.Drawing.Point(827, 130);
+            this.FastAddForushSanadKindCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddForushSanadKindCOMBO.Name = "FastAddForushSanadKindCOMBO";
+            this.FastAddForushSanadKindCOMBO.Size = new System.Drawing.Size(291, 35);
+            this.FastAddForushSanadKindCOMBO.TabIndex = 19;
+            // 
+            // FastAddForushDangNumTB
+            // 
+            this.FastAddForushDangNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddForushDangNumTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddForushDangNumTB.Location = new System.Drawing.Point(827, 185);
+            this.FastAddForushDangNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddForushDangNumTB.Name = "FastAddForushDangNumTB";
+            this.FastAddForushDangNumTB.PlaceHolderText = "منطقه";
+            this.FastAddForushDangNumTB.Size = new System.Drawing.Size(291, 35);
+            this.FastAddForushDangNumTB.TabIndex = 3;
+            this.FastAddForushDangNumTB.Text = "تعداد دانگ";
+            this.FastAddForushDangNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushDangNumTB_KeyPress);
+            // 
+            // FastAddForushDesTB
+            // 
+            this.FastAddForushDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddForushDesTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddForushDesTB.Location = new System.Drawing.Point(827, 240);
+            this.FastAddForushDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddForushDesTB.Multiline = true;
+            this.FastAddForushDesTB.Name = "FastAddForushDesTB";
+            this.FastAddForushDesTB.PlaceHolderText = "منطقه";
+            this.FastAddForushDesTB.Size = new System.Drawing.Size(291, 99);
+            this.FastAddForushDesTB.TabIndex = 21;
+            this.FastAddForushDesTB.Text = "توضیحات";
+            // 
+            // FastAddForushSaveBTN
+            // 
+            this.FastAddForushSaveBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.FastAddForushSaveBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.FastAddForushSaveBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddForushSaveBTN.Location = new System.Drawing.Point(1058, 359);
+            this.FastAddForushSaveBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.FastAddForushSaveBTN.Name = "FastAddForushSaveBTN";
+            this.FastAddForushSaveBTN.Size = new System.Drawing.Size(77, 32);
+            this.FastAddForushSaveBTN.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.FastAddForushSaveBTN.SymbolColor = System.Drawing.Color.Transparent;
+            this.FastAddForushSaveBTN.TabIndex = 20;
+            this.FastAddForushSaveBTN.Text = "ثبت";
+            this.FastAddForushSaveBTN.Click += new System.EventHandler(this.FastAddForushSaveBTN_Click);
+            // 
+            // FastAddForushTAB
+            // 
+            this.FastAddForushTAB.AttachedControl = this.superTabControlPanel5;
+            this.FastAddForushTAB.GlobalItem = false;
+            this.FastAddForushTAB.Name = "FastAddForushTAB";
+            this.FastAddForushTAB.Text = "فروش";
+            // 
             // superTabControlPanel8
             // 
             this.superTabControlPanel8.Controls.Add(this.flowLayoutPanel11);
@@ -844,8 +956,8 @@
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushPishPardakhtTB);
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushMablaghKolTB);
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushSandadKindCOMBO);
-            this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushDangNumTB);
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushTahvilDateDATE);
+            this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushDangNumTB);
             this.flowLayoutPanel11.Controls.Add(this.placeHolderTextBox63);
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushDesTB);
             this.flowLayoutPanel11.Controls.Add(this.FastAddPishForushSaveBTN);
@@ -899,7 +1011,7 @@
             // 
             this.FastAddPishForushDangNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushDangNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushDangNumTB.Location = new System.Drawing.Point(827, 185);
+            this.FastAddPishForushDangNumTB.Location = new System.Drawing.Point(827, 233);
             this.FastAddPishForushDangNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushDangNumTB.Name = "FastAddPishForushDangNumTB";
             this.FastAddPishForushDangNumTB.PlaceHolderText = "منطقه";
@@ -908,23 +1020,11 @@
             this.FastAddPishForushDangNumTB.Text = "تعداد دانگ";
             this.FastAddPishForushDangNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddPishForushDangNumTB_KeyPress);
             // 
-            // FastAddPishForushTahvilDateDATE
-            // 
-            this.FastAddPishForushTahvilDateDATE.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddPishForushTahvilDateDATE.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(827, 240);
-            this.FastAddPishForushTahvilDateDATE.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddPishForushTahvilDateDATE.Name = "FastAddPishForushTahvilDateDATE";
-            this.FastAddPishForushTahvilDateDATE.PlaceHolderText = "منطقه";
-            this.FastAddPishForushTahvilDateDATE.Size = new System.Drawing.Size(291, 35);
-            this.FastAddPishForushTahvilDateDATE.TabIndex = 4;
-            this.FastAddPishForushTahvilDateDATE.Text = "زمان تحویل";
-            // 
             // placeHolderTextBox63
             // 
             this.placeHolderTextBox63.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.placeHolderTextBox63.ForeColor = System.Drawing.Color.Gray;
-            this.placeHolderTextBox63.Location = new System.Drawing.Point(827, 295);
+            this.placeHolderTextBox63.Location = new System.Drawing.Point(827, 288);
             this.placeHolderTextBox63.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.placeHolderTextBox63.Name = "placeHolderTextBox63";
             this.placeHolderTextBox63.PlaceHolderText = "منطقه";
@@ -936,7 +1036,7 @@
             // 
             this.FastAddPishForushDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
             this.FastAddPishForushDesTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddPishForushDesTB.Location = new System.Drawing.Point(827, 350);
+            this.FastAddPishForushDesTB.Location = new System.Drawing.Point(827, 343);
             this.FastAddPishForushDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.FastAddPishForushDesTB.Multiline = true;
             this.FastAddPishForushDesTB.Name = "FastAddPishForushDesTB";
@@ -950,8 +1050,8 @@
             this.FastAddPishForushSaveBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.FastAddPishForushSaveBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.FastAddPishForushSaveBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddPishForushSaveBTN.Location = new System.Drawing.Point(1058, 469);
-            this.FastAddPishForushSaveBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.FastAddPishForushSaveBTN.Location = new System.Drawing.Point(1041, 462);
+            this.FastAddPishForushSaveBTN.Margin = new System.Windows.Forms.Padding(20);
             this.FastAddPishForushSaveBTN.Name = "FastAddPishForushSaveBTN";
             this.FastAddPishForushSaveBTN.Size = new System.Drawing.Size(77, 32);
             this.FastAddPishForushSaveBTN.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
@@ -1205,118 +1305,6 @@
             this.FastAddRahnTab.GlobalItem = false;
             this.FastAddRahnTab.Name = "FastAddRahnTab";
             this.FastAddRahnTab.Text = "رهن";
-            // 
-            // superTabControlPanel5
-            // 
-            this.superTabControlPanel5.Controls.Add(this.flowLayoutPanel8);
-            this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel5.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel5.Name = "superTabControlPanel5";
-            this.superTabControlPanel5.Size = new System.Drawing.Size(1138, 587);
-            this.superTabControlPanel5.TabIndex = 0;
-            this.superTabControlPanel5.TabItem = this.FastAddForushTAB;
-            // 
-            // flowLayoutPanel8
-            // 
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushMablaghKolTB);
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushMablaghVamTB);
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushSanadKindCOMBO);
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushDangNumTB);
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushDesTB);
-            this.flowLayoutPanel8.Controls.Add(this.FastAddForushSaveBTN);
-            this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel8.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(1138, 587);
-            this.flowLayoutPanel8.TabIndex = 0;
-            // 
-            // FastAddForushMablaghKolTB
-            // 
-            this.FastAddForushMablaghKolTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddForushMablaghKolTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushMablaghKolTB.Location = new System.Drawing.Point(827, 20);
-            this.FastAddForushMablaghKolTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddForushMablaghKolTB.Name = "FastAddForushMablaghKolTB";
-            this.FastAddForushMablaghKolTB.PlaceHolderText = "منطقه";
-            this.FastAddForushMablaghKolTB.Size = new System.Drawing.Size(291, 35);
-            this.FastAddForushMablaghKolTB.TabIndex = 0;
-            this.FastAddForushMablaghKolTB.Text = "مبلغ کل";
-            this.FastAddForushMablaghKolTB.TextChanged += new System.EventHandler(this.FastAddForushMablaghKolTB_TextChanged);
-            this.FastAddForushMablaghKolTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushMablaghKolTB_KeyPress);
-            // 
-            // FastAddForushMablaghVamTB
-            // 
-            this.FastAddForushMablaghVamTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddForushMablaghVamTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushMablaghVamTB.Location = new System.Drawing.Point(827, 75);
-            this.FastAddForushMablaghVamTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddForushMablaghVamTB.Name = "FastAddForushMablaghVamTB";
-            this.FastAddForushMablaghVamTB.PlaceHolderText = "منطقه";
-            this.FastAddForushMablaghVamTB.Size = new System.Drawing.Size(291, 35);
-            this.FastAddForushMablaghVamTB.TabIndex = 1;
-            this.FastAddForushMablaghVamTB.Text = "مبلغ وام";
-            this.FastAddForushMablaghVamTB.TextChanged += new System.EventHandler(this.FastAddForushMablaghVamTB_TextChanged);
-            this.FastAddForushMablaghVamTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushMablaghVamTB_KeyPress);
-            // 
-            // FastAddForushSanadKindCOMBO
-            // 
-            this.FastAddForushSanadKindCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddForushSanadKindCOMBO.FormattingEnabled = true;
-            this.FastAddForushSanadKindCOMBO.Location = new System.Drawing.Point(827, 130);
-            this.FastAddForushSanadKindCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddForushSanadKindCOMBO.Name = "FastAddForushSanadKindCOMBO";
-            this.FastAddForushSanadKindCOMBO.Size = new System.Drawing.Size(291, 35);
-            this.FastAddForushSanadKindCOMBO.TabIndex = 19;
-            // 
-            // FastAddForushDangNumTB
-            // 
-            this.FastAddForushDangNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddForushDangNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushDangNumTB.Location = new System.Drawing.Point(827, 185);
-            this.FastAddForushDangNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddForushDangNumTB.Name = "FastAddForushDangNumTB";
-            this.FastAddForushDangNumTB.PlaceHolderText = "منطقه";
-            this.FastAddForushDangNumTB.Size = new System.Drawing.Size(291, 35);
-            this.FastAddForushDangNumTB.TabIndex = 3;
-            this.FastAddForushDangNumTB.Text = "تعداد دانگ";
-            this.FastAddForushDangNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddForushDangNumTB_KeyPress);
-            // 
-            // FastAddForushDesTB
-            // 
-            this.FastAddForushDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddForushDesTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddForushDesTB.Location = new System.Drawing.Point(827, 240);
-            this.FastAddForushDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddForushDesTB.Multiline = true;
-            this.FastAddForushDesTB.Name = "FastAddForushDesTB";
-            this.FastAddForushDesTB.PlaceHolderText = "منطقه";
-            this.FastAddForushDesTB.Size = new System.Drawing.Size(291, 99);
-            this.FastAddForushDesTB.TabIndex = 21;
-            this.FastAddForushDesTB.Text = "توضیحات";
-            // 
-            // FastAddForushSaveBTN
-            // 
-            this.FastAddForushSaveBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.FastAddForushSaveBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.FastAddForushSaveBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddForushSaveBTN.Location = new System.Drawing.Point(1058, 359);
-            this.FastAddForushSaveBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
-            this.FastAddForushSaveBTN.Name = "FastAddForushSaveBTN";
-            this.FastAddForushSaveBTN.Size = new System.Drawing.Size(77, 32);
-            this.FastAddForushSaveBTN.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
-            this.FastAddForushSaveBTN.SymbolColor = System.Drawing.Color.Transparent;
-            this.FastAddForushSaveBTN.TabIndex = 20;
-            this.FastAddForushSaveBTN.Text = "ثبت";
-            this.FastAddForushSaveBTN.Click += new System.EventHandler(this.FastAddForushSaveBTN_Click);
-            // 
-            // FastAddForushTAB
-            // 
-            this.FastAddForushTAB.AttachedControl = this.superTabControlPanel5;
-            this.FastAddForushTAB.GlobalItem = false;
-            this.FastAddForushTAB.Name = "FastAddForushTAB";
-            this.FastAddForushTAB.Text = "فروش";
             // 
             // FastAddETKoliSliderPage
             // 
@@ -2929,6 +2917,14 @@
             this.stepItem3.TextAlignment = DevComponents.DotNetBar.eButtonTextAlignment.Right;
             this.stepItem3.Click += new System.EventHandler(this.stepItem3_Click_2);
             // 
+            // FastAddPishForushTahvilDateDATE
+            // 
+            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(827, 185);
+            this.FastAddPishForushTahvilDateDATE.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddPishForushTahvilDateDATE.Name = "FastAddPishForushTahvilDateDATE";
+            this.FastAddPishForushTahvilDateDATE.Size = new System.Drawing.Size(291, 28);
+            this.FastAddPishForushTahvilDateDATE.TabIndex = 21;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -2961,6 +2957,9 @@
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
             this.superTabControl2.ResumeLayout(false);
+            this.superTabControlPanel5.ResumeLayout(false);
+            this.flowLayoutPanel8.ResumeLayout(false);
+            this.flowLayoutPanel8.PerformLayout();
             this.superTabControlPanel8.ResumeLayout(false);
             this.flowLayoutPanel11.ResumeLayout(false);
             this.flowLayoutPanel11.PerformLayout();
@@ -2973,9 +2972,6 @@
             this.superTabControlPanel7.ResumeLayout(false);
             this.flowLayoutPanel10.ResumeLayout(false);
             this.flowLayoutPanel10.PerformLayout();
-            this.superTabControlPanel5.ResumeLayout(false);
-            this.flowLayoutPanel8.ResumeLayout(false);
-            this.flowLayoutPanel8.PerformLayout();
             this.FastAddETKoliSliderPage.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
@@ -3212,7 +3208,6 @@
         private PlaceHolderTextBox FastAddPishForushMablaghKolTB;
         private System.Windows.Forms.ComboBox FastAddPishForushSandadKindCOMBO;
         private PlaceHolderTextBox FastAddPishForushDangNumTB;
-        private PlaceHolderTextBox FastAddPishForushTahvilDateDATE;
         private PlaceHolderTextBox placeHolderTextBox63;
         private PlaceHolderTextBox FastAddPishForushDesTB;
         private DevComponents.DotNetBar.ButtonX FastAddPishForushSaveBTN;
@@ -3230,5 +3225,6 @@
         private System.Windows.Forms.CheckBox FastAddMaghTelCB;
         private System.Windows.Forms.CheckBox FastAddZamTelCB;
         private DevComponents.DotNetBar.TabItem tabItem1;
+        private Atf.UI.DateTimeSelector FastAddPishForushTahvilDateDATE;
     }
 }
