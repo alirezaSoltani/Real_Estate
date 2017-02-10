@@ -65,7 +65,7 @@
     <Compile Include="foroshZ.cs" />
     <Compile Include="Maghaze.cs" />
     <Compile Include="Malek.cs" />
-    <Compile Include="MosharekatA.cs" />
+    <Compile Include="MosharekatZ.cs" />
     <Compile Include="MosharekatV.cs" />
     <Compile Include="PishForoshA.cs" />
     <Compile Include="PishForoshM.cs" />

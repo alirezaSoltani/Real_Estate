@@ -36,7 +36,7 @@ namespace MoshaverAmlak
         private ForoshZ fZ = new ForoshZ();
         private PishForoshA pA = new PishForoshA();
         private PishForoshM pM = new PishForoshM();
-        private MosharekatA mA = new MosharekatA();
+        private MosharekatZ mZ = new MosharekatZ();
         private MosharekatV mV = new MosharekatV();
 
 
@@ -985,6 +985,74 @@ namespace MoshaverAmlak
             FastAddEetelatKhadamatSI.Value = step;
             if (valid == 1)
             {
+                dbh.AddMalek(malek);
+                if (noeMelk == 1)
+                {
+                    dbh.AddVilayi(vilayi);
+
+
+                    fV.ForoshV_mablaghKol = Int64.Parse(FastAddForushMablaghKolTB.Text);
+                    fV.ForoshV_mablaghVam = Int64.Parse(FastAddForushMablaghVamTB.Text);
+                    fV.ForoshV_noeSanad = FastAddForushSanadKindCOMBO.Text;
+                    fV.ForoshV_tedadDang = Int32.Parse(FastAddForushDangNumTB.Text);
+                    fV.ForoshV_tozih = FastAddForushDesTB.Text;
+                    fV.ForoshV_malekncode = FastAddPerCodeTB.Text;
+                    //  fV.ForoshV_vilayiid = ????????????
+
+                    dbh.AddForoshV(fV);
+
+
+                }
+
+                else if (noeMelk == 2)
+                {
+                    dbh.AddApartman(apartman);
+
+                    fA.ForoshA_mablaghKol = Int64.Parse(FastAddForushMablaghKolTB.Text);
+                    fA.ForoshA_mablaghVam = Int64.Parse(FastAddForushMablaghVamTB.Text);
+                    fA.ForoshA_noeSanad = FastAddForushSanadKindCOMBO.Text;
+                    fA.ForoshA_tedadDang = Int32.Parse(FastAddForushDangNumTB.Text);
+                    fA.ForoshA_tozih = FastAddForushDesTB.Text;
+                    fA.ForoshA_malekncode = FastAddPerCodeTB.Text;
+                    //  fA.ForoshA_apartmanid = ????????????
+
+                    dbh.AddForoshA(fA);
+
+
+                }
+
+                else if (noeMelk == 3)
+                {
+                    dbh.AddMaghaze(maghaze);
+
+                    fM.ForoshM_mablaghKol = Int64.Parse(FastAddForushMablaghKolTB.Text);
+                    fM.ForoshM_mablaghVam = Int64.Parse(FastAddForushMablaghVamTB.Text);
+                    fM.ForoshM_noeSanad = FastAddForushSanadKindCOMBO.Text;
+                    fM.ForoshM_tedadDang = Int32.Parse(FastAddForushDangNumTB.Text);
+                    fM.ForoshM_tozih = FastAddForushDesTB.Text;
+                    fM.ForoshM_malekncode = FastAddPerCodeTB.Text;
+                    //  fM.ForoshM_maghazeid = ???????????/
+
+                    dbh.AddForoshM(fM);
+
+                }
+
+                else
+                {
+                    dbh.AddZamin(zamin);
+
+                    fZ.ForoshZ_mablaghKol = Int64.Parse(FastAddForushMablaghKolTB.Text);
+                    fZ.ForoshZ_mablaghVam = Int64.Parse(FastAddForushMablaghVamTB.Text);
+                    fZ.ForoshZ_noeSanad = FastAddForushSanadKindCOMBO.Text;
+                    fZ.ForoshZ_tedadDang = Int32.Parse(FastAddForushDangNumTB.Text);
+                    fZ.ForoshZ_tozih = FastAddForushDesTB.Text;
+                    fZ.ForoshZ_malekncode = FastAddPerCodeTB.Text;
+                    ///fZ.ForoshZ_zaminid = ????????????
+                    /// 
+                    dbh.AddForoshZ(fZ);
+
+
+                }
                 //MessageBox.Show("sabte melk ba id : "+kind);
             }
         }
@@ -1143,6 +1211,290 @@ namespace MoshaverAmlak
 
         }
 
+        private void FastAddPishForushSaveBTN_Click_1(object sender, EventArgs e)
+        {
+            int valid = 1;
+            if (FastAddPishForushPishPardakhtTB.Text == "پیش پرداخت")
+            {
+                valid = 0;
+                FastAddPishForushPishPardakhtTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPishForushPishPardakhtTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddPishForushMablaghKolTB.Text == "مبلغ کل")
+            {
+                valid = 0;
+                FastAddPishForushMablaghKolTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPishForushMablaghKolTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddPerMobTB.Text == "شماره موبایل")
+            {
+                valid = 0;
+                FastAddPerMobTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPerMobTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddPishForushSandadKindCOMBO.SelectedItem == "")
+            {
+                valid = 0;
+                FastAddPishForushSandadKindCOMBO.BackColor = Color.Pink;
 
+            }
+            else
+            {
+                FastAddPishForushSandadKindCOMBO.BackColor = Color.WhiteSmoke;
+                
+            }
+            if (valid == 1)
+            {
+                dbh.AddMalek(malek);
+
+                if (noeMelk == 2)
+                {
+                    dbh.AddApartman(apartman);
+
+                    pA.PishForoshA_pishPardakht = Int64.Parse(FastAddPishForushPishPardakhtTB.Text);
+                    pA.PishforoshA_mablaghKol = Int64.Parse(FastAddPishForushMablaghKolTB.Text);
+                    pA.PishforoshA_noeSanad = FastAddPishForushSandadKindCOMBO.Text;
+                    pA.PishforoshA_tedadDang = Int32.Parse(FastAddPishForushDangNumTB.Text);
+                    pA.PishForoshA_dateTahvil = FastAddPishForushTahvilDateDATE.Text;
+                    pA.PishforoshA_tozih = FastAddPishForushDesTB.Text;
+                    pA.PishforoshA_malekncode = FastAddPerCodeTB.Text;
+                    ///pA.PishforoshA_apartmanid =??????????????
+                    /// 
+
+                    dbh.AddPishForoshA(pA);
+
+                }
+                else if (noeMelk == 3)
+                {
+                    dbh.AddMaghaze(maghaze);
+
+                    pM.PishforoshM_pishPardakht = Int64.Parse(FastAddPishForushPishPardakhtTB.Text);
+                    pM.PishforoshM_mablaghKol = Int64.Parse(FastAddPishForushMablaghKolTB.Text);
+                    pM.PishforoshM_noeSanad = FastAddPishForushSandadKindCOMBO.Text;
+                    pM.PishforoshM_tedadDang = Int32.Parse(FastAddPishForushDangNumTB.Text);
+                    pM.PishforoshM_dateTahvil = FastAddPishForushTahvilDateDATE.Text;
+                    pM.PishforoshM_tozih = FastAddPishForushDesTB.Text;
+                    pM.PishforoshM_malekncode = FastAddPerCodeTB.Text;
+                    ///pM.PishForoshM_apartmanid =??????????????
+                    /// 
+
+                    dbh.AddPishForoshM(pM);
+
+
+                }
+            }
+        }
+
+        private void FastAddRahnSaveBTN_Click(object sender, EventArgs e)
+        {
+            if (FastAddRahnMablaghRahnTB.Text == "مبلغ رهن")
+            {
+                FastAddRahnMablaghRahnTB.BackColor = Color.Pink;
+            }
+            else {
+                dbh.AddMalek(malek);
+
+                if (noeMelk == 1)
+                {
+                    dbh.AddVilayi(vilayi);
+
+
+                    rV.RahnV_mablaghRahn = Int32.Parse(FastAddRahnMablaghRahnTB.Text);
+                    rV.RahnV_tozih = FastAddRahnDesTB.Text;
+                    rV.RahnV_malekncode = FastAddPerCodeTB.Text;
+                    //rV.RahnV_vilayiid = ???????/
+
+                    dbh.AddRahnV(rV);
+
+
+                }
+                else if (noeMelk == 2)
+                {
+                    dbh.AddApartman(apartman);
+
+                    rA.RahnA_mablaghRahn = Int32.Parse(FastAddRahnMablaghRahnTB.Text);
+                    rA.RahnA_tozih = FastAddRahnDesTB.Text;
+                    rA.RahnA_malekncode = FastAddPerCodeTB.Text;
+                    //rA.RahnA_apartmanid = ????????
+
+                    dbh.AddRahnA(rA);
+
+                }
+                else if (noeMelk == 3)
+                {
+                    dbh.AddMaghaze(maghaze);
+
+                    rM.RahnM_mablaghRahn = Int32.Parse(FastAddRahnMablaghRahnTB.Text);
+                    rM.RahnM_tozih = FastAddRahnDesTB.Text;
+                    rM.RahnM_malekncode = FastAddPerCodeTB.Text;
+                    //rM.RahnM_maghazeid =????????????/
+
+                    dbh.AddRahnM(rM);
+
+
+
+                }
+                else
+                {
+                    rZ.RahnZ_mablaghRahn = Int32.Parse(FastAddRahnMablaghRahnTB.Text);
+                    rZ.RahnZ_tozih = FastAddRahnDesTB.Text;
+                    rZ.RahnZ_malekncode = FastAddPerCodeTB.Text;
+                    //rZ.RahnZ_zaminid = ?????????//
+
+                    dbh.AddRahnZ(rZ);
+
+
+                }
+            }
+        }
+
+        private void FastAddMosharekatSaveBTN_Click(object sender, EventArgs e)
+        {
+            int valid = 1;
+            if (FastAddMosharekatDangNumTB.Text == "تعداد دانگ")
+            {
+                valid = 0;
+                FastAddMosharekatDangNumTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddMosharekatDangNumTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddMosharekatSanadKindCOMBO.SelectedItem == "")
+            {
+                valid = 0;
+                FastAddMosharekatSanadKindCOMBO.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddMosharekatSanadKindCOMBO.BackColor = Color.WhiteSmoke;
+            }
+            if (valid == 1) {
+                dbh.AddMalek(malek);
+
+                if (noeMelk == 1)
+                {
+                    dbh.AddVilayi(vilayi);
+
+                    mV.MosharekatV_noeSanad = FastAddMosharekatSanadKindCOMBO.Text;
+                    mV.MosharekatV_tedadDang = Int32.Parse(FastAddMosharekatDangNumTB.Text);
+                    mV.MosharekatV_tozih = FastAddMosharekatDesTB.Text;
+                    mV.MosharekatV_malekncode = FastAddPerCodeTB.Text;
+                    //mV.MosharekatV_vilayiid = ??????????????
+
+                    dbh.AddMosharekatV(mV);
+
+                }
+                else if (noeMelk == 4)
+                {
+                    dbh.AddZamin(zamin);
+
+                    mZ.MosharekatZ_noeSanad = FastAddMosharekatSanadKindCOMBO.Text;
+                    mZ.MosharekatZ_tedadDang = Int32.Parse(FastAddMosharekatDangNumTB.Text); ;
+                    mZ.MosharekatZ_tozih = FastAddMosharekatDesTB.Text;
+                    mZ.MosharekatZ_malekncode = FastAddPerCodeTB.Text;
+                    // mZ.MosharekatZ_zaminid = ??????????????/
+
+                    dbh.AddMosharekatZ(mZ);
+
+
+                }
+            }
+        }
+
+        private void FastAddEjareSaveBTN_Click(object sender, EventArgs e)
+        {
+            int valid = 1;
+            if (FastAddEjareMablaghPishTB.Text == "مبلغ پیش")
+            {
+                valid = 0;
+                FastAddEjareMablaghPishTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddEjareMablaghPishTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddEjareMablaghEjareTB.Text == "مبلغ اجاره")
+            {
+                valid = 0;
+                FastAddEjareMablaghEjareTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddEjareMablaghEjareTB.BackColor = Color.WhiteSmoke;
+            }
+            if (valid == 1) {
+                dbh.AddMalek(malek);
+
+                if (noeMelk == 1)
+                {
+                    dbh.AddVilayi(vilayi);
+
+                    eV.EjareV_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eV.EjareV_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eV.EjareV_tozih = FastAddEjareDesTB.Text;
+                    eV.EjareV_malekncode = FastAddPerCodeTB.Text;
+                    //eV.EjareV_vilayiid = ???????????
+
+                    dbh.AddEjareV(eV);
+
+
+                }
+                else if (noeMelk == 2)
+                {
+                    dbh.AddApartman(apartman);
+
+                    eA.EjareA_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eA.EjareA_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eA.EjareA_tozih = FastAddEjareDesTB.Text;
+                    eA.EjareA_malekncode = FastAddPerCodeTB.Text;
+                    //eA.EjareA_apartmanid = ???????????
+
+                    dbh.AddEjareA(eA);
+
+
+
+                }
+                else if (noeMelk == 3)
+                {
+                    dbh.AddMaghaze(maghaze);
+
+                    eM.EjareM_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eM.EjareM_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eM.EjareM_tozih = FastAddEjareDesTB.Text;
+                    eM.EjareM_malekncode = FastAddPerCodeTB.Text;
+                    //eM.EjareM_maghazeid = ???????????
+
+                    dbh.AddEjareM(eM);
+
+                }
+                else if (noeMelk == 4)
+                {
+                    dbh.AddZamin(zamin);
+
+                    eZ.EjareZ_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eZ.EjareZ_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eZ.EjareZ_tozih = FastAddEjareDesTB.Text;
+                    eZ.EjareZ_malekncode = FastAddPerCodeTB.Text;
+                    //eZ.EjareZ_zaminid = ???????????
+
+
+
+                    dbh.AddEjareZ(eZ);
+
+
+
+                }
+            }
+        }
     }
 }

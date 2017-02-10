@@ -1117,7 +1117,7 @@ namespace MoshaverAmlak
 
         ///////// query for mosharekatA////////////////
 
-        public void AddMosharekatA(MosharekatA mosharekatA)
+        public void AddMosharekatZ(MosharekatZ mosharekatZ)
         {
 
             try
@@ -1128,11 +1128,11 @@ namespace MoshaverAmlak
                 SqlCommand sc = new SqlCommand();
                 SqlDataReader reader;
                 sc.CommandText = "INSERT INTO mosharekatA (mosharekatA_#dang,mosharekatA_noeSanad,mosharekatA_apartmanid,mosharekatA_malekncode,mosharekatA_tozih)"
-                                + "VALUES ('" + mosharekatA.MosharekatA_tedadDang + "'"
-                                         + "'" + mosharekatA.MosharekatA_noeSanad + "'"
-                                         + "'" + mosharekatA.MosharekatA_apartmanid + "'"
-                                         + "'" + mosharekatA.MosharekatA_malekncode + "'"
-                                         + "'" + mosharekatA.MosharekatA_tozih + "')";
+                                + "VALUES ('" + mosharekatZ.MosharekatZ_tedadDang + "'"
+                                         + "'" + mosharekatZ.MosharekatZ_noeSanad + "'"
+                                         + "'" + mosharekatZ.MosharekatZ_apartmanid + "'"
+                                         + "'" + mosharekatZ.MosharekatZ_malekncode + "'"
+                                         + "'" + mosharekatZ.MosharekatZ_tozih + "')";
 
 
 
@@ -1148,18 +1148,18 @@ namespace MoshaverAmlak
             }
         }
 
-        public void EditmosharekatA(MosharekatA mosharekatA)
+        public void EditmosharekatZ(MosharekatZ mosharekatZ)
         {
             SqlConnection conn = new SqlConnection();
             conn.ConnectionString = conString;
             SqlCommand sc = new SqlCommand();
             SqlDataReader reader;
-            sc.CommandText = "UPDATE mosharekatA SET mosharekatA_#dang = " + "'" + mosharekatA.MosharekatA_tedadDang + "'"
-                                                    + "mosharekatA_noeSanad=" + "'" + mosharekatA.MosharekatA_noeSanad + "'"
-                                                    + "mosharekatA_apartmanid=" + "'" + mosharekatA.MosharekatA_apartmanid + "'"
-                                                    + "mosharekatA_malekncode=" + "'" + mosharekatA.MosharekatA_malekncode + "'"
-                                                    + "mosharekatA_tozih=" + "'" + mosharekatA.MosharekatA_tozih + "'"
-                                                    + "WHERE mosharekatA_id = " + mosharekatA.MosharekatA_id + "";
+            sc.CommandText = "UPDATE mosharekatA SET mosharekatA_#dang = " + "'" + mosharekatZ.MosharekatZ_tedadDang + "'"
+                                                    + "mosharekatA_noeSanad=" + "'" + mosharekatZ.MosharekatZ_noeSanad + "'"
+                                                    + "mosharekatA_apartmanid=" + "'" + mosharekatZ.MosharekatZ_apartmanid + "'"
+                                                    + "mosharekatA_malekncode=" + "'" + mosharekatZ.MosharekatZ_malekncode + "'"
+                                                    + "mosharekatA_tozih=" + "'" + mosharekatZ.MosharekatZ_tozih + "'"
+                                                    + "WHERE mosharekatA_id = " + mosharekatZ.MosharekatZ_id + "";
 
 
             sc.CommandType = CommandType.Text;
