@@ -20,3 +20,4 @@ C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.exe
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.pdb
 C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\bin\Debug\DateTimeSelector.dll
+C:\Users\AliReza\Source\Repos\Real_Estate\MoshaverAmlak\MoshaverAmlak\obj\Debug\MoshaverAmlak.MainForm.resources

@@ -40,6 +40,16 @@
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorTable superTabColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable superTabControlBoxStateColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabControlBoxStateColorTable();
             this.metroShell1 = new DevComponents.DotNetBar.Metro.MetroShell();
             this.Home = new DevComponents.DotNetBar.ButtonItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
@@ -84,6 +94,7 @@
             this.FastAddPishForushPishPardakhtTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushMablaghKolTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushSandadKindCOMBO = new System.Windows.Forms.ComboBox();
+            this.FastAddPishForushTahvilDateDATE = new Atf.UI.DateTimeSelector();
             this.FastAddPishForushDangNumTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.placeHolderTextBox63 = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddPishForushDesTB = new MoshaverAmlak.PlaceHolderTextBox();
@@ -120,6 +131,31 @@
             this.FastAddETMelkSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.superTabControl1 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.FastAddApaMantagheTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaAddressTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaKarbariCOMBO = new System.Windows.Forms.ComboBox();
+            this.FastAddApaTabagheNumTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaTabagheTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaSalSakhtTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaOtaghNumTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaVahedHarTabagheTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaNamaTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaKafpushTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaAbCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaGazCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaBarghCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaAsansourCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaTerasCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaHayatCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaParkingCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaCabinetCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaAnbarCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaTelCB = new System.Windows.Forms.CheckBox();
+            this.FastAddApaDesTB = new MoshaverAmlak.PlaceHolderTextBox();
+            this.FastAddApaNextBTN = new DevComponents.DotNetBar.ButtonX();
+            this.FastAddApaTAB = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.FastAddVilMantagheTB = new MoshaverAmlak.PlaceHolderTextBox();
@@ -183,36 +219,128 @@
             this.FastAddZamDesTB = new MoshaverAmlak.PlaceHolderTextBox();
             this.FastAddZamNextBTN = new DevComponents.DotNetBar.ButtonX();
             this.FastAddZamTab = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.FastAddApaMantagheTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaAddressTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaKarbariCOMBO = new System.Windows.Forms.ComboBox();
-            this.FastAddApaTabagheNumTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaTabagheTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaSalSakhtTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaOtaghNumTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaVahedHarTabagheTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaNamaTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaKafpushTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaAbCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaGazCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaBarghCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaAsansourCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaTerasCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaHayatCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaParkingCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaCabinetCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaAnbarCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaTelCB = new System.Windows.Forms.CheckBox();
-            this.FastAddApaDesTB = new MoshaverAmlak.PlaceHolderTextBox();
-            this.FastAddApaNextBTN = new DevComponents.DotNetBar.ButtonX();
-            this.FastAddApaTAB = new DevComponents.DotNetBar.SuperTabItem();
             this.panel5 = new System.Windows.Forms.Panel();
             this.KhadamatSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.superTabControl4 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel11 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox46 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.placeHolderTextBox48 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox49 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox50 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox51 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox52 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox53 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox54 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.buttonX7 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel16 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox56 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.placeHolderTextBox58 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox59 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox60 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox61 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox62 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox64 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox65 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.buttonX8 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem8 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel17 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox67 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.checkBox23 = new System.Windows.Forms.CheckBox();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.buttonX9 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem9 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel18 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox70 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.placeHolderTextBox72 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox73 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox74 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox75 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox76 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox77 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox78 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.checkBox26 = new System.Windows.Forms.CheckBox();
+            this.checkBox27 = new System.Windows.Forms.CheckBox();
+            this.checkBox28 = new System.Windows.Forms.CheckBox();
+            this.checkBox29 = new System.Windows.Forms.CheckBox();
+            this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.checkBox31 = new System.Windows.Forms.CheckBox();
+            this.checkBox32 = new System.Windows.Forms.CheckBox();
+            this.checkBox33 = new System.Windows.Forms.CheckBox();
+            this.checkBox34 = new System.Windows.Forms.CheckBox();
+            this.checkBox35 = new System.Windows.Forms.CheckBox();
+            this.buttonX10 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem10 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControl3 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox29 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox30 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.placeHolderTextBox32 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel13 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox39 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox40 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.buttonX4 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem4 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel14 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox42 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem6 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel15 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox44 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem7 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel12 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
+            this.placeHolderTextBox34 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox35 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dateTimeSelector1 = new Atf.UI.DateTimeSelector();
+            this.placeHolderTextBox36 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.placeHolderTextBox37 = new MoshaverAmlak.PlaceHolderTextBox();
+            this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
+            this.superTabItem3 = new DevComponents.DotNetBar.SuperTabItem();
             this.DaftarCheSliederPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
             this.label3 = new System.Windows.Forms.Label();
             this.AmlakSliderPage = new DevComponents.DotNetBar.Controls.PageSliderPage();
@@ -226,7 +354,6 @@
             this.stepItem1 = new DevComponents.DotNetBar.StepItem();
             this.stepItem2 = new DevComponents.DotNetBar.StepItem();
             this.stepItem3 = new DevComponents.DotNetBar.StepItem();
-            this.FastAddPishForushTahvilDateDATE = new Atf.UI.DateTimeSelector();
             this.MainPageSlider.SuspendLayout();
             this.RegisterSliderPage.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -254,16 +381,39 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).BeginInit();
             this.superTabControl1.SuspendLayout();
+            this.superTabControlPanel4.SuspendLayout();
+            this.flowLayoutPanel5.SuspendLayout();
             this.superTabControlPanel2.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.superTabControlPanel3.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
             this.superTabControlPanel1.SuspendLayout();
             this.flowLayoutPanel7.SuspendLayout();
-            this.superTabControlPanel4.SuspendLayout();
-            this.flowLayoutPanel5.SuspendLayout();
             this.KhadamatSliderPage.SuspendLayout();
             this.expandablePanel1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).BeginInit();
+            this.superTabControl4.SuspendLayout();
+            this.superTabControlPanel11.SuspendLayout();
+            this.flowLayoutPanel17.SuspendLayout();
+            this.superTabControlPanel16.SuspendLayout();
+            this.flowLayoutPanel18.SuspendLayout();
+            this.superTabControlPanel17.SuspendLayout();
+            this.flowLayoutPanel19.SuspendLayout();
+            this.superTabControlPanel18.SuspendLayout();
+            this.flowLayoutPanel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).BeginInit();
+            this.superTabControl3.SuspendLayout();
+            this.superTabControlPanel10.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.superTabControlPanel13.SuspendLayout();
+            this.flowLayoutPanel14.SuspendLayout();
+            this.superTabControlPanel14.SuspendLayout();
+            this.flowLayoutPanel15.SuspendLayout();
+            this.superTabControlPanel15.SuspendLayout();
+            this.flowLayoutPanel16.SuspendLayout();
+            this.superTabControlPanel12.SuspendLayout();
+            this.flowLayoutPanel13.SuspendLayout();
             this.DaftarCheSliederPage.SuspendLayout();
             this.AmlakSliderPage.SuspendLayout();
             this.FooterPanel.SuspendLayout();
@@ -792,8 +942,8 @@
             this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl2.ControlBox.MenuBox,
             this.superTabControl2.ControlBox.CloseBox});
-            this.superTabControl2.Controls.Add(this.superTabControlPanel8);
             this.superTabControl2.Controls.Add(this.superTabControlPanel5);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel8);
             this.superTabControl2.Controls.Add(this.superTabControlPanel9);
             this.superTabControl2.Controls.Add(this.superTabControlPanel6);
             this.superTabControl2.Controls.Add(this.superTabControlPanel7);
@@ -1006,6 +1156,14 @@
             this.FastAddPishForushSandadKindCOMBO.Name = "FastAddPishForushSandadKindCOMBO";
             this.FastAddPishForushSandadKindCOMBO.Size = new System.Drawing.Size(291, 35);
             this.FastAddPishForushSandadKindCOMBO.TabIndex = 19;
+            // 
+            // FastAddPishForushTahvilDateDATE
+            // 
+            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(827, 185);
+            this.FastAddPishForushTahvilDateDATE.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddPishForushTahvilDateDATE.Name = "FastAddPishForushTahvilDateDATE";
+            this.FastAddPishForushTahvilDateDATE.Size = new System.Drawing.Size(291, 28);
+            this.FastAddPishForushTahvilDateDATE.TabIndex = 21;
             // 
             // FastAddPishForushDangNumTB
             // 
@@ -1453,9 +1611,9 @@
             this.superTabControl1.ControlBox.MenuBox,
             this.superTabControl1.ControlBox.CloseBox});
             this.superTabControl1.Controls.Add(this.superTabControlPanel2);
+            this.superTabControl1.Controls.Add(this.superTabControlPanel4);
             this.superTabControl1.Controls.Add(this.superTabControlPanel3);
             this.superTabControl1.Controls.Add(this.superTabControlPanel1);
-            this.superTabControl1.Controls.Add(this.superTabControlPanel4);
             this.superTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControl1.ForeColor = System.Drawing.Color.Black;
             this.superTabControl1.Location = new System.Drawing.Point(0, 0);
@@ -1486,6 +1644,359 @@
             this.superTabControl1.TabStripColor = superTabColorTable2;
             this.superTabControl1.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
             this.superTabControl1.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            // 
+            // superTabControlPanel4
+            // 
+            this.superTabControlPanel4.Controls.Add(this.flowLayoutPanel5);
+            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel4.Name = "superTabControlPanel4";
+            this.superTabControlPanel4.Size = new System.Drawing.Size(1190, 587);
+            this.superTabControlPanel4.TabIndex = 0;
+            this.superTabControlPanel4.TabItem = this.FastAddApaTAB;
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaMantagheTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAddressTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaKarbariCOMBO);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTabagheNumTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTabagheTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaSalSakhtTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaOtaghNumTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaVahedHarTabagheTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaNamaTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaKafpushTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAbCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaGazCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaBarghCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAsansourCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTerasCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaHayatCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaParkingCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaCabinetCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAnbarCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTelCB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaDesTB);
+            this.flowLayoutPanel5.Controls.Add(this.FastAddApaNextBTN);
+            this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(1190, 587);
+            this.flowLayoutPanel5.TabIndex = 1;
+            // 
+            // FastAddApaMantagheTB
+            // 
+            this.FastAddApaMantagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaMantagheTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaMantagheTB.Location = new System.Drawing.Point(980, 20);
+            this.FastAddApaMantagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaMantagheTB.Name = "FastAddApaMantagheTB";
+            this.FastAddApaMantagheTB.PlaceHolderText = "منطقه";
+            this.FastAddApaMantagheTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaMantagheTB.TabIndex = 0;
+            this.FastAddApaMantagheTB.Text = "منطقه";
+            // 
+            // FastAddApaAddressTB
+            // 
+            this.FastAddApaAddressTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaAddressTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaAddressTB.Location = new System.Drawing.Point(750, 20);
+            this.FastAddApaAddressTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaAddressTB.Name = "FastAddApaAddressTB";
+            this.FastAddApaAddressTB.PlaceHolderText = "منطقه";
+            this.FastAddApaAddressTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaAddressTB.TabIndex = 1;
+            this.FastAddApaAddressTB.Text = "آدرس";
+            // 
+            // FastAddApaKarbariCOMBO
+            // 
+            this.FastAddApaKarbariCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaKarbariCOMBO.FormattingEnabled = true;
+            this.FastAddApaKarbariCOMBO.Location = new System.Drawing.Point(520, 20);
+            this.FastAddApaKarbariCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaKarbariCOMBO.Name = "FastAddApaKarbariCOMBO";
+            this.FastAddApaKarbariCOMBO.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaKarbariCOMBO.TabIndex = 19;
+            // 
+            // FastAddApaTabagheNumTB
+            // 
+            this.FastAddApaTabagheNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaTabagheNumTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaTabagheNumTB.Location = new System.Drawing.Point(290, 20);
+            this.FastAddApaTabagheNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaTabagheNumTB.Name = "FastAddApaTabagheNumTB";
+            this.FastAddApaTabagheNumTB.PlaceHolderText = "منطقه";
+            this.FastAddApaTabagheNumTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaTabagheNumTB.TabIndex = 3;
+            this.FastAddApaTabagheNumTB.Text = "تعداد طبقات";
+            this.FastAddApaTabagheNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaTabagheNumTB_KeyPress);
+            // 
+            // FastAddApaTabagheTB
+            // 
+            this.FastAddApaTabagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaTabagheTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaTabagheTB.Location = new System.Drawing.Point(60, 20);
+            this.FastAddApaTabagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaTabagheTB.Name = "FastAddApaTabagheTB";
+            this.FastAddApaTabagheTB.PlaceHolderText = "منطقه";
+            this.FastAddApaTabagheTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaTabagheTB.TabIndex = 4;
+            this.FastAddApaTabagheTB.Text = "طبقه";
+            this.FastAddApaTabagheTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaTabagheTB_KeyPress);
+            // 
+            // FastAddApaSalSakhtTB
+            // 
+            this.FastAddApaSalSakhtTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaSalSakhtTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaSalSakhtTB.Location = new System.Drawing.Point(980, 75);
+            this.FastAddApaSalSakhtTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaSalSakhtTB.Name = "FastAddApaSalSakhtTB";
+            this.FastAddApaSalSakhtTB.PlaceHolderText = "منطقه";
+            this.FastAddApaSalSakhtTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaSalSakhtTB.TabIndex = 5;
+            this.FastAddApaSalSakhtTB.Text = "سال ساخت";
+            this.FastAddApaSalSakhtTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaSalSakhtTB_KeyPress);
+            // 
+            // FastAddApaOtaghNumTB
+            // 
+            this.FastAddApaOtaghNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaOtaghNumTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaOtaghNumTB.Location = new System.Drawing.Point(750, 75);
+            this.FastAddApaOtaghNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaOtaghNumTB.Name = "FastAddApaOtaghNumTB";
+            this.FastAddApaOtaghNumTB.PlaceHolderText = "منطقه";
+            this.FastAddApaOtaghNumTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaOtaghNumTB.TabIndex = 6;
+            this.FastAddApaOtaghNumTB.Text = "تعداد اتاق";
+            this.FastAddApaOtaghNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaOtaghNumTB_KeyPress);
+            // 
+            // FastAddApaVahedHarTabagheTB
+            // 
+            this.FastAddApaVahedHarTabagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaVahedHarTabagheTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaVahedHarTabagheTB.Location = new System.Drawing.Point(520, 75);
+            this.FastAddApaVahedHarTabagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaVahedHarTabagheTB.Name = "FastAddApaVahedHarTabagheTB";
+            this.FastAddApaVahedHarTabagheTB.PlaceHolderText = "منطقه";
+            this.FastAddApaVahedHarTabagheTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaVahedHarTabagheTB.TabIndex = 7;
+            this.FastAddApaVahedHarTabagheTB.Text = "تعداد واحد در هر طبقه";
+            this.FastAddApaVahedHarTabagheTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaVahedHarTabagheTB_KeyPress);
+            // 
+            // FastAddApaNamaTB
+            // 
+            this.FastAddApaNamaTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaNamaTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaNamaTB.Location = new System.Drawing.Point(290, 75);
+            this.FastAddApaNamaTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaNamaTB.Name = "FastAddApaNamaTB";
+            this.FastAddApaNamaTB.PlaceHolderText = "منطقه";
+            this.FastAddApaNamaTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaNamaTB.TabIndex = 8;
+            this.FastAddApaNamaTB.Text = "نما";
+            // 
+            // FastAddApaKafpushTB
+            // 
+            this.FastAddApaKafpushTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaKafpushTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaKafpushTB.Location = new System.Drawing.Point(60, 75);
+            this.FastAddApaKafpushTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaKafpushTB.Name = "FastAddApaKafpushTB";
+            this.FastAddApaKafpushTB.PlaceHolderText = "منطقه";
+            this.FastAddApaKafpushTB.Size = new System.Drawing.Size(190, 35);
+            this.FastAddApaKafpushTB.TabIndex = 18;
+            this.FastAddApaKafpushTB.Text = "کفپوش";
+            // 
+            // FastAddApaAbCB
+            // 
+            this.FastAddApaAbCB.AutoEllipsis = true;
+            this.FastAddApaAbCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaAbCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaAbCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaAbCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaAbCB.Location = new System.Drawing.Point(980, 130);
+            this.FastAddApaAbCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaAbCB.Name = "FastAddApaAbCB";
+            this.FastAddApaAbCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaAbCB.TabIndex = 9;
+            this.FastAddApaAbCB.Text = "آب";
+            this.FastAddApaAbCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaAbCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaGazCB
+            // 
+            this.FastAddApaGazCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaGazCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaGazCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaGazCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaGazCB.Location = new System.Drawing.Point(750, 130);
+            this.FastAddApaGazCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaGazCB.Name = "FastAddApaGazCB";
+            this.FastAddApaGazCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaGazCB.TabIndex = 10;
+            this.FastAddApaGazCB.Text = "گاز";
+            this.FastAddApaGazCB.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.FastAddApaGazCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaGazCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaBarghCB
+            // 
+            this.FastAddApaBarghCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaBarghCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaBarghCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaBarghCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaBarghCB.Location = new System.Drawing.Point(520, 130);
+            this.FastAddApaBarghCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaBarghCB.Name = "FastAddApaBarghCB";
+            this.FastAddApaBarghCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaBarghCB.TabIndex = 11;
+            this.FastAddApaBarghCB.Text = "برق";
+            this.FastAddApaBarghCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaBarghCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaAsansourCB
+            // 
+            this.FastAddApaAsansourCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaAsansourCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaAsansourCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaAsansourCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaAsansourCB.Location = new System.Drawing.Point(290, 130);
+            this.FastAddApaAsansourCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaAsansourCB.Name = "FastAddApaAsansourCB";
+            this.FastAddApaAsansourCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaAsansourCB.TabIndex = 12;
+            this.FastAddApaAsansourCB.Text = "آسانسور";
+            this.FastAddApaAsansourCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaAsansourCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaTerasCB
+            // 
+            this.FastAddApaTerasCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaTerasCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaTerasCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaTerasCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaTerasCB.Location = new System.Drawing.Point(60, 130);
+            this.FastAddApaTerasCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaTerasCB.Name = "FastAddApaTerasCB";
+            this.FastAddApaTerasCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaTerasCB.TabIndex = 13;
+            this.FastAddApaTerasCB.Text = "تراس";
+            this.FastAddApaTerasCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaTerasCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaHayatCB
+            // 
+            this.FastAddApaHayatCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaHayatCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaHayatCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaHayatCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaHayatCB.Location = new System.Drawing.Point(980, 180);
+            this.FastAddApaHayatCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaHayatCB.Name = "FastAddApaHayatCB";
+            this.FastAddApaHayatCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaHayatCB.TabIndex = 14;
+            this.FastAddApaHayatCB.Text = "حیاط";
+            this.FastAddApaHayatCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaHayatCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaParkingCB
+            // 
+            this.FastAddApaParkingCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaParkingCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaParkingCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaParkingCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaParkingCB.Location = new System.Drawing.Point(750, 180);
+            this.FastAddApaParkingCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaParkingCB.Name = "FastAddApaParkingCB";
+            this.FastAddApaParkingCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaParkingCB.TabIndex = 15;
+            this.FastAddApaParkingCB.Text = "پارکینگ";
+            this.FastAddApaParkingCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaParkingCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaCabinetCB
+            // 
+            this.FastAddApaCabinetCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaCabinetCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaCabinetCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaCabinetCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaCabinetCB.Location = new System.Drawing.Point(520, 180);
+            this.FastAddApaCabinetCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaCabinetCB.Name = "FastAddApaCabinetCB";
+            this.FastAddApaCabinetCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaCabinetCB.TabIndex = 16;
+            this.FastAddApaCabinetCB.Text = "کابینت";
+            this.FastAddApaCabinetCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaCabinetCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaAnbarCB
+            // 
+            this.FastAddApaAnbarCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaAnbarCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaAnbarCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaAnbarCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaAnbarCB.Location = new System.Drawing.Point(290, 180);
+            this.FastAddApaAnbarCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaAnbarCB.Name = "FastAddApaAnbarCB";
+            this.FastAddApaAnbarCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaAnbarCB.TabIndex = 17;
+            this.FastAddApaAnbarCB.Text = "انبار";
+            this.FastAddApaAnbarCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaAnbarCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaTelCB
+            // 
+            this.FastAddApaTelCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.FastAddApaTelCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FastAddApaTelCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaTelCB.ForeColor = System.Drawing.Color.Black;
+            this.FastAddApaTelCB.Location = new System.Drawing.Point(60, 180);
+            this.FastAddApaTelCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaTelCB.Name = "FastAddApaTelCB";
+            this.FastAddApaTelCB.Size = new System.Drawing.Size(190, 30);
+            this.FastAddApaTelCB.TabIndex = 21;
+            this.FastAddApaTelCB.Text = "تلفن";
+            this.FastAddApaTelCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.FastAddApaTelCB.UseVisualStyleBackColor = true;
+            // 
+            // FastAddApaDesTB
+            // 
+            this.FastAddApaDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.FastAddApaDesTB.ForeColor = System.Drawing.Color.Gray;
+            this.FastAddApaDesTB.Location = new System.Drawing.Point(879, 230);
+            this.FastAddApaDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.FastAddApaDesTB.Multiline = true;
+            this.FastAddApaDesTB.Name = "FastAddApaDesTB";
+            this.FastAddApaDesTB.PlaceHolderText = "منطقه";
+            this.FastAddApaDesTB.Size = new System.Drawing.Size(291, 99);
+            this.FastAddApaDesTB.TabIndex = 2;
+            this.FastAddApaDesTB.Text = "توضیحات";
+            // 
+            // FastAddApaNextBTN
+            // 
+            this.FastAddApaNextBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.FastAddApaNextBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.FastAddApaNextBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FastAddApaNextBTN.Image = ((System.Drawing.Image)(resources.GetObject("FastAddApaNextBTN.Image")));
+            this.FastAddApaNextBTN.Location = new System.Drawing.Point(779, 230);
+            this.FastAddApaNextBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.FastAddApaNextBTN.Name = "FastAddApaNextBTN";
+            this.FastAddApaNextBTN.Size = new System.Drawing.Size(77, 32);
+            this.FastAddApaNextBTN.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.FastAddApaNextBTN.SymbolColor = System.Drawing.Color.Transparent;
+            this.FastAddApaNextBTN.TabIndex = 20;
+            this.FastAddApaNextBTN.Text = "ادامه";
+            this.FastAddApaNextBTN.Click += new System.EventHandler(this.FastAddApaNextBTN_Click);
+            // 
+            // FastAddApaTAB
+            // 
+            this.FastAddApaTAB.AttachedControl = this.superTabControlPanel4;
+            this.FastAddApaTAB.GlobalItem = false;
+            this.FastAddApaTAB.Image = ((System.Drawing.Image)(resources.GetObject("FastAddApaTAB.Image")));
+            this.FastAddApaTAB.Name = "FastAddApaTAB";
+            this.FastAddApaTAB.Text = "آپارتمان";
             // 
             // superTabControlPanel2
             // 
@@ -2370,359 +2881,6 @@
             this.FastAddZamTab.Name = "FastAddZamTab";
             this.FastAddZamTab.Text = "زمین";
             // 
-            // superTabControlPanel4
-            // 
-            this.superTabControlPanel4.Controls.Add(this.flowLayoutPanel5);
-            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel4.Name = "superTabControlPanel4";
-            this.superTabControlPanel4.Size = new System.Drawing.Size(1190, 587);
-            this.superTabControlPanel4.TabIndex = 0;
-            this.superTabControlPanel4.TabItem = this.FastAddApaTAB;
-            // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaMantagheTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAddressTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaKarbariCOMBO);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTabagheNumTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTabagheTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaSalSakhtTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaOtaghNumTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaVahedHarTabagheTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaNamaTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaKafpushTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAbCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaGazCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaBarghCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAsansourCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTerasCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaHayatCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaParkingCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaCabinetCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaAnbarCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaTelCB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaDesTB);
-            this.flowLayoutPanel5.Controls.Add(this.FastAddApaNextBTN);
-            this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(1190, 587);
-            this.flowLayoutPanel5.TabIndex = 1;
-            // 
-            // FastAddApaMantagheTB
-            // 
-            this.FastAddApaMantagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaMantagheTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaMantagheTB.Location = new System.Drawing.Point(980, 20);
-            this.FastAddApaMantagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaMantagheTB.Name = "FastAddApaMantagheTB";
-            this.FastAddApaMantagheTB.PlaceHolderText = "منطقه";
-            this.FastAddApaMantagheTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaMantagheTB.TabIndex = 0;
-            this.FastAddApaMantagheTB.Text = "منطقه";
-            // 
-            // FastAddApaAddressTB
-            // 
-            this.FastAddApaAddressTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaAddressTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaAddressTB.Location = new System.Drawing.Point(750, 20);
-            this.FastAddApaAddressTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaAddressTB.Name = "FastAddApaAddressTB";
-            this.FastAddApaAddressTB.PlaceHolderText = "منطقه";
-            this.FastAddApaAddressTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaAddressTB.TabIndex = 1;
-            this.FastAddApaAddressTB.Text = "آدرس";
-            // 
-            // FastAddApaKarbariCOMBO
-            // 
-            this.FastAddApaKarbariCOMBO.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaKarbariCOMBO.FormattingEnabled = true;
-            this.FastAddApaKarbariCOMBO.Location = new System.Drawing.Point(520, 20);
-            this.FastAddApaKarbariCOMBO.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaKarbariCOMBO.Name = "FastAddApaKarbariCOMBO";
-            this.FastAddApaKarbariCOMBO.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaKarbariCOMBO.TabIndex = 19;
-            // 
-            // FastAddApaTabagheNumTB
-            // 
-            this.FastAddApaTabagheNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaTabagheNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaTabagheNumTB.Location = new System.Drawing.Point(290, 20);
-            this.FastAddApaTabagheNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaTabagheNumTB.Name = "FastAddApaTabagheNumTB";
-            this.FastAddApaTabagheNumTB.PlaceHolderText = "منطقه";
-            this.FastAddApaTabagheNumTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaTabagheNumTB.TabIndex = 3;
-            this.FastAddApaTabagheNumTB.Text = "تعداد طبقات";
-            this.FastAddApaTabagheNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaTabagheNumTB_KeyPress);
-            // 
-            // FastAddApaTabagheTB
-            // 
-            this.FastAddApaTabagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaTabagheTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaTabagheTB.Location = new System.Drawing.Point(60, 20);
-            this.FastAddApaTabagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaTabagheTB.Name = "FastAddApaTabagheTB";
-            this.FastAddApaTabagheTB.PlaceHolderText = "منطقه";
-            this.FastAddApaTabagheTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaTabagheTB.TabIndex = 4;
-            this.FastAddApaTabagheTB.Text = "طبقه";
-            this.FastAddApaTabagheTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaTabagheTB_KeyPress);
-            // 
-            // FastAddApaSalSakhtTB
-            // 
-            this.FastAddApaSalSakhtTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaSalSakhtTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaSalSakhtTB.Location = new System.Drawing.Point(980, 75);
-            this.FastAddApaSalSakhtTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaSalSakhtTB.Name = "FastAddApaSalSakhtTB";
-            this.FastAddApaSalSakhtTB.PlaceHolderText = "منطقه";
-            this.FastAddApaSalSakhtTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaSalSakhtTB.TabIndex = 5;
-            this.FastAddApaSalSakhtTB.Text = "سال ساخت";
-            this.FastAddApaSalSakhtTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaSalSakhtTB_KeyPress);
-            // 
-            // FastAddApaOtaghNumTB
-            // 
-            this.FastAddApaOtaghNumTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaOtaghNumTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaOtaghNumTB.Location = new System.Drawing.Point(750, 75);
-            this.FastAddApaOtaghNumTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaOtaghNumTB.Name = "FastAddApaOtaghNumTB";
-            this.FastAddApaOtaghNumTB.PlaceHolderText = "منطقه";
-            this.FastAddApaOtaghNumTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaOtaghNumTB.TabIndex = 6;
-            this.FastAddApaOtaghNumTB.Text = "تعداد اتاق";
-            this.FastAddApaOtaghNumTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaOtaghNumTB_KeyPress);
-            // 
-            // FastAddApaVahedHarTabagheTB
-            // 
-            this.FastAddApaVahedHarTabagheTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaVahedHarTabagheTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaVahedHarTabagheTB.Location = new System.Drawing.Point(520, 75);
-            this.FastAddApaVahedHarTabagheTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaVahedHarTabagheTB.Name = "FastAddApaVahedHarTabagheTB";
-            this.FastAddApaVahedHarTabagheTB.PlaceHolderText = "منطقه";
-            this.FastAddApaVahedHarTabagheTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaVahedHarTabagheTB.TabIndex = 7;
-            this.FastAddApaVahedHarTabagheTB.Text = "تعداد واحد در هر طبقه";
-            this.FastAddApaVahedHarTabagheTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FastAddApaVahedHarTabagheTB_KeyPress);
-            // 
-            // FastAddApaNamaTB
-            // 
-            this.FastAddApaNamaTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaNamaTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaNamaTB.Location = new System.Drawing.Point(290, 75);
-            this.FastAddApaNamaTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaNamaTB.Name = "FastAddApaNamaTB";
-            this.FastAddApaNamaTB.PlaceHolderText = "منطقه";
-            this.FastAddApaNamaTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaNamaTB.TabIndex = 8;
-            this.FastAddApaNamaTB.Text = "نما";
-            // 
-            // FastAddApaKafpushTB
-            // 
-            this.FastAddApaKafpushTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaKafpushTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaKafpushTB.Location = new System.Drawing.Point(60, 75);
-            this.FastAddApaKafpushTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaKafpushTB.Name = "FastAddApaKafpushTB";
-            this.FastAddApaKafpushTB.PlaceHolderText = "منطقه";
-            this.FastAddApaKafpushTB.Size = new System.Drawing.Size(190, 35);
-            this.FastAddApaKafpushTB.TabIndex = 18;
-            this.FastAddApaKafpushTB.Text = "کفپوش";
-            // 
-            // FastAddApaAbCB
-            // 
-            this.FastAddApaAbCB.AutoEllipsis = true;
-            this.FastAddApaAbCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaAbCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaAbCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaAbCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaAbCB.Location = new System.Drawing.Point(980, 130);
-            this.FastAddApaAbCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaAbCB.Name = "FastAddApaAbCB";
-            this.FastAddApaAbCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaAbCB.TabIndex = 9;
-            this.FastAddApaAbCB.Text = "آب";
-            this.FastAddApaAbCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaAbCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaGazCB
-            // 
-            this.FastAddApaGazCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaGazCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaGazCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaGazCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaGazCB.Location = new System.Drawing.Point(750, 130);
-            this.FastAddApaGazCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaGazCB.Name = "FastAddApaGazCB";
-            this.FastAddApaGazCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaGazCB.TabIndex = 10;
-            this.FastAddApaGazCB.Text = "گاز";
-            this.FastAddApaGazCB.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.FastAddApaGazCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaGazCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaBarghCB
-            // 
-            this.FastAddApaBarghCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaBarghCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaBarghCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaBarghCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaBarghCB.Location = new System.Drawing.Point(520, 130);
-            this.FastAddApaBarghCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaBarghCB.Name = "FastAddApaBarghCB";
-            this.FastAddApaBarghCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaBarghCB.TabIndex = 11;
-            this.FastAddApaBarghCB.Text = "برق";
-            this.FastAddApaBarghCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaBarghCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaAsansourCB
-            // 
-            this.FastAddApaAsansourCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaAsansourCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaAsansourCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaAsansourCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaAsansourCB.Location = new System.Drawing.Point(290, 130);
-            this.FastAddApaAsansourCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaAsansourCB.Name = "FastAddApaAsansourCB";
-            this.FastAddApaAsansourCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaAsansourCB.TabIndex = 12;
-            this.FastAddApaAsansourCB.Text = "آسانسور";
-            this.FastAddApaAsansourCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaAsansourCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaTerasCB
-            // 
-            this.FastAddApaTerasCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaTerasCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaTerasCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaTerasCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaTerasCB.Location = new System.Drawing.Point(60, 130);
-            this.FastAddApaTerasCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaTerasCB.Name = "FastAddApaTerasCB";
-            this.FastAddApaTerasCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaTerasCB.TabIndex = 13;
-            this.FastAddApaTerasCB.Text = "تراس";
-            this.FastAddApaTerasCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaTerasCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaHayatCB
-            // 
-            this.FastAddApaHayatCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaHayatCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaHayatCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaHayatCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaHayatCB.Location = new System.Drawing.Point(980, 180);
-            this.FastAddApaHayatCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaHayatCB.Name = "FastAddApaHayatCB";
-            this.FastAddApaHayatCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaHayatCB.TabIndex = 14;
-            this.FastAddApaHayatCB.Text = "حیاط";
-            this.FastAddApaHayatCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaHayatCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaParkingCB
-            // 
-            this.FastAddApaParkingCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaParkingCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaParkingCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaParkingCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaParkingCB.Location = new System.Drawing.Point(750, 180);
-            this.FastAddApaParkingCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaParkingCB.Name = "FastAddApaParkingCB";
-            this.FastAddApaParkingCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaParkingCB.TabIndex = 15;
-            this.FastAddApaParkingCB.Text = "پارکینگ";
-            this.FastAddApaParkingCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaParkingCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaCabinetCB
-            // 
-            this.FastAddApaCabinetCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaCabinetCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaCabinetCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaCabinetCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaCabinetCB.Location = new System.Drawing.Point(520, 180);
-            this.FastAddApaCabinetCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaCabinetCB.Name = "FastAddApaCabinetCB";
-            this.FastAddApaCabinetCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaCabinetCB.TabIndex = 16;
-            this.FastAddApaCabinetCB.Text = "کابینت";
-            this.FastAddApaCabinetCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaCabinetCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaAnbarCB
-            // 
-            this.FastAddApaAnbarCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaAnbarCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaAnbarCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaAnbarCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaAnbarCB.Location = new System.Drawing.Point(290, 180);
-            this.FastAddApaAnbarCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaAnbarCB.Name = "FastAddApaAnbarCB";
-            this.FastAddApaAnbarCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaAnbarCB.TabIndex = 17;
-            this.FastAddApaAnbarCB.Text = "انبار";
-            this.FastAddApaAnbarCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaAnbarCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaTelCB
-            // 
-            this.FastAddApaTelCB.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.FastAddApaTelCB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FastAddApaTelCB.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaTelCB.ForeColor = System.Drawing.Color.Black;
-            this.FastAddApaTelCB.Location = new System.Drawing.Point(60, 180);
-            this.FastAddApaTelCB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaTelCB.Name = "FastAddApaTelCB";
-            this.FastAddApaTelCB.Size = new System.Drawing.Size(190, 30);
-            this.FastAddApaTelCB.TabIndex = 21;
-            this.FastAddApaTelCB.Text = "تلفن";
-            this.FastAddApaTelCB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.FastAddApaTelCB.UseVisualStyleBackColor = true;
-            // 
-            // FastAddApaDesTB
-            // 
-            this.FastAddApaDesTB.Font = new System.Drawing.Font("B Yekan", 10.8F);
-            this.FastAddApaDesTB.ForeColor = System.Drawing.Color.Gray;
-            this.FastAddApaDesTB.Location = new System.Drawing.Point(879, 230);
-            this.FastAddApaDesTB.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddApaDesTB.Multiline = true;
-            this.FastAddApaDesTB.Name = "FastAddApaDesTB";
-            this.FastAddApaDesTB.PlaceHolderText = "منطقه";
-            this.FastAddApaDesTB.Size = new System.Drawing.Size(291, 99);
-            this.FastAddApaDesTB.TabIndex = 2;
-            this.FastAddApaDesTB.Text = "توضیحات";
-            // 
-            // FastAddApaNextBTN
-            // 
-            this.FastAddApaNextBTN.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.FastAddApaNextBTN.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.FastAddApaNextBTN.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.FastAddApaNextBTN.Image = ((System.Drawing.Image)(resources.GetObject("FastAddApaNextBTN.Image")));
-            this.FastAddApaNextBTN.Location = new System.Drawing.Point(779, 230);
-            this.FastAddApaNextBTN.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
-            this.FastAddApaNextBTN.Name = "FastAddApaNextBTN";
-            this.FastAddApaNextBTN.Size = new System.Drawing.Size(77, 32);
-            this.FastAddApaNextBTN.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
-            this.FastAddApaNextBTN.SymbolColor = System.Drawing.Color.Transparent;
-            this.FastAddApaNextBTN.TabIndex = 20;
-            this.FastAddApaNextBTN.Text = "ادامه";
-            this.FastAddApaNextBTN.Click += new System.EventHandler(this.FastAddApaNextBTN_Click);
-            // 
-            // FastAddApaTAB
-            // 
-            this.FastAddApaTAB.AttachedControl = this.superTabControlPanel4;
-            this.FastAddApaTAB.GlobalItem = false;
-            this.FastAddApaTAB.Image = ((System.Drawing.Image)(resources.GetObject("FastAddApaTAB.Image")));
-            this.FastAddApaTAB.Name = "FastAddApaTAB";
-            this.FastAddApaTAB.Text = "آپارتمان";
-            // 
             // panel5
             // 
             this.panel5.AutoSize = true;
@@ -2746,9 +2904,9 @@
             this.panel4.AutoSize = true;
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 189);
+            this.panel4.Location = new System.Drawing.Point(0, 654);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1331, 497);
+            this.panel4.Size = new System.Drawing.Size(1331, 32);
             this.panel4.TabIndex = 13;
             // 
             // expandablePanel1
@@ -2757,14 +2915,14 @@
             this.expandablePanel1.AutoSize = true;
             this.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.expandablePanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.expandablePanel1.Controls.Add(this.flowLayoutPanel2);
+            this.expandablePanel1.Controls.Add(this.panel7);
             this.expandablePanel1.DisabledBackColor = System.Drawing.Color.Empty;
             this.expandablePanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.expandablePanel1.ExpandOnTitleClick = true;
             this.expandablePanel1.HideControlsWhenCollapsed = true;
             this.expandablePanel1.Location = new System.Drawing.Point(0, 0);
             this.expandablePanel1.Name = "expandablePanel1";
-            this.expandablePanel1.Size = new System.Drawing.Size(1331, 189);
+            this.expandablePanel1.Size = new System.Drawing.Size(1331, 654);
             this.expandablePanel1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.expandablePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.expandablePanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -2779,17 +2937,1626 @@
             this.expandablePanel1.TitleStyle.GradientAngle = 90;
             this.expandablePanel1.TitleText = "عناوین جست و جو";
             // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.superTabControl4);
+            this.panel7.Controls.Add(this.superTabControl3);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 26);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1331, 628);
+            this.panel7.TabIndex = 4;
+            // 
+            // superTabControl4
+            // 
+            this.superTabControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.MenuBox.Name = "";
+            this.superTabControl4.ControlBox.Name = "";
+            this.superTabControl4.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl4.ControlBox.MenuBox,
+            this.superTabControl4.ControlBox.CloseBox});
+            this.superTabControl4.Controls.Add(this.superTabControlPanel11);
+            this.superTabControl4.Controls.Add(this.superTabControlPanel16);
+            this.superTabControl4.Controls.Add(this.superTabControlPanel17);
+            this.superTabControl4.Controls.Add(this.superTabControlPanel18);
+            this.superTabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControl4.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl4.Location = new System.Drawing.Point(0, 0);
+            this.superTabControl4.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
+            this.superTabControl4.Name = "superTabControl4";
+            this.superTabControl4.ReorderTabsEnabled = true;
+            this.superTabControl4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.superTabControl4.SelectedTabFont = new System.Drawing.Font("B Yekan", 14F, System.Drawing.FontStyle.Bold);
+            this.superTabControl4.SelectedTabIndex = 0;
+            this.superTabControl4.Size = new System.Drawing.Size(647, 628);
+            this.superTabControl4.TabFont = new System.Drawing.Font("B Yekan", 12F);
+            this.superTabControl4.TabIndex = 5;
+            this.superTabControl4.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem2,
+            this.superTabItem10,
+            this.superTabItem8,
+            this.superTabItem9});
+            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
+            superTabColorTable3.Background = superTabLinearGradientColorTable3;
+            superTabControlBoxStateColorTable7.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable3.ControlBoxDefault = superTabControlBoxStateColorTable7;
+            superTabControlBoxStateColorTable8.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable3.ControlBoxMouseOver = superTabControlBoxStateColorTable8;
+            superTabControlBoxStateColorTable9.Background = System.Drawing.Color.Transparent;
+            superTabColorTable3.ControlBoxPressed = superTabControlBoxStateColorTable9;
+            this.superTabControl4.TabStripColor = superTabColorTable3;
+            this.superTabControl4.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
+            this.superTabControl4.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            // 
+            // superTabControlPanel11
+            // 
+            this.superTabControlPanel11.Controls.Add(this.flowLayoutPanel17);
+            this.superTabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel11.Name = "superTabControlPanel11";
+            this.superTabControlPanel11.Size = new System.Drawing.Size(647, 582);
+            this.superTabControlPanel11.TabIndex = 0;
+            this.superTabControlPanel11.TabItem = this.superTabItem2;
+            // 
+            // flowLayoutPanel17
+            // 
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox46);
+            this.flowLayoutPanel17.Controls.Add(this.comboBox4);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox48);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox49);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox50);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox51);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox52);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox53);
+            this.flowLayoutPanel17.Controls.Add(this.placeHolderTextBox54);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox1);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox2);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox3);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox4);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox5);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox6);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox7);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox8);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox9);
+            this.flowLayoutPanel17.Controls.Add(this.checkBox10);
+            this.flowLayoutPanel17.Controls.Add(this.buttonX7);
+            this.flowLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel17.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
+            this.flowLayoutPanel17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel17.Size = new System.Drawing.Size(647, 582);
+            this.flowLayoutPanel17.TabIndex = 0;
+            // 
+            // placeHolderTextBox46
+            // 
+            this.placeHolderTextBox46.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox46.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox46.Location = new System.Drawing.Point(437, 20);
+            this.placeHolderTextBox46.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox46.Name = "placeHolderTextBox46";
+            this.placeHolderTextBox46.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox46.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox46.TabIndex = 0;
+            this.placeHolderTextBox46.Text = "منطقه";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(207, 20);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(190, 35);
+            this.comboBox4.TabIndex = 19;
+            // 
+            // placeHolderTextBox48
+            // 
+            this.placeHolderTextBox48.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox48.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox48.Location = new System.Drawing.Point(437, 75);
+            this.placeHolderTextBox48.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox48.Name = "placeHolderTextBox48";
+            this.placeHolderTextBox48.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox48.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox48.TabIndex = 3;
+            this.placeHolderTextBox48.Text = "تعداد طبقات";
+            // 
+            // placeHolderTextBox49
+            // 
+            this.placeHolderTextBox49.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox49.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox49.Location = new System.Drawing.Point(207, 75);
+            this.placeHolderTextBox49.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox49.Name = "placeHolderTextBox49";
+            this.placeHolderTextBox49.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox49.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox49.TabIndex = 4;
+            this.placeHolderTextBox49.Text = "طبقه";
+            // 
+            // placeHolderTextBox50
+            // 
+            this.placeHolderTextBox50.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox50.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox50.Location = new System.Drawing.Point(437, 130);
+            this.placeHolderTextBox50.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox50.Name = "placeHolderTextBox50";
+            this.placeHolderTextBox50.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox50.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox50.TabIndex = 5;
+            this.placeHolderTextBox50.Text = "سال ساخت";
+            // 
+            // placeHolderTextBox51
+            // 
+            this.placeHolderTextBox51.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox51.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox51.Location = new System.Drawing.Point(207, 130);
+            this.placeHolderTextBox51.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox51.Name = "placeHolderTextBox51";
+            this.placeHolderTextBox51.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox51.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox51.TabIndex = 6;
+            this.placeHolderTextBox51.Text = "تعداد اتاق";
+            // 
+            // placeHolderTextBox52
+            // 
+            this.placeHolderTextBox52.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox52.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox52.Location = new System.Drawing.Point(437, 185);
+            this.placeHolderTextBox52.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox52.Name = "placeHolderTextBox52";
+            this.placeHolderTextBox52.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox52.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox52.TabIndex = 7;
+            this.placeHolderTextBox52.Text = "تعداد واحد در هر طبقه";
+            // 
+            // placeHolderTextBox53
+            // 
+            this.placeHolderTextBox53.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox53.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox53.Location = new System.Drawing.Point(207, 185);
+            this.placeHolderTextBox53.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox53.Name = "placeHolderTextBox53";
+            this.placeHolderTextBox53.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox53.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox53.TabIndex = 8;
+            this.placeHolderTextBox53.Text = "نما";
+            // 
+            // placeHolderTextBox54
+            // 
+            this.placeHolderTextBox54.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox54.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox54.Location = new System.Drawing.Point(437, 240);
+            this.placeHolderTextBox54.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox54.Name = "placeHolderTextBox54";
+            this.placeHolderTextBox54.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox54.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox54.TabIndex = 18;
+            this.placeHolderTextBox54.Text = "کفپوش";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoEllipsis = true;
+            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox1.ForeColor = System.Drawing.Color.Black;
+            this.checkBox1.Location = new System.Drawing.Point(207, 240);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(190, 30);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "آب";
+            this.checkBox1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox2.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox2.ForeColor = System.Drawing.Color.Black;
+            this.checkBox2.Location = new System.Drawing.Point(437, 295);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(190, 30);
+            this.checkBox2.TabIndex = 10;
+            this.checkBox2.Text = "گاز";
+            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.checkBox2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox3.ForeColor = System.Drawing.Color.Black;
+            this.checkBox3.Location = new System.Drawing.Point(207, 295);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(190, 30);
+            this.checkBox3.TabIndex = 11;
+            this.checkBox3.Text = "برق";
+            this.checkBox3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox4.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox4.ForeColor = System.Drawing.Color.Black;
+            this.checkBox4.Location = new System.Drawing.Point(437, 345);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(190, 30);
+            this.checkBox4.TabIndex = 12;
+            this.checkBox4.Text = "آسانسور";
+            this.checkBox4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox5.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox5.ForeColor = System.Drawing.Color.Black;
+            this.checkBox5.Location = new System.Drawing.Point(207, 345);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(190, 30);
+            this.checkBox5.TabIndex = 13;
+            this.checkBox5.Text = "تراس";
+            this.checkBox5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox6.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox6.ForeColor = System.Drawing.Color.Black;
+            this.checkBox6.Location = new System.Drawing.Point(437, 395);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(190, 30);
+            this.checkBox6.TabIndex = 14;
+            this.checkBox6.Text = "حیاط";
+            this.checkBox6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox7.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox7.ForeColor = System.Drawing.Color.Black;
+            this.checkBox7.Location = new System.Drawing.Point(207, 395);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(190, 30);
+            this.checkBox7.TabIndex = 15;
+            this.checkBox7.Text = "پارکینگ";
+            this.checkBox7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox8.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox8.ForeColor = System.Drawing.Color.Black;
+            this.checkBox8.Location = new System.Drawing.Point(437, 445);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(190, 30);
+            this.checkBox8.TabIndex = 16;
+            this.checkBox8.Text = "کابینت";
+            this.checkBox8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox9.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox9.ForeColor = System.Drawing.Color.Black;
+            this.checkBox9.Location = new System.Drawing.Point(207, 445);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(190, 30);
+            this.checkBox9.TabIndex = 17;
+            this.checkBox9.Text = "انبار";
+            this.checkBox9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox10.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox10.ForeColor = System.Drawing.Color.Black;
+            this.checkBox10.Location = new System.Drawing.Point(437, 495);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(190, 30);
+            this.checkBox10.TabIndex = 21;
+            this.checkBox10.Text = "تلفن";
+            this.checkBox10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // buttonX7
+            // 
+            this.buttonX7.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX7.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX7.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX7.Image = ((System.Drawing.Image)(resources.GetObject("buttonX7.Image")));
+            this.buttonX7.Location = new System.Drawing.Point(337, 495);
+            this.buttonX7.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.buttonX7.Name = "buttonX7";
+            this.buttonX7.Size = new System.Drawing.Size(77, 32);
+            this.buttonX7.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX7.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX7.TabIndex = 20;
+            this.buttonX7.Text = "ادامه";
+            // 
+            // superTabItem2
+            // 
+            this.superTabItem2.AttachedControl = this.superTabControlPanel11;
+            this.superTabItem2.GlobalItem = false;
+            this.superTabItem2.Image = ((System.Drawing.Image)(resources.GetObject("superTabItem2.Image")));
+            this.superTabItem2.Name = "superTabItem2";
+            this.superTabItem2.Text = "ویلایی";
+            // 
+            // superTabControlPanel16
+            // 
+            this.superTabControlPanel16.Controls.Add(this.flowLayoutPanel18);
+            this.superTabControlPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel16.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel16.Name = "superTabControlPanel16";
+            this.superTabControlPanel16.Size = new System.Drawing.Size(647, 582);
+            this.superTabControlPanel16.TabIndex = 0;
+            this.superTabControlPanel16.TabItem = this.superTabItem8;
+            // 
+            // flowLayoutPanel18
+            // 
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox56);
+            this.flowLayoutPanel18.Controls.Add(this.comboBox5);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox58);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox59);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox60);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox61);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox62);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox64);
+            this.flowLayoutPanel18.Controls.Add(this.placeHolderTextBox65);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox11);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox12);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox13);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox14);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox15);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox16);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox17);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox18);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox19);
+            this.flowLayoutPanel18.Controls.Add(this.checkBox20);
+            this.flowLayoutPanel18.Controls.Add(this.buttonX8);
+            this.flowLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel18.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
+            this.flowLayoutPanel18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel18.Size = new System.Drawing.Size(647, 582);
+            this.flowLayoutPanel18.TabIndex = 2;
+            // 
+            // placeHolderTextBox56
+            // 
+            this.placeHolderTextBox56.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox56.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox56.Location = new System.Drawing.Point(437, 20);
+            this.placeHolderTextBox56.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox56.Name = "placeHolderTextBox56";
+            this.placeHolderTextBox56.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox56.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox56.TabIndex = 0;
+            this.placeHolderTextBox56.Text = "منطقه";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(207, 20);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(190, 35);
+            this.comboBox5.TabIndex = 19;
+            // 
+            // placeHolderTextBox58
+            // 
+            this.placeHolderTextBox58.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox58.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox58.Location = new System.Drawing.Point(437, 75);
+            this.placeHolderTextBox58.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox58.Name = "placeHolderTextBox58";
+            this.placeHolderTextBox58.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox58.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox58.TabIndex = 3;
+            this.placeHolderTextBox58.Text = "تعداد طبقات";
+            // 
+            // placeHolderTextBox59
+            // 
+            this.placeHolderTextBox59.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox59.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox59.Location = new System.Drawing.Point(207, 75);
+            this.placeHolderTextBox59.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox59.Name = "placeHolderTextBox59";
+            this.placeHolderTextBox59.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox59.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox59.TabIndex = 4;
+            this.placeHolderTextBox59.Text = "طبقه";
+            // 
+            // placeHolderTextBox60
+            // 
+            this.placeHolderTextBox60.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox60.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox60.Location = new System.Drawing.Point(437, 130);
+            this.placeHolderTextBox60.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox60.Name = "placeHolderTextBox60";
+            this.placeHolderTextBox60.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox60.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox60.TabIndex = 5;
+            this.placeHolderTextBox60.Text = "سال ساخت";
+            // 
+            // placeHolderTextBox61
+            // 
+            this.placeHolderTextBox61.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox61.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox61.Location = new System.Drawing.Point(207, 130);
+            this.placeHolderTextBox61.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox61.Name = "placeHolderTextBox61";
+            this.placeHolderTextBox61.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox61.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox61.TabIndex = 6;
+            this.placeHolderTextBox61.Text = "تعداد اتاق";
+            // 
+            // placeHolderTextBox62
+            // 
+            this.placeHolderTextBox62.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox62.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox62.Location = new System.Drawing.Point(437, 185);
+            this.placeHolderTextBox62.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox62.Name = "placeHolderTextBox62";
+            this.placeHolderTextBox62.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox62.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox62.TabIndex = 7;
+            this.placeHolderTextBox62.Text = "تعداد واحد در هر طبقه";
+            // 
+            // placeHolderTextBox64
+            // 
+            this.placeHolderTextBox64.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox64.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox64.Location = new System.Drawing.Point(207, 185);
+            this.placeHolderTextBox64.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox64.Name = "placeHolderTextBox64";
+            this.placeHolderTextBox64.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox64.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox64.TabIndex = 8;
+            this.placeHolderTextBox64.Text = "نما";
+            // 
+            // placeHolderTextBox65
+            // 
+            this.placeHolderTextBox65.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox65.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox65.Location = new System.Drawing.Point(437, 240);
+            this.placeHolderTextBox65.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox65.Name = "placeHolderTextBox65";
+            this.placeHolderTextBox65.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox65.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox65.TabIndex = 18;
+            this.placeHolderTextBox65.Text = "کفپوش";
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoEllipsis = true;
+            this.checkBox11.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox11.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox11.ForeColor = System.Drawing.Color.Black;
+            this.checkBox11.Location = new System.Drawing.Point(207, 240);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(190, 30);
+            this.checkBox11.TabIndex = 9;
+            this.checkBox11.Text = "آب";
+            this.checkBox11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox12.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox12.ForeColor = System.Drawing.Color.Black;
+            this.checkBox12.Location = new System.Drawing.Point(437, 295);
+            this.checkBox12.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(190, 30);
+            this.checkBox12.TabIndex = 10;
+            this.checkBox12.Text = "گاز";
+            this.checkBox12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.checkBox12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox13.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox13.ForeColor = System.Drawing.Color.Black;
+            this.checkBox13.Location = new System.Drawing.Point(207, 295);
+            this.checkBox13.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(190, 30);
+            this.checkBox13.TabIndex = 11;
+            this.checkBox13.Text = "برق";
+            this.checkBox13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox14.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox14.ForeColor = System.Drawing.Color.Black;
+            this.checkBox14.Location = new System.Drawing.Point(437, 345);
+            this.checkBox14.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(190, 30);
+            this.checkBox14.TabIndex = 12;
+            this.checkBox14.Text = "آسانسور";
+            this.checkBox14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox15.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox15.ForeColor = System.Drawing.Color.Black;
+            this.checkBox15.Location = new System.Drawing.Point(207, 345);
+            this.checkBox15.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(190, 30);
+            this.checkBox15.TabIndex = 13;
+            this.checkBox15.Text = "تراس";
+            this.checkBox15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox16.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox16.ForeColor = System.Drawing.Color.Black;
+            this.checkBox16.Location = new System.Drawing.Point(437, 395);
+            this.checkBox16.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(190, 30);
+            this.checkBox16.TabIndex = 14;
+            this.checkBox16.Text = "حیاط";
+            this.checkBox16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox17.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox17.ForeColor = System.Drawing.Color.Black;
+            this.checkBox17.Location = new System.Drawing.Point(207, 395);
+            this.checkBox17.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(190, 30);
+            this.checkBox17.TabIndex = 15;
+            this.checkBox17.Text = "پارکینگ";
+            this.checkBox17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // checkBox18
+            // 
+            this.checkBox18.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox18.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox18.ForeColor = System.Drawing.Color.Black;
+            this.checkBox18.Location = new System.Drawing.Point(437, 445);
+            this.checkBox18.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(190, 30);
+            this.checkBox18.TabIndex = 16;
+            this.checkBox18.Text = "کابینت";
+            this.checkBox18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // checkBox19
+            // 
+            this.checkBox19.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox19.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox19.ForeColor = System.Drawing.Color.Black;
+            this.checkBox19.Location = new System.Drawing.Point(207, 445);
+            this.checkBox19.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(190, 30);
+            this.checkBox19.TabIndex = 17;
+            this.checkBox19.Text = "انبار";
+            this.checkBox19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox19.UseVisualStyleBackColor = true;
+            // 
+            // checkBox20
+            // 
+            this.checkBox20.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox20.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox20.ForeColor = System.Drawing.Color.Black;
+            this.checkBox20.Location = new System.Drawing.Point(437, 495);
+            this.checkBox20.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.Size = new System.Drawing.Size(190, 30);
+            this.checkBox20.TabIndex = 21;
+            this.checkBox20.Text = "تلفن";
+            this.checkBox20.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox20.UseVisualStyleBackColor = true;
+            // 
+            // buttonX8
+            // 
+            this.buttonX8.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX8.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX8.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX8.Image = ((System.Drawing.Image)(resources.GetObject("buttonX8.Image")));
+            this.buttonX8.Location = new System.Drawing.Point(337, 495);
+            this.buttonX8.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.buttonX8.Name = "buttonX8";
+            this.buttonX8.Size = new System.Drawing.Size(77, 32);
+            this.buttonX8.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX8.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX8.TabIndex = 20;
+            this.buttonX8.Text = "ادامه";
+            // 
+            // superTabItem8
+            // 
+            this.superTabItem8.AttachedControl = this.superTabControlPanel16;
+            this.superTabItem8.GlobalItem = false;
+            this.superTabItem8.Image = ((System.Drawing.Image)(resources.GetObject("superTabItem8.Image")));
+            this.superTabItem8.Name = "superTabItem8";
+            this.superTabItem8.Text = "مغازه";
+            // 
+            // superTabControlPanel17
+            // 
+            this.superTabControlPanel17.Controls.Add(this.flowLayoutPanel19);
+            this.superTabControlPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel17.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel17.Name = "superTabControlPanel17";
+            this.superTabControlPanel17.Size = new System.Drawing.Size(647, 582);
+            this.superTabControlPanel17.TabIndex = 1;
+            this.superTabControlPanel17.TabItem = this.superTabItem9;
+            // 
+            // flowLayoutPanel19
+            // 
+            this.flowLayoutPanel19.Controls.Add(this.placeHolderTextBox67);
+            this.flowLayoutPanel19.Controls.Add(this.comboBox6);
+            this.flowLayoutPanel19.Controls.Add(this.checkBox21);
+            this.flowLayoutPanel19.Controls.Add(this.checkBox22);
+            this.flowLayoutPanel19.Controls.Add(this.checkBox23);
+            this.flowLayoutPanel19.Controls.Add(this.checkBox24);
+            this.flowLayoutPanel19.Controls.Add(this.checkBox25);
+            this.flowLayoutPanel19.Controls.Add(this.buttonX9);
+            this.flowLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel19.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel19.Name = "flowLayoutPanel19";
+            this.flowLayoutPanel19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel19.Size = new System.Drawing.Size(647, 582);
+            this.flowLayoutPanel19.TabIndex = 3;
+            // 
+            // placeHolderTextBox67
+            // 
+            this.placeHolderTextBox67.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox67.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox67.Location = new System.Drawing.Point(437, 20);
+            this.placeHolderTextBox67.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox67.Name = "placeHolderTextBox67";
+            this.placeHolderTextBox67.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox67.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox67.TabIndex = 0;
+            this.placeHolderTextBox67.Text = "منطقه";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(207, 20);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(190, 35);
+            this.comboBox6.TabIndex = 19;
+            // 
+            // checkBox21
+            // 
+            this.checkBox21.AutoEllipsis = true;
+            this.checkBox21.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox21.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox21.ForeColor = System.Drawing.Color.Black;
+            this.checkBox21.Location = new System.Drawing.Point(437, 75);
+            this.checkBox21.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.Size = new System.Drawing.Size(190, 30);
+            this.checkBox21.TabIndex = 9;
+            this.checkBox21.Text = "آب";
+            this.checkBox21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox21.UseVisualStyleBackColor = true;
+            // 
+            // checkBox22
+            // 
+            this.checkBox22.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox22.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox22.ForeColor = System.Drawing.Color.Black;
+            this.checkBox22.Location = new System.Drawing.Point(207, 75);
+            this.checkBox22.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Size = new System.Drawing.Size(190, 30);
+            this.checkBox22.TabIndex = 10;
+            this.checkBox22.Text = "گاز";
+            this.checkBox22.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.checkBox22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox22.UseVisualStyleBackColor = true;
+            // 
+            // checkBox23
+            // 
+            this.checkBox23.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox23.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox23.ForeColor = System.Drawing.Color.Black;
+            this.checkBox23.Location = new System.Drawing.Point(437, 125);
+            this.checkBox23.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.Size = new System.Drawing.Size(190, 30);
+            this.checkBox23.TabIndex = 11;
+            this.checkBox23.Text = "برق";
+            this.checkBox23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox23.UseVisualStyleBackColor = true;
+            // 
+            // checkBox24
+            // 
+            this.checkBox24.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox24.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox24.ForeColor = System.Drawing.Color.Black;
+            this.checkBox24.Location = new System.Drawing.Point(207, 125);
+            this.checkBox24.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(190, 30);
+            this.checkBox24.TabIndex = 14;
+            this.checkBox24.Text = "حیاط";
+            this.checkBox24.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // checkBox25
+            // 
+            this.checkBox25.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox25.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox25.ForeColor = System.Drawing.Color.Black;
+            this.checkBox25.Location = new System.Drawing.Point(437, 175);
+            this.checkBox25.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.Size = new System.Drawing.Size(190, 30);
+            this.checkBox25.TabIndex = 21;
+            this.checkBox25.Text = "تلفن";
+            this.checkBox25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox25.UseVisualStyleBackColor = true;
+            // 
+            // buttonX9
+            // 
+            this.buttonX9.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX9.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX9.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX9.Image = ((System.Drawing.Image)(resources.GetObject("buttonX9.Image")));
+            this.buttonX9.Location = new System.Drawing.Point(337, 175);
+            this.buttonX9.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.buttonX9.Name = "buttonX9";
+            this.buttonX9.Size = new System.Drawing.Size(77, 32);
+            this.buttonX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX9.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX9.TabIndex = 20;
+            this.buttonX9.Text = "ادامه";
+            // 
+            // superTabItem9
+            // 
+            this.superTabItem9.AttachedControl = this.superTabControlPanel17;
+            this.superTabItem9.GlobalItem = false;
+            this.superTabItem9.Image = ((System.Drawing.Image)(resources.GetObject("superTabItem9.Image")));
+            this.superTabItem9.Name = "superTabItem9";
+            this.superTabItem9.Text = "زمین";
+            // 
+            // superTabControlPanel18
+            // 
+            this.superTabControlPanel18.Controls.Add(this.flowLayoutPanel20);
+            this.superTabControlPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel18.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel18.Name = "superTabControlPanel18";
+            this.superTabControlPanel18.Size = new System.Drawing.Size(647, 582);
+            this.superTabControlPanel18.TabIndex = 0;
+            this.superTabControlPanel18.TabItem = this.superTabItem10;
+            // 
+            // flowLayoutPanel20
+            // 
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox70);
+            this.flowLayoutPanel20.Controls.Add(this.comboBox7);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox72);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox73);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox74);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox75);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox76);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox77);
+            this.flowLayoutPanel20.Controls.Add(this.placeHolderTextBox78);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox26);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox27);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox28);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox29);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox30);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox31);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox32);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox33);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox34);
+            this.flowLayoutPanel20.Controls.Add(this.checkBox35);
+            this.flowLayoutPanel20.Controls.Add(this.buttonX10);
+            this.flowLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel20.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel20.Name = "flowLayoutPanel20";
+            this.flowLayoutPanel20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel20.Size = new System.Drawing.Size(647, 582);
+            this.flowLayoutPanel20.TabIndex = 1;
+            // 
+            // placeHolderTextBox70
+            // 
+            this.placeHolderTextBox70.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox70.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox70.Location = new System.Drawing.Point(437, 20);
+            this.placeHolderTextBox70.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox70.Name = "placeHolderTextBox70";
+            this.placeHolderTextBox70.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox70.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox70.TabIndex = 0;
+            this.placeHolderTextBox70.Text = "منطقه";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(207, 20);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(190, 35);
+            this.comboBox7.TabIndex = 19;
+            // 
+            // placeHolderTextBox72
+            // 
+            this.placeHolderTextBox72.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox72.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox72.Location = new System.Drawing.Point(437, 75);
+            this.placeHolderTextBox72.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox72.Name = "placeHolderTextBox72";
+            this.placeHolderTextBox72.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox72.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox72.TabIndex = 3;
+            this.placeHolderTextBox72.Text = "تعداد طبقات";
+            // 
+            // placeHolderTextBox73
+            // 
+            this.placeHolderTextBox73.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox73.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox73.Location = new System.Drawing.Point(207, 75);
+            this.placeHolderTextBox73.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox73.Name = "placeHolderTextBox73";
+            this.placeHolderTextBox73.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox73.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox73.TabIndex = 4;
+            this.placeHolderTextBox73.Text = "طبقه";
+            // 
+            // placeHolderTextBox74
+            // 
+            this.placeHolderTextBox74.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox74.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox74.Location = new System.Drawing.Point(437, 130);
+            this.placeHolderTextBox74.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox74.Name = "placeHolderTextBox74";
+            this.placeHolderTextBox74.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox74.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox74.TabIndex = 5;
+            this.placeHolderTextBox74.Text = "سال ساخت";
+            // 
+            // placeHolderTextBox75
+            // 
+            this.placeHolderTextBox75.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox75.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox75.Location = new System.Drawing.Point(207, 130);
+            this.placeHolderTextBox75.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox75.Name = "placeHolderTextBox75";
+            this.placeHolderTextBox75.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox75.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox75.TabIndex = 6;
+            this.placeHolderTextBox75.Text = "تعداد اتاق";
+            // 
+            // placeHolderTextBox76
+            // 
+            this.placeHolderTextBox76.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox76.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox76.Location = new System.Drawing.Point(437, 185);
+            this.placeHolderTextBox76.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox76.Name = "placeHolderTextBox76";
+            this.placeHolderTextBox76.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox76.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox76.TabIndex = 7;
+            this.placeHolderTextBox76.Text = "تعداد واحد در هر طبقه";
+            // 
+            // placeHolderTextBox77
+            // 
+            this.placeHolderTextBox77.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox77.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox77.Location = new System.Drawing.Point(207, 185);
+            this.placeHolderTextBox77.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox77.Name = "placeHolderTextBox77";
+            this.placeHolderTextBox77.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox77.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox77.TabIndex = 8;
+            this.placeHolderTextBox77.Text = "نما";
+            // 
+            // placeHolderTextBox78
+            // 
+            this.placeHolderTextBox78.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox78.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox78.Location = new System.Drawing.Point(437, 240);
+            this.placeHolderTextBox78.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox78.Name = "placeHolderTextBox78";
+            this.placeHolderTextBox78.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox78.Size = new System.Drawing.Size(190, 35);
+            this.placeHolderTextBox78.TabIndex = 18;
+            this.placeHolderTextBox78.Text = "کفپوش";
+            // 
+            // checkBox26
+            // 
+            this.checkBox26.AutoEllipsis = true;
+            this.checkBox26.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox26.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox26.ForeColor = System.Drawing.Color.Black;
+            this.checkBox26.Location = new System.Drawing.Point(207, 240);
+            this.checkBox26.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox26.Name = "checkBox26";
+            this.checkBox26.Size = new System.Drawing.Size(190, 30);
+            this.checkBox26.TabIndex = 9;
+            this.checkBox26.Text = "آب";
+            this.checkBox26.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox26.UseVisualStyleBackColor = true;
+            // 
+            // checkBox27
+            // 
+            this.checkBox27.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox27.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox27.ForeColor = System.Drawing.Color.Black;
+            this.checkBox27.Location = new System.Drawing.Point(437, 295);
+            this.checkBox27.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox27.Name = "checkBox27";
+            this.checkBox27.Size = new System.Drawing.Size(190, 30);
+            this.checkBox27.TabIndex = 10;
+            this.checkBox27.Text = "گاز";
+            this.checkBox27.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.checkBox27.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox27.UseVisualStyleBackColor = true;
+            // 
+            // checkBox28
+            // 
+            this.checkBox28.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox28.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox28.ForeColor = System.Drawing.Color.Black;
+            this.checkBox28.Location = new System.Drawing.Point(207, 295);
+            this.checkBox28.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox28.Name = "checkBox28";
+            this.checkBox28.Size = new System.Drawing.Size(190, 30);
+            this.checkBox28.TabIndex = 11;
+            this.checkBox28.Text = "برق";
+            this.checkBox28.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox28.UseVisualStyleBackColor = true;
+            // 
+            // checkBox29
+            // 
+            this.checkBox29.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox29.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox29.ForeColor = System.Drawing.Color.Black;
+            this.checkBox29.Location = new System.Drawing.Point(437, 345);
+            this.checkBox29.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox29.Name = "checkBox29";
+            this.checkBox29.Size = new System.Drawing.Size(190, 30);
+            this.checkBox29.TabIndex = 12;
+            this.checkBox29.Text = "آسانسور";
+            this.checkBox29.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox29.UseVisualStyleBackColor = true;
+            // 
+            // checkBox30
+            // 
+            this.checkBox30.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox30.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox30.ForeColor = System.Drawing.Color.Black;
+            this.checkBox30.Location = new System.Drawing.Point(207, 345);
+            this.checkBox30.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox30.Name = "checkBox30";
+            this.checkBox30.Size = new System.Drawing.Size(190, 30);
+            this.checkBox30.TabIndex = 13;
+            this.checkBox30.Text = "تراس";
+            this.checkBox30.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox30.UseVisualStyleBackColor = true;
+            // 
+            // checkBox31
+            // 
+            this.checkBox31.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox31.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox31.ForeColor = System.Drawing.Color.Black;
+            this.checkBox31.Location = new System.Drawing.Point(437, 395);
+            this.checkBox31.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox31.Name = "checkBox31";
+            this.checkBox31.Size = new System.Drawing.Size(190, 30);
+            this.checkBox31.TabIndex = 14;
+            this.checkBox31.Text = "حیاط";
+            this.checkBox31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox31.UseVisualStyleBackColor = true;
+            // 
+            // checkBox32
+            // 
+            this.checkBox32.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox32.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox32.ForeColor = System.Drawing.Color.Black;
+            this.checkBox32.Location = new System.Drawing.Point(207, 395);
+            this.checkBox32.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox32.Name = "checkBox32";
+            this.checkBox32.Size = new System.Drawing.Size(190, 30);
+            this.checkBox32.TabIndex = 15;
+            this.checkBox32.Text = "پارکینگ";
+            this.checkBox32.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox32.UseVisualStyleBackColor = true;
+            // 
+            // checkBox33
+            // 
+            this.checkBox33.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox33.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox33.ForeColor = System.Drawing.Color.Black;
+            this.checkBox33.Location = new System.Drawing.Point(437, 445);
+            this.checkBox33.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox33.Name = "checkBox33";
+            this.checkBox33.Size = new System.Drawing.Size(190, 30);
+            this.checkBox33.TabIndex = 16;
+            this.checkBox33.Text = "کابینت";
+            this.checkBox33.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox33.UseVisualStyleBackColor = true;
+            // 
+            // checkBox34
+            // 
+            this.checkBox34.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox34.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox34.ForeColor = System.Drawing.Color.Black;
+            this.checkBox34.Location = new System.Drawing.Point(207, 445);
+            this.checkBox34.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox34.Name = "checkBox34";
+            this.checkBox34.Size = new System.Drawing.Size(190, 30);
+            this.checkBox34.TabIndex = 17;
+            this.checkBox34.Text = "انبار";
+            this.checkBox34.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox34.UseVisualStyleBackColor = true;
+            // 
+            // checkBox35
+            // 
+            this.checkBox35.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox35.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.checkBox35.ForeColor = System.Drawing.Color.Black;
+            this.checkBox35.Location = new System.Drawing.Point(437, 495);
+            this.checkBox35.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.checkBox35.Name = "checkBox35";
+            this.checkBox35.Size = new System.Drawing.Size(190, 30);
+            this.checkBox35.TabIndex = 21;
+            this.checkBox35.Text = "تلفن";
+            this.checkBox35.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox35.UseVisualStyleBackColor = true;
+            // 
+            // buttonX10
+            // 
+            this.buttonX10.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX10.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX10.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX10.Image = ((System.Drawing.Image)(resources.GetObject("buttonX10.Image")));
+            this.buttonX10.Location = new System.Drawing.Point(337, 495);
+            this.buttonX10.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.buttonX10.Name = "buttonX10";
+            this.buttonX10.Size = new System.Drawing.Size(77, 32);
+            this.buttonX10.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX10.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX10.TabIndex = 20;
+            this.buttonX10.Text = "ادامه";
+            // 
+            // superTabItem10
+            // 
+            this.superTabItem10.AttachedControl = this.superTabControlPanel18;
+            this.superTabItem10.GlobalItem = false;
+            this.superTabItem10.Image = ((System.Drawing.Image)(resources.GetObject("superTabItem10.Image")));
+            this.superTabItem10.Name = "superTabItem10";
+            this.superTabItem10.Text = "آپارتمان";
+            // 
+            // superTabControl3
+            // 
+            this.superTabControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl3.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl3.ControlBox.MenuBox.Name = "";
+            this.superTabControl3.ControlBox.Name = "";
+            this.superTabControl3.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl3.ControlBox.MenuBox,
+            this.superTabControl3.ControlBox.CloseBox});
+            this.superTabControl3.Controls.Add(this.superTabControlPanel10);
+            this.superTabControl3.Controls.Add(this.superTabControlPanel13);
+            this.superTabControl3.Controls.Add(this.superTabControlPanel14);
+            this.superTabControl3.Controls.Add(this.superTabControlPanel15);
+            this.superTabControl3.Controls.Add(this.superTabControlPanel12);
+            this.superTabControl3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.superTabControl3.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl3.Location = new System.Drawing.Point(647, 0);
+            this.superTabControl3.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
+            this.superTabControl3.Name = "superTabControl3";
+            this.superTabControl3.ReorderTabsEnabled = true;
+            this.superTabControl3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.superTabControl3.SelectedTabFont = new System.Drawing.Font("B Yekan", 14F, System.Drawing.FontStyle.Bold);
+            this.superTabControl3.SelectedTabIndex = 0;
+            this.superTabControl3.Size = new System.Drawing.Size(684, 628);
+            this.superTabControl3.TabFont = new System.Drawing.Font("B Yekan", 12F);
+            this.superTabControl3.TabIndex = 4;
+            this.superTabControl3.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem1,
+            this.superTabItem3,
+            this.superTabItem7,
+            this.superTabItem6,
+            this.superTabItem4});
+            superTabLinearGradientColorTable4.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(207)))), ((int)(((byte)(224)))))};
+            superTabColorTable4.Background = superTabLinearGradientColorTable4;
+            superTabControlBoxStateColorTable10.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable4.ControlBoxDefault = superTabControlBoxStateColorTable10;
+            superTabControlBoxStateColorTable11.Background = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            superTabColorTable4.ControlBoxMouseOver = superTabControlBoxStateColorTable11;
+            superTabControlBoxStateColorTable12.Background = System.Drawing.Color.Transparent;
+            superTabColorTable4.ControlBoxPressed = superTabControlBoxStateColorTable12;
+            this.superTabControl3.TabStripColor = superTabColorTable4;
+            this.superTabControl3.TabStyle = DevComponents.DotNetBar.eSuperTabStyle.Office2010BackstageBlue;
+            this.superTabControl3.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            // 
+            // superTabControlPanel10
+            // 
+            this.superTabControlPanel10.Controls.Add(this.flowLayoutPanel2);
+            this.superTabControlPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel10.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel10.Name = "superTabControlPanel10";
+            this.superTabControlPanel10.Size = new System.Drawing.Size(684, 582);
+            this.superTabControlPanel10.TabIndex = 0;
+            this.superTabControlPanel10.TabItem = this.superTabItem1;
+            // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel2.AutoSize = true;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 29);
+            this.flowLayoutPanel2.Controls.Add(this.placeHolderTextBox29);
+            this.flowLayoutPanel2.Controls.Add(this.placeHolderTextBox30);
+            this.flowLayoutPanel2.Controls.Add(this.comboBox1);
+            this.flowLayoutPanel2.Controls.Add(this.placeHolderTextBox32);
+            this.flowLayoutPanel2.Controls.Add(this.buttonX1);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(5);
             this.flowLayoutPanel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1331, 157);
-            this.flowLayoutPanel2.TabIndex = 7;
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(684, 582);
+            this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // placeHolderTextBox29
+            // 
+            this.placeHolderTextBox29.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox29.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox29.Location = new System.Drawing.Point(373, 20);
+            this.placeHolderTextBox29.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox29.Name = "placeHolderTextBox29";
+            this.placeHolderTextBox29.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox29.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox29.TabIndex = 0;
+            this.placeHolderTextBox29.Text = "مبلغ کل";
+            // 
+            // placeHolderTextBox30
+            // 
+            this.placeHolderTextBox30.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox30.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox30.Location = new System.Drawing.Point(373, 75);
+            this.placeHolderTextBox30.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox30.Name = "placeHolderTextBox30";
+            this.placeHolderTextBox30.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox30.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox30.TabIndex = 1;
+            this.placeHolderTextBox30.Text = "مبلغ وام";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(373, 130);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(291, 35);
+            this.comboBox1.TabIndex = 19;
+            // 
+            // placeHolderTextBox32
+            // 
+            this.placeHolderTextBox32.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox32.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox32.Location = new System.Drawing.Point(373, 185);
+            this.placeHolderTextBox32.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox32.Name = "placeHolderTextBox32";
+            this.placeHolderTextBox32.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox32.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox32.TabIndex = 3;
+            this.placeHolderTextBox32.Text = "تعداد دانگ";
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX1.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX1.Location = new System.Drawing.Point(604, 240);
+            this.buttonX1.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(77, 32);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX1.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX1.TabIndex = 20;
+            this.buttonX1.Text = "ثبت";
+            // 
+            // superTabItem1
+            // 
+            this.superTabItem1.AttachedControl = this.superTabControlPanel10;
+            this.superTabItem1.GlobalItem = false;
+            this.superTabItem1.Name = "superTabItem1";
+            this.superTabItem1.Text = "فروش";
+            // 
+            // superTabControlPanel13
+            // 
+            this.superTabControlPanel13.Controls.Add(this.flowLayoutPanel14);
+            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel13.Name = "superTabControlPanel13";
+            this.superTabControlPanel13.Size = new System.Drawing.Size(684, 582);
+            this.superTabControlPanel13.TabIndex = 0;
+            this.superTabControlPanel13.TabItem = this.superTabItem4;
+            // 
+            // flowLayoutPanel14
+            // 
+            this.flowLayoutPanel14.Controls.Add(this.placeHolderTextBox39);
+            this.flowLayoutPanel14.Controls.Add(this.placeHolderTextBox40);
+            this.flowLayoutPanel14.Controls.Add(this.buttonX4);
+            this.flowLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel14.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel14.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
+            this.flowLayoutPanel14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel14.Size = new System.Drawing.Size(684, 582);
+            this.flowLayoutPanel14.TabIndex = 4;
+            // 
+            // placeHolderTextBox39
+            // 
+            this.placeHolderTextBox39.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox39.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox39.Location = new System.Drawing.Point(373, 20);
+            this.placeHolderTextBox39.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox39.Name = "placeHolderTextBox39";
+            this.placeHolderTextBox39.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox39.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox39.TabIndex = 1;
+            this.placeHolderTextBox39.Text = "مبلغ پیش";
+            // 
+            // placeHolderTextBox40
+            // 
+            this.placeHolderTextBox40.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox40.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox40.Location = new System.Drawing.Point(373, 75);
+            this.placeHolderTextBox40.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox40.Name = "placeHolderTextBox40";
+            this.placeHolderTextBox40.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox40.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox40.TabIndex = 21;
+            this.placeHolderTextBox40.Text = "مبلغ اجاره";
+            // 
+            // buttonX4
+            // 
+            this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX4.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX4.Location = new System.Drawing.Point(587, 130);
+            this.buttonX4.Margin = new System.Windows.Forms.Padding(20);
+            this.buttonX4.Name = "buttonX4";
+            this.buttonX4.Size = new System.Drawing.Size(77, 32);
+            this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX4.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX4.TabIndex = 20;
+            this.buttonX4.Text = "ثبت";
+            // 
+            // superTabItem4
+            // 
+            this.superTabItem4.AttachedControl = this.superTabControlPanel13;
+            this.superTabItem4.GlobalItem = false;
+            this.superTabItem4.Name = "superTabItem4";
+            this.superTabItem4.Text = "اجاره";
+            // 
+            // superTabControlPanel14
+            // 
+            this.superTabControlPanel14.Controls.Add(this.flowLayoutPanel15);
+            this.superTabControlPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel14.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel14.Name = "superTabControlPanel14";
+            this.superTabControlPanel14.Size = new System.Drawing.Size(684, 582);
+            this.superTabControlPanel14.TabIndex = 1;
+            this.superTabControlPanel14.TabItem = this.superTabItem6;
+            // 
+            // flowLayoutPanel15
+            // 
+            this.flowLayoutPanel15.Controls.Add(this.placeHolderTextBox42);
+            this.flowLayoutPanel15.Controls.Add(this.comboBox3);
+            this.flowLayoutPanel15.Controls.Add(this.buttonX5);
+            this.flowLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel15.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel15.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel15.Name = "flowLayoutPanel15";
+            this.flowLayoutPanel15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel15.Size = new System.Drawing.Size(684, 582);
+            this.flowLayoutPanel15.TabIndex = 3;
+            // 
+            // placeHolderTextBox42
+            // 
+            this.placeHolderTextBox42.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox42.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox42.Location = new System.Drawing.Point(373, 20);
+            this.placeHolderTextBox42.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox42.Name = "placeHolderTextBox42";
+            this.placeHolderTextBox42.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox42.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox42.TabIndex = 1;
+            this.placeHolderTextBox42.Text = "تعداد دانگ";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(373, 75);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(291, 35);
+            this.comboBox3.TabIndex = 19;
+            // 
+            // buttonX5
+            // 
+            this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX5.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX5.Location = new System.Drawing.Point(587, 130);
+            this.buttonX5.Margin = new System.Windows.Forms.Padding(20);
+            this.buttonX5.Name = "buttonX5";
+            this.buttonX5.Size = new System.Drawing.Size(77, 32);
+            this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX5.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX5.TabIndex = 20;
+            this.buttonX5.Text = "ثبت";
+            // 
+            // superTabItem6
+            // 
+            this.superTabItem6.AttachedControl = this.superTabControlPanel14;
+            this.superTabItem6.GlobalItem = false;
+            this.superTabItem6.Name = "superTabItem6";
+            this.superTabItem6.Text = "مشارکت در ساخت";
+            // 
+            // superTabControlPanel15
+            // 
+            this.superTabControlPanel15.Controls.Add(this.flowLayoutPanel16);
+            this.superTabControlPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel15.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel15.Name = "superTabControlPanel15";
+            this.superTabControlPanel15.Size = new System.Drawing.Size(684, 582);
+            this.superTabControlPanel15.TabIndex = 0;
+            this.superTabControlPanel15.TabItem = this.superTabItem7;
+            // 
+            // flowLayoutPanel16
+            // 
+            this.flowLayoutPanel16.Controls.Add(this.placeHolderTextBox44);
+            this.flowLayoutPanel16.Controls.Add(this.buttonX6);
+            this.flowLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel16.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel16.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
+            this.flowLayoutPanel16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel16.Size = new System.Drawing.Size(684, 582);
+            this.flowLayoutPanel16.TabIndex = 2;
+            // 
+            // placeHolderTextBox44
+            // 
+            this.placeHolderTextBox44.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox44.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox44.Location = new System.Drawing.Point(373, 20);
+            this.placeHolderTextBox44.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox44.Name = "placeHolderTextBox44";
+            this.placeHolderTextBox44.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox44.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox44.TabIndex = 0;
+            this.placeHolderTextBox44.Text = "مبلغ رهن";
+            // 
+            // buttonX6
+            // 
+            this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX6.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX6.Image = ((System.Drawing.Image)(resources.GetObject("buttonX6.Image")));
+            this.buttonX6.Location = new System.Drawing.Point(587, 75);
+            this.buttonX6.Margin = new System.Windows.Forms.Padding(20);
+            this.buttonX6.Name = "buttonX6";
+            this.buttonX6.Size = new System.Drawing.Size(77, 32);
+            this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX6.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX6.TabIndex = 20;
+            this.buttonX6.Text = "ثبت";
+            // 
+            // superTabItem7
+            // 
+            this.superTabItem7.AttachedControl = this.superTabControlPanel15;
+            this.superTabItem7.GlobalItem = false;
+            this.superTabItem7.Name = "superTabItem7";
+            this.superTabItem7.Text = "رهن";
+            // 
+            // superTabControlPanel12
+            // 
+            this.superTabControlPanel12.Controls.Add(this.flowLayoutPanel13);
+            this.superTabControlPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel12.Location = new System.Drawing.Point(0, 46);
+            this.superTabControlPanel12.Name = "superTabControlPanel12";
+            this.superTabControlPanel12.Size = new System.Drawing.Size(684, 582);
+            this.superTabControlPanel12.TabIndex = 0;
+            this.superTabControlPanel12.TabItem = this.superTabItem3;
+            // 
+            // flowLayoutPanel13
+            // 
+            this.flowLayoutPanel13.Controls.Add(this.placeHolderTextBox34);
+            this.flowLayoutPanel13.Controls.Add(this.placeHolderTextBox35);
+            this.flowLayoutPanel13.Controls.Add(this.comboBox2);
+            this.flowLayoutPanel13.Controls.Add(this.dateTimeSelector1);
+            this.flowLayoutPanel13.Controls.Add(this.placeHolderTextBox36);
+            this.flowLayoutPanel13.Controls.Add(this.placeHolderTextBox37);
+            this.flowLayoutPanel13.Controls.Add(this.buttonX3);
+            this.flowLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel13.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel13.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
+            this.flowLayoutPanel13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flowLayoutPanel13.Size = new System.Drawing.Size(684, 582);
+            this.flowLayoutPanel13.TabIndex = 1;
+            // 
+            // placeHolderTextBox34
+            // 
+            this.placeHolderTextBox34.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox34.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox34.Location = new System.Drawing.Point(373, 20);
+            this.placeHolderTextBox34.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox34.Name = "placeHolderTextBox34";
+            this.placeHolderTextBox34.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox34.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox34.TabIndex = 0;
+            this.placeHolderTextBox34.Text = "پیش پرداخت";
+            // 
+            // placeHolderTextBox35
+            // 
+            this.placeHolderTextBox35.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox35.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox35.Location = new System.Drawing.Point(373, 75);
+            this.placeHolderTextBox35.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox35.Name = "placeHolderTextBox35";
+            this.placeHolderTextBox35.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox35.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox35.TabIndex = 1;
+            this.placeHolderTextBox35.Text = "مبلغ کل";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(373, 130);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(291, 35);
+            this.comboBox2.TabIndex = 19;
+            // 
+            // dateTimeSelector1
+            // 
+            this.dateTimeSelector1.Location = new System.Drawing.Point(373, 185);
+            this.dateTimeSelector1.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.dateTimeSelector1.Name = "dateTimeSelector1";
+            this.dateTimeSelector1.Size = new System.Drawing.Size(291, 28);
+            this.dateTimeSelector1.TabIndex = 21;
+            // 
+            // placeHolderTextBox36
+            // 
+            this.placeHolderTextBox36.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox36.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox36.Location = new System.Drawing.Point(373, 233);
+            this.placeHolderTextBox36.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox36.Name = "placeHolderTextBox36";
+            this.placeHolderTextBox36.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox36.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox36.TabIndex = 3;
+            this.placeHolderTextBox36.Text = "تعداد دانگ";
+            // 
+            // placeHolderTextBox37
+            // 
+            this.placeHolderTextBox37.Font = new System.Drawing.Font("B Yekan", 10.8F);
+            this.placeHolderTextBox37.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox37.Location = new System.Drawing.Point(373, 288);
+            this.placeHolderTextBox37.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
+            this.placeHolderTextBox37.Name = "placeHolderTextBox37";
+            this.placeHolderTextBox37.PlaceHolderText = "منطقه";
+            this.placeHolderTextBox37.Size = new System.Drawing.Size(291, 35);
+            this.placeHolderTextBox37.TabIndex = 8;
+            this.placeHolderTextBox37.Text = "نما";
+            // 
+            // buttonX3
+            // 
+            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX3.Font = new System.Drawing.Font("B Yekan", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonX3.Location = new System.Drawing.Point(587, 343);
+            this.buttonX3.Margin = new System.Windows.Forms.Padding(20);
+            this.buttonX3.Name = "buttonX3";
+            this.buttonX3.Size = new System.Drawing.Size(77, 32);
+            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.buttonX3.SymbolColor = System.Drawing.Color.Transparent;
+            this.buttonX3.TabIndex = 20;
+            this.buttonX3.Text = "ثبت";
+            // 
+            // superTabItem3
+            // 
+            this.superTabItem3.AttachedControl = this.superTabControlPanel12;
+            this.superTabItem3.GlobalItem = false;
+            this.superTabItem3.Name = "superTabItem3";
+            this.superTabItem3.Text = "پیش فروش";
             // 
             // DaftarCheSliederPage
             // 
@@ -2917,14 +4684,6 @@
             this.stepItem3.TextAlignment = DevComponents.DotNetBar.eButtonTextAlignment.Right;
             this.stepItem3.Click += new System.EventHandler(this.stepItem3_Click_2);
             // 
-            // FastAddPishForushTahvilDateDATE
-            // 
-            this.FastAddPishForushTahvilDateDATE.Location = new System.Drawing.Point(827, 185);
-            this.FastAddPishForushTahvilDateDATE.Margin = new System.Windows.Forms.Padding(20, 20, 20, 0);
-            this.FastAddPishForushTahvilDateDATE.Name = "FastAddPishForushTahvilDateDATE";
-            this.FastAddPishForushTahvilDateDATE.Size = new System.Drawing.Size(291, 28);
-            this.FastAddPishForushTahvilDateDATE.TabIndex = 21;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -2980,6 +4739,9 @@
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).EndInit();
             this.superTabControl1.ResumeLayout(false);
+            this.superTabControlPanel4.ResumeLayout(false);
+            this.flowLayoutPanel5.ResumeLayout(false);
+            this.flowLayoutPanel5.PerformLayout();
             this.superTabControlPanel2.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel4.PerformLayout();
@@ -2989,13 +4751,41 @@
             this.superTabControlPanel1.ResumeLayout(false);
             this.flowLayoutPanel7.ResumeLayout(false);
             this.flowLayoutPanel7.PerformLayout();
-            this.superTabControlPanel4.ResumeLayout(false);
-            this.flowLayoutPanel5.ResumeLayout(false);
-            this.flowLayoutPanel5.PerformLayout();
             this.KhadamatSliderPage.ResumeLayout(false);
             this.KhadamatSliderPage.PerformLayout();
             this.expandablePanel1.ResumeLayout(false);
-            this.expandablePanel1.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).EndInit();
+            this.superTabControl4.ResumeLayout(false);
+            this.superTabControlPanel11.ResumeLayout(false);
+            this.flowLayoutPanel17.ResumeLayout(false);
+            this.flowLayoutPanel17.PerformLayout();
+            this.superTabControlPanel16.ResumeLayout(false);
+            this.flowLayoutPanel18.ResumeLayout(false);
+            this.flowLayoutPanel18.PerformLayout();
+            this.superTabControlPanel17.ResumeLayout(false);
+            this.flowLayoutPanel19.ResumeLayout(false);
+            this.flowLayoutPanel19.PerformLayout();
+            this.superTabControlPanel18.ResumeLayout(false);
+            this.flowLayoutPanel20.ResumeLayout(false);
+            this.flowLayoutPanel20.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).EndInit();
+            this.superTabControl3.ResumeLayout(false);
+            this.superTabControlPanel10.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
+            this.superTabControlPanel13.ResumeLayout(false);
+            this.flowLayoutPanel14.ResumeLayout(false);
+            this.flowLayoutPanel14.PerformLayout();
+            this.superTabControlPanel14.ResumeLayout(false);
+            this.flowLayoutPanel15.ResumeLayout(false);
+            this.flowLayoutPanel15.PerformLayout();
+            this.superTabControlPanel15.ResumeLayout(false);
+            this.flowLayoutPanel16.ResumeLayout(false);
+            this.flowLayoutPanel16.PerformLayout();
+            this.superTabControlPanel12.ResumeLayout(false);
+            this.flowLayoutPanel13.ResumeLayout(false);
+            this.flowLayoutPanel13.PerformLayout();
             this.DaftarCheSliederPage.ResumeLayout(false);
             this.DaftarCheSliederPage.PerformLayout();
             this.AmlakSliderPage.ResumeLayout(false);
@@ -3049,7 +4839,6 @@
         private DevComponents.DotNetBar.Controls.PageSliderPage FastAddETMelkSliderPage;
         private System.Windows.Forms.Panel panel4;
         private DevComponents.DotNetBar.ExpandablePanel expandablePanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private PlaceHolderTextBox placeHolderTextBox6;
         private PlaceHolderTextBox placeHolderTextBox7;
         private PlaceHolderTextBox placeHolderTextBox8;
@@ -3226,5 +5015,123 @@
         private System.Windows.Forms.CheckBox FastAddZamTelCB;
         private DevComponents.DotNetBar.TabItem tabItem1;
         private Atf.UI.DateTimeSelector FastAddPishForushTahvilDateDATE;
+        private System.Windows.Forms.Panel panel7;
+        private DevComponents.DotNetBar.SuperTabControl superTabControl4;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel11;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
+        private PlaceHolderTextBox placeHolderTextBox46;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private PlaceHolderTextBox placeHolderTextBox48;
+        private PlaceHolderTextBox placeHolderTextBox49;
+        private PlaceHolderTextBox placeHolderTextBox50;
+        private PlaceHolderTextBox placeHolderTextBox51;
+        private PlaceHolderTextBox placeHolderTextBox52;
+        private PlaceHolderTextBox placeHolderTextBox53;
+        private PlaceHolderTextBox placeHolderTextBox54;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private DevComponents.DotNetBar.ButtonX buttonX7;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem2;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel18;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel20;
+        private PlaceHolderTextBox placeHolderTextBox70;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private PlaceHolderTextBox placeHolderTextBox72;
+        private PlaceHolderTextBox placeHolderTextBox73;
+        private PlaceHolderTextBox placeHolderTextBox74;
+        private PlaceHolderTextBox placeHolderTextBox75;
+        private PlaceHolderTextBox placeHolderTextBox76;
+        private PlaceHolderTextBox placeHolderTextBox77;
+        private PlaceHolderTextBox placeHolderTextBox78;
+        private System.Windows.Forms.CheckBox checkBox26;
+        private System.Windows.Forms.CheckBox checkBox27;
+        private System.Windows.Forms.CheckBox checkBox28;
+        private System.Windows.Forms.CheckBox checkBox29;
+        private System.Windows.Forms.CheckBox checkBox30;
+        private System.Windows.Forms.CheckBox checkBox31;
+        private System.Windows.Forms.CheckBox checkBox32;
+        private System.Windows.Forms.CheckBox checkBox33;
+        private System.Windows.Forms.CheckBox checkBox34;
+        private System.Windows.Forms.CheckBox checkBox35;
+        private DevComponents.DotNetBar.ButtonX buttonX10;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem10;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel16;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
+        private PlaceHolderTextBox placeHolderTextBox56;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private PlaceHolderTextBox placeHolderTextBox58;
+        private PlaceHolderTextBox placeHolderTextBox59;
+        private PlaceHolderTextBox placeHolderTextBox60;
+        private PlaceHolderTextBox placeHolderTextBox61;
+        private PlaceHolderTextBox placeHolderTextBox62;
+        private PlaceHolderTextBox placeHolderTextBox64;
+        private PlaceHolderTextBox placeHolderTextBox65;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.CheckBox checkBox20;
+        private DevComponents.DotNetBar.ButtonX buttonX8;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem8;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel17;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel19;
+        private PlaceHolderTextBox placeHolderTextBox67;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.CheckBox checkBox21;
+        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.CheckBox checkBox23;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.CheckBox checkBox25;
+        private DevComponents.DotNetBar.ButtonX buttonX9;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem9;
+        private DevComponents.DotNetBar.SuperTabControl superTabControl3;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel12;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
+        private PlaceHolderTextBox placeHolderTextBox34;
+        private PlaceHolderTextBox placeHolderTextBox35;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private Atf.UI.DateTimeSelector dateTimeSelector1;
+        private PlaceHolderTextBox placeHolderTextBox36;
+        private PlaceHolderTextBox placeHolderTextBox37;
+        private DevComponents.DotNetBar.ButtonX buttonX3;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem3;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel13;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
+        private PlaceHolderTextBox placeHolderTextBox39;
+        private PlaceHolderTextBox placeHolderTextBox40;
+        private DevComponents.DotNetBar.ButtonX buttonX4;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem4;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel14;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
+        private PlaceHolderTextBox placeHolderTextBox42;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private DevComponents.DotNetBar.ButtonX buttonX5;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem6;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel15;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
+        private PlaceHolderTextBox placeHolderTextBox44;
+        private DevComponents.DotNetBar.ButtonX buttonX6;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem7;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel10;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private PlaceHolderTextBox placeHolderTextBox29;
+        private PlaceHolderTextBox placeHolderTextBox30;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private PlaceHolderTextBox placeHolderTextBox32;
+        private DevComponents.DotNetBar.ButtonX buttonX1;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem1;
     }
 }

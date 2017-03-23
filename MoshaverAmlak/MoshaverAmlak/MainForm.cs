@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +10,12 @@ using System.Windows.Forms;
 
 namespace MoshaverAmlak
 {
-    public partial class FormMain : Form
+    public partial class MainForm : Form
     {
+        public MainForm()
+        {
+            InitializeComponent();
+        }
         private int noeMelk;
         private bool isNewMalek = false;
         private DataBaseHandler dbh = new DataBaseHandler();
@@ -40,153 +42,6 @@ namespace MoshaverAmlak
         private MosharekatV mV = new MosharekatV();
 
 
-
-
-        public FormMain()
-        {
-            InitializeComponent();
-            if (MainPageSlider.SelectedPage == HomeSliderPage)
-            {
-                Home.Visible = false;
-            }
-            else {
-                Home.Visible = true;
-            }
-            FastAddPishForushTahvilDateDATE.UsePersianFormat = true;
-            MainPageSlider.SelectedPage = RegisterSliderPage;
-        }
-
-        //...........................................design button on click...........................................
-        private void metroTileItem15_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = FastAddETMalekSliderPage;
-        }
-
-        private void metroTileItem16_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = AmlakSliderPage;
-        }
-
-        private void metroTileItem17_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = KhadamatSliderPage;
-        }
-
-        private void metroTileItem18_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = DaftarCheSliederPage;
-        }
-
-        private void RegisterLoginBTN_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = HomeSliderPage;
-        }
-
-        private void خانه_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = HomeSliderPage;
-        }
-        
-        private void stepItem1_Click_2(object sender, EventArgs e)
-        {
-            FastAddSilderPage.SelectedPage = FastAddETKoliSliderPage;
-        }
-
-        private void stepItem2_Click_2(object sender, EventArgs e)
-        {
-            FastAddSilderPage.SelectedPage = FastAddETMelkSliderPage;
-        }
-
-        private void stepItem3_Click_2(object sender, EventArgs e)
-        {
-            FastAddSilderPage.SelectedPage = FastAddETKhadamatSliderPage;
-        }
-
-        private void buttonX2_Click(object sender, EventArgs e)
-        {
-            MainPageSlider.SelectedPage = HomeSliderPage;
-        }
-
-
-
-        //...........................................numeric test...........................................
-        private void FastAddVilTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddVilTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddVilSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-
-        }
-
-        private void FastAddVilOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddVilVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddApaTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddApaTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddApaSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddApaOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddApaVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMaghTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMaghTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMaghSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMaghOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMaghVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
         private void FastAddVilNextBTN_Click(object sender, EventArgs e)
         {
             int step = 0;
@@ -201,7 +56,8 @@ namespace MoshaverAmlak
                 FastAddVilMantagheTB.BackColor = Color.WhiteSmoke;
                 step += 16;
             }
-            if (FastAddVilKarbariCOMBO.SelectedItem == "") {
+            if (FastAddVilKarbariCOMBO.SelectedItem == "")
+            {
                 valid = 0;
                 FastAddVilKarbariCOMBO.BackColor = Color.Pink;
             }
@@ -210,7 +66,8 @@ namespace MoshaverAmlak
                 FastAddVilMantagheTB.BackColor = Color.WhiteSmoke;
                 step += 16;
             }
-            if (FastAddVilTabagheNumTB.Text=="تعداد طبقات") {
+            if (FastAddVilTabagheNumTB.Text == "تعداد طبقات")
+            {
                 valid = 0;
                 FastAddVilTabagheNumTB.BackColor = Color.Pink;
             }
@@ -219,7 +76,8 @@ namespace MoshaverAmlak
                 FastAddVilMantagheTB.BackColor = Color.WhiteSmoke;
                 step += 16;
             }
-            if (FastAddVilTabagheTB.Text == "طبقه") {
+            if (FastAddVilTabagheTB.Text == "طبقه")
+            {
                 valid = 0;
                 FastAddVilTabagheTB.BackColor = Color.Pink;
             }
@@ -228,7 +86,8 @@ namespace MoshaverAmlak
                 FastAddVilMantagheTB.BackColor = Color.WhiteSmoke;
                 step += 16;
             }
-            if (FastAddVilSalSakhtTB.Text == "سال ساخت") {
+            if (FastAddVilSalSakhtTB.Text == "سال ساخت")
+            {
                 valid = 0;
                 FastAddVilSalSakhtTB.BackColor = Color.Pink;
             }
@@ -237,7 +96,8 @@ namespace MoshaverAmlak
                 FastAddVilMantagheTB.BackColor = Color.WhiteSmoke;
                 step += 16;
             }
-            if (FastAddVilOtaghNumTB.Text == "تعداد اتاق") {
+            if (FastAddVilOtaghNumTB.Text == "تعداد اتاق")
+            {
                 valid = 0;
                 FastAddVilOtaghNumTB.BackColor = Color.Pink;
             }
@@ -247,7 +107,8 @@ namespace MoshaverAmlak
                 step += 20;
             }
             FastAddEetelatMelkSI.Value = step;
-            if (valid==1) {
+            if (valid == 1)
+            {
                 noeMelk = 1;
 
                 Vilayi vilayi = new Vilayi();
@@ -366,9 +227,59 @@ namespace MoshaverAmlak
             }
         }
 
+        private void FastAddVilTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddVilTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddVilSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddVilOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddVilVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddApaTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddApaTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddApaSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddApaOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddApaVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
         private void FastAddApaNextBTN_Click(object sender, EventArgs e)
         {
-            int step=0;
+            int step = 0;
             int valid = 1;
             if (FastAddApaMantagheTB.Text == "منطقه")
             {
@@ -551,10 +462,37 @@ namespace MoshaverAmlak
             }
         }
 
+        private void FastAddMaghTabagheNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddMaghTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+
+        }
+
+        private void FastAddMaghSalSakhtTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+
+        }
+
+        private void FastAddMaghOtaghNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddMaghVahedHarTabagheTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
         private void FastAddMaghNextBTN_Click(object sender, EventArgs e)
         {
             int step = 0;
-            int valid=1;
+            int valid = 1;
             if (FastAddMaghMantagheTB.Text == "منطقه")
             {
                 valid = 0;
@@ -720,7 +658,7 @@ namespace MoshaverAmlak
         private void FastAddZamNextBTN_Click(object sender, EventArgs e)
         {
             int step = 0;
-            int valid=1;
+            int valid = 1;
             if (FastAddZamMantagheTB.Text == "منطقه")
             {
                 valid = 0;
@@ -796,18 +734,9 @@ namespace MoshaverAmlak
             }
         }
 
-
-        private void FastAddEjareMablaghPishTB_TextChanged(object sender, EventArgs e)
+        private void FastAddForushMablaghKolTB_KeyPress(object sender, KeyPressEventArgs e)
         {
-            try
-            {
-                if (FastAddEjareMablaghPishTB.Text == "" || FastAddEjareMablaghPishTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddEjareMablaghPishTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddEjareMablaghPishTB.Text = price.ToString("#,#");
-                FastAddEjareMablaghPishTB.SelectionStart = FastAddEjareMablaghPishTB.Text.Length;
-            }
-            catch (Exception) { }
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
         }
 
         private void FastAddForushMablaghKolTB_TextChanged(object sender, EventArgs e)
@@ -823,117 +752,25 @@ namespace MoshaverAmlak
             catch (Exception) { }
         }
 
-        private void FastAddForushMablaghVamTB_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (FastAddForushMablaghVamTB.Text == "" || FastAddForushMablaghVamTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddForushMablaghVamTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddForushMablaghVamTB.Text = price.ToString("#,#");
-                FastAddForushMablaghVamTB.SelectionStart = FastAddForushMablaghVamTB.Text.Length;
-            }
-            catch (Exception) { }
-        }
-
-        private void FastAddPishForushPishPardakhtTB_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (FastAddPishForushPishPardakhtTB.Text == "" || FastAddPishForushPishPardakhtTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddPishForushPishPardakhtTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddPishForushPishPardakhtTB.Text = price.ToString("#,#");
-                FastAddPishForushPishPardakhtTB.SelectionStart = FastAddPishForushPishPardakhtTB.Text.Length;
-            }
-            catch (Exception) { }
-        }
-
-        private void FastAddPishForushMablaghKolTB_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (FastAddPishForushMablaghKolTB.Text == "" || FastAddPishForushMablaghKolTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddPishForushMablaghKolTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddPishForushMablaghKolTB.Text = price.ToString("#,#");
-                FastAddPishForushMablaghKolTB.SelectionStart = FastAddPishForushMablaghKolTB.Text.Length;
-            }
-            catch (Exception) { }
-        }
-
-        private void FastAddRahnMablaghRahnTB_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (FastAddRahnMablaghRahnTB.Text == "" || FastAddRahnMablaghRahnTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddRahnMablaghRahnTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddRahnMablaghRahnTB.Text = price.ToString("#,#");
-                FastAddRahnMablaghRahnTB.SelectionStart = FastAddRahnMablaghRahnTB.Text.Length;
-            }
-            catch (Exception) { }
-        }
-
-        private void FastAddEjareMablaghEjareTB_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                if (FastAddEjareMablaghEjareTB.Text == "" || FastAddEjareMablaghEjareTB.Text == "0") return;
-                decimal price;
-                price = decimal.Parse(FastAddEjareMablaghEjareTB.Text, System.Globalization.NumberStyles.Currency);
-                FastAddEjareMablaghEjareTB.Text = price.ToString("#,#");
-                FastAddEjareMablaghEjareTB.SelectionStart = FastAddEjareMablaghEjareTB.Text.Length;
-            }
-            catch (Exception) { }
-        }
-
-        private void FastAddForushDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddPishForushDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddMosharekatDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddForushMablaghKolTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
         private void FastAddForushMablaghVamTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
         }
 
-        private void FastAddPishForushPishPardakhtTB_KeyPress(object sender, KeyPressEventArgs e)
+        private void FastAddForushMablaghVamTB_TextChanged(object sender, EventArgs e)
         {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+            try
+            {
+                if (FastAddForushMablaghKolTB.Text == "" || FastAddForushMablaghKolTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddForushMablaghKolTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddForushMablaghKolTB.Text = price.ToString("#,#");
+                FastAddForushMablaghKolTB.SelectionStart = FastAddForushMablaghKolTB.Text.Length;
+            }
+            catch (Exception) { }
         }
 
-        private void FastAddPishForushMablaghKolTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddRahnMablaghRahnTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddEjareMablaghPishTB_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
-        }
-
-        private void FastAddEjareMablaghEjareTB_KeyPress(object sender, KeyPressEventArgs e)
+        private void FastAddForushDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
         }
@@ -966,7 +803,7 @@ namespace MoshaverAmlak
             {
                 valid = 0;
                 FastAddForushSanadKindCOMBO.BackColor = Color.Pink;
-                
+
             }
             else
             {
@@ -1058,162 +895,49 @@ namespace MoshaverAmlak
             }
         }
 
+        private void FastAddPishForushPishPardakhtTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddPishForushPishPardakhtTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (FastAddForushMablaghKolTB.Text == "" || FastAddForushMablaghKolTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddForushMablaghKolTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddForushMablaghKolTB.Text = price.ToString("#,#");
+                FastAddForushMablaghKolTB.SelectionStart = FastAddForushMablaghKolTB.Text.Length;
+            }
+            catch (Exception) { }
+        }
+
+        private void FastAddPishForushMablaghKolTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddPishForushMablaghKolTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (FastAddForushMablaghKolTB.Text == "" || FastAddForushMablaghKolTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddForushMablaghKolTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddForushMablaghKolTB.Text = price.ToString("#,#");
+                FastAddForushMablaghKolTB.SelectionStart = FastAddForushMablaghKolTB.Text.Length;
+            }
+            catch (Exception) { }
+        }
+
+        private void FastAddPishForushDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
         private void FastAddPishForushSaveBTN_Click(object sender, EventArgs e)
         {
-            int step = 0;
-            int valid = 1;
-            if (FastAddPishForushPishPardakhtTB.Text == "پیش پرداخت")
-            {
-                valid = 0;
-                FastAddPishForushPishPardakhtTB.BackColor = Color.Pink;
-            }
-            else
-            {
-                FastAddPishForushPishPardakhtTB.BackColor = Color.WhiteSmoke;
-                step += 20;
-            }
-            if (FastAddPishForushMablaghKolTB.Text == "مبلغ کل")
-            {
-                valid = 0;
-                FastAddPishForushMablaghKolTB.BackColor = Color.Pink;
-            }
-            else
-            {
-                FastAddPishForushMablaghKolTB.BackColor = Color.WhiteSmoke;
-                step += 25;
-            }
-            if (FastAddPishForushSandadKindCOMBO.SelectedItem == "")
-            {
-                valid = 0;
-                FastAddPishForushSandadKindCOMBO.BackColor = Color.Pink;
-                
-            }
-            else
-            {
-                FastAddPishForushSandadKindCOMBO.BackColor = Color.WhiteSmoke;
-                step += 20;
-            }
-            if (FastAddForushDangNumTB.Text == "تعداد دانگ")
-            {
-                valid = 0;
-                FastAddForushDangNumTB.BackColor = Color.Pink;
-            }
-            else
-            {
-                FastAddForushDangNumTB.BackColor = Color.WhiteSmoke;
-                step += 25;
-            }
-            FastAddEetelatKhadamatSI.Value = step;
-            if (valid == 1)
-            {
-                //MessageBox.Show("sabte melk ba id : " + kind);
-            }
-        }
-        private void FastAddPerCodeTB_TextChanged(object sender, EventArgs e)
-        {
-            /////////////// auto fild malek///////////////
-            if (FastAddPerCodeTB.Text.Length == 10)
-            {
-                FastAddPerCodeTB.BackColor = Color.LightGreen;
-
-                Malek malek = new Malek();
-
-                SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source= 185.159.152.2;" +
-                "Initial Catalog=rayanpro_amlak;" +
-                "User id=rayanpro_user; " +
-                "Password=P@hn1395;";
-
-
-                SqlCommand sc = new SqlCommand();
-                SqlDataReader reader;
-                sc.CommandText = "SELECT * FROM tbl_malek WHERE malek_ncode = '" + FastAddPerCodeTB.Text + "'";
-                sc.CommandType = CommandType.Text;
-                sc.Connection = conn;
-                conn.Open();
-                reader = sc.ExecuteReader();
-                if (reader.HasRows)
-                {
-                    reader.Read();
-
-                    malek.Malek_ncode = reader["malek_ncode"].ToString();
-                    malek.Malek_name = reader["malek_name"].ToString();
-                    malek.Malek_mobile = reader["malek_mobile"].ToString();
-                    malek.Malek_tel = reader["malek_tel"].ToString();
-                    malek.Malek_tozihat = reader["malek_tozihat"].ToString();
-
-
-                    FastAddPerCodeTB.Text = malek.Malek_ncode;
-                    FastAddPerNameTB.Text = malek.Malek_name;
-                    FastAddPerMobTB.Text = malek.Malek_mobile;
-                    FastAddPerTelTB.Text = malek.Malek_tel;
-                    FastAddPerDesTB.Text = malek.Malek_tozihat;
-
-                    ///////////disable feild///////////////////
-
-                    FastAddPerCodeTB.Enabled = false;
-                    FastAddPerNameTB.Enabled = false;
-                    FastAddPerMobTB.Enabled = false;
-                    FastAddPerTelTB.Enabled = false;
-                    FastAddPerDesTB.Enabled = false;
-                }
-
-                else
-                {
-                    isNewMalek = true;
-                }
-
-            }
-        }
-        private void FastAddNextBTN_Click(object sender, EventArgs e)
-        {
-            int valid = 1;
-            if (FastAddPerCodeTB.Text == "کد ملی")
-            {
-                valid = 0;
-                FastAddPerCodeTB.BackColor = Color.Pink;
-            }
-            else {
-                FastAddPerCodeTB.BackColor = Color.WhiteSmoke;
-            }
-            if (FastAddPerNameTB.Text == "نام")
-            {
-                valid = 0;
-                FastAddPerNameTB.BackColor = Color.Pink;
-            }
-            else
-            {
-                FastAddPerNameTB.BackColor = Color.WhiteSmoke;
-            }
-            if (FastAddPerMobTB.Text == "شماره موبایل")
-            {
-                valid = 0;
-                FastAddPerMobTB.BackColor = Color.Pink;
-            }
-            else
-            {
-                FastAddPerMobTB.BackColor = Color.WhiteSmoke;
-            }
-            if (valid == 1) {
-                    if (isNewMalek == true)
-                    {
-                        Malek malek = new Malek();
-
-                        malek.Malek_ncode = FastAddPerCodeTB.Text;
-                        malek.Malek_name = FastAddPerNameTB.Text;
-                        malek.Malek_mobile = FastAddPerMobTB.Text;
-                        malek.Malek_tel = FastAddPerTelTB.Text;
-                        malek.Malek_tozihat = FastAddPerDesTB.Text;
-                    }
-                ////////////end add new malek///////////////
-                    FastAddSilderPage.SelectedPage = FastAddETMelkSliderPage;
-            }
-            /////////////add new malek///////////
-
-        }
-
-        private void FastAddPishForushSaveBTN_Click_1(object sender, EventArgs e)
-        {
             int valid = 1;
             if (FastAddPishForushPishPardakhtTB.Text == "پیش پرداخت")
             {
@@ -1251,7 +975,7 @@ namespace MoshaverAmlak
             else
             {
                 FastAddPishForushSandadKindCOMBO.BackColor = Color.WhiteSmoke;
-                
+
             }
             if (valid == 1)
             {
@@ -1295,13 +1019,32 @@ namespace MoshaverAmlak
             }
         }
 
+        private void FastAddRahnMablaghRahnTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddRahnMablaghRahnTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (FastAddForushMablaghKolTB.Text == "" || FastAddForushMablaghKolTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddForushMablaghKolTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddForushMablaghKolTB.Text = price.ToString("#,#");
+                FastAddForushMablaghKolTB.SelectionStart = FastAddForushMablaghKolTB.Text.Length;
+            }
+            catch (Exception) { }
+        }
+
         private void FastAddRahnSaveBTN_Click(object sender, EventArgs e)
         {
             if (FastAddRahnMablaghRahnTB.Text == "مبلغ رهن")
             {
                 FastAddRahnMablaghRahnTB.BackColor = Color.Pink;
             }
-            else {
+            else
+            {
                 dbh.AddMalek(malek);
 
                 if (noeMelk == 1)
@@ -1358,6 +1101,11 @@ namespace MoshaverAmlak
             }
         }
 
+        private void FastAddMosharekatDangNumTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
         private void FastAddMosharekatSaveBTN_Click(object sender, EventArgs e)
         {
             int valid = 1;
@@ -1379,7 +1127,8 @@ namespace MoshaverAmlak
             {
                 FastAddMosharekatSanadKindCOMBO.BackColor = Color.WhiteSmoke;
             }
-            if (valid == 1) {
+            if (valid == 1)
+            {
                 dbh.AddMalek(malek);
 
                 if (noeMelk == 1)
@@ -1433,7 +1182,8 @@ namespace MoshaverAmlak
             {
                 FastAddEjareMablaghEjareTB.BackColor = Color.WhiteSmoke;
             }
-            if (valid == 1) {
+            if (valid == 1)
+            {
                 dbh.AddMalek(malek);
 
                 if (noeMelk == 1)
@@ -1498,6 +1248,232 @@ namespace MoshaverAmlak
             }
         }
 
-       
+        private void FastAddEjareMablaghPishTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddEjareMablaghPishTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (FastAddEjareMablaghPishTB.Text == "" || FastAddEjareMablaghPishTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddEjareMablaghPishTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddEjareMablaghPishTB.Text = price.ToString("#,#");
+                FastAddEjareMablaghPishTB.SelectionStart = FastAddEjareMablaghPishTB.Text.Length;
+            }
+            catch (Exception) { }
+        }
+
+        private void FastAddEjareMablaghEjareTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
+        }
+
+        private void FastAddEjareMablaghEjareTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (FastAddEjareMablaghPishTB.Text == "" || FastAddEjareMablaghPishTB.Text == "0") return;
+                decimal price;
+                price = decimal.Parse(FastAddEjareMablaghPishTB.Text, System.Globalization.NumberStyles.Currency);
+                FastAddEjareMablaghPishTB.Text = price.ToString("#,#");
+                FastAddEjareMablaghPishTB.SelectionStart = FastAddEjareMablaghPishTB.Text.Length;
+            }
+            catch (Exception) { }
+        }
+
+        private void FastAddEjareSaveBTN_Click_1(object sender, EventArgs e)
+        {
+            int valid = 1;
+            if (FastAddEjareMablaghPishTB.Text == "مبلغ پیش")
+            {
+                valid = 0;
+                FastAddEjareMablaghPishTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddEjareMablaghPishTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddEjareMablaghEjareTB.Text == "مبلغ اجاره")
+            {
+                valid = 0;
+                FastAddEjareMablaghEjareTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddEjareMablaghEjareTB.BackColor = Color.WhiteSmoke;
+            }
+            if (valid == 1)
+            {
+                dbh.AddMalek(malek);
+
+                if (noeMelk == 1)
+                {
+                    dbh.AddVilayi(vilayi);
+
+                    eV.EjareV_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eV.EjareV_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eV.EjareV_tozih = FastAddEjareDesTB.Text;
+                    eV.EjareV_malekncode = FastAddPerCodeTB.Text;
+                    //eV.EjareV_vilayiid = ???????????
+
+                    dbh.AddEjareV(eV);
+
+
+                }
+                else if (noeMelk == 2)
+                {
+                    dbh.AddApartman(apartman);
+
+                    eA.EjareA_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eA.EjareA_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eA.EjareA_tozih = FastAddEjareDesTB.Text;
+                    eA.EjareA_malekncode = FastAddPerCodeTB.Text;
+                    //eA.EjareA_apartmanid = ???????????
+
+                    dbh.AddEjareA(eA);
+
+
+
+                }
+                else if (noeMelk == 3)
+                {
+                    dbh.AddMaghaze(maghaze);
+
+                    eM.EjareM_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eM.EjareM_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eM.EjareM_tozih = FastAddEjareDesTB.Text;
+                    eM.EjareM_malekncode = FastAddPerCodeTB.Text;
+                    //eM.EjareM_maghazeid = ???????????
+
+                    dbh.AddEjareM(eM);
+
+                }
+                else if (noeMelk == 4)
+                {
+                    dbh.AddZamin(zamin);
+
+                    eZ.EjareZ_mablaghpish = Int64.Parse(FastAddEjareMablaghPishTB.Text);
+                    eZ.EjareZ_mablaghEjare = Int64.Parse(FastAddEjareMablaghEjareTB.Text);
+                    eZ.EjareZ_tozih = FastAddEjareDesTB.Text;
+                    eZ.EjareZ_malekncode = FastAddPerCodeTB.Text;
+                    //eZ.EjareZ_zaminid = ???????????
+
+
+
+                    dbh.AddEjareZ(eZ);
+
+
+
+                }
+            }
+        }
+
+        private void FastAddPerCodeTB_TextChanged(object sender, EventArgs e)
+        {
+            /////////////// auto fild malek///////////////
+            if (FastAddPerCodeTB.Text.Length == 10)
+            {
+                FastAddPerCodeTB.BackColor = Color.LightGreen;
+
+                Malek malek = new Malek();
+
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = "Data Source= 185.159.152.2;" +
+                "Initial Catalog=rayanpro_amlak;" +
+                "User id=rayanpro_user; " +
+                "Password=P@hn1395;";
+
+
+                SqlCommand sc = new SqlCommand();
+                SqlDataReader reader;
+                sc.CommandText = "SELECT * FROM tbl_malek WHERE malek_ncode = '" + FastAddPerCodeTB.Text + "'";
+                sc.CommandType = CommandType.Text;
+                sc.Connection = conn;
+                conn.Open();
+                reader = sc.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    reader.Read();
+
+                    malek.Malek_ncode = reader["malek_ncode"].ToString();
+                    malek.Malek_name = reader["malek_name"].ToString();
+                    malek.Malek_mobile = reader["malek_mobile"].ToString();
+                    malek.Malek_tel = reader["malek_tel"].ToString();
+                    malek.Malek_tozihat = reader["malek_tozihat"].ToString();
+
+
+                    FastAddPerCodeTB.Text = malek.Malek_ncode;
+                    FastAddPerNameTB.Text = malek.Malek_name;
+                    FastAddPerMobTB.Text = malek.Malek_mobile;
+                    FastAddPerTelTB.Text = malek.Malek_tel;
+                    FastAddPerDesTB.Text = malek.Malek_tozihat;
+
+                    ///////////disable feild///////////////////
+
+                    FastAddPerCodeTB.Enabled = false;
+                    FastAddPerNameTB.Enabled = false;
+                    FastAddPerMobTB.Enabled = false;
+                    FastAddPerTelTB.Enabled = false;
+                    FastAddPerDesTB.Enabled = false;
+                }
+
+                else
+                {
+                    isNewMalek = true;
+                }
+
+            }
+        }
+
+        private void FastAddNextBTN_Click(object sender, EventArgs e)
+        {
+            int valid = 1;
+            if (FastAddPerCodeTB.Text == "کد ملی")
+            {
+                valid = 0;
+                FastAddPerCodeTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPerCodeTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddPerNameTB.Text == "نام")
+            {
+                valid = 0;
+                FastAddPerNameTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPerNameTB.BackColor = Color.WhiteSmoke;
+            }
+            if (FastAddPerMobTB.Text == "شماره موبایل")
+            {
+                valid = 0;
+                FastAddPerMobTB.BackColor = Color.Pink;
+            }
+            else
+            {
+                FastAddPerMobTB.BackColor = Color.WhiteSmoke;
+            }
+            if (valid == 1)
+            {
+                if (isNewMalek == true)
+                {
+                    Malek malek = new Malek();
+
+                    malek.Malek_ncode = FastAddPerCodeTB.Text;
+                    malek.Malek_name = FastAddPerNameTB.Text;
+                    malek.Malek_mobile = FastAddPerMobTB.Text;
+                    malek.Malek_tel = FastAddPerTelTB.Text;
+                    malek.Malek_tozihat = FastAddPerDesTB.Text;
+                }
+                ////////////end add new malek///////////////
+                FastAddSilderPage.SelectedPage = FastAddETMelkSliderPage;
+            }
+            /////////////add new malek///////////
+        }
     }
 }
